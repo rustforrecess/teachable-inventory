@@ -40,5 +40,13 @@
   "bases": {
     "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
     "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover"]
+  },
+
+  "residue": {
+    "_note": "The irreducible memorize-list (heart words): words the simple productive rules cannot resolve from letters alone. Consulted by the engine BEFORE applying an ambiguous rule, so the RULE stays one sentence and these stay a plain list — not rule clauses.",
+    "edNotSuffix": {
+      "_rule": "In these words the final 'ed' is NOT the non-syllabic -ed suffix; the 'e' is a real vowel and its own syllable (hun-dred, sa-cred, na-ked). Skip the -ed rule for them. They are unresolvable from letters (naked vs baked, jagged vs jogged).",
+      "words": ["hundred", "sacred", "hatred", "kindred", "naked", "wicked", "crooked", "wretched", "jagged", "ragged", "rugged", "dogged"]
+    }
   }
 }
