@@ -61,5 +61,9 @@ records *why* that holds and *which* data sources are safe to use.
 
 | Date pulled | Source | Canonical URL | License captured |
 |-------------|--------|---------------|------------------|
-| _(pending)_ | CMUdict | http://www.speech.cs.cmu.edu/cgi-bin/cmudict | BSD-2-style |
-| _(pending)_ | Moby Hyphenator/Pronunciator | Project Gutenberg / Grady Ward PD release | Public domain |
+| 2026-07 | CMUdict | github.com/cmusphinx/cmudict `cmudict.dict` | BSD-2-style (permissive) |
+| 2026-07 | Moby Hyphenation List (#3204) | github.com/GITenberg/Moby-Hyphenation-List_3204 `files/mhyph.txt` | Public domain (Grady Ward / PG) |
+
+Both are eval-only, git-ignored under `data/corpora/`, never redistributed. Moby is used by
+`src/tests/SplitEvalTester.js` for split-position agreement (dictionary hyphenation — a relative
+signal, NOT an OG reading-syllable gold; see that file's header).
