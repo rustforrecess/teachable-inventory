@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "title": "Core grapheme-phoneme correspondences",
+    "description": "The most common sound(s) for core graphemes, each ordered by frequency (most common first) and, where relevant, conditioned on position/context. Frequency-ORDERED per-grapheme sound lists are a legal pure-grapheme tiebreak (a property of the letter, not the word); a whole-word pronunciation lookup is not.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "Empirical grapheme-phoneme probabilities: Berndt, Reggia & Mitchum (1987); Gontijo et al. (2003). Position/rime conditioning: Kessler & Treiman (2001, 2003); Siegelman et al. (2020). Soft/hard c & g and positional rules: Orton-Gillingham tradition.",
+    "status": "seed — a small correct core; expand toward the full ~44-phoneme inventory and their graphemes",
+    "notation": "IPA in slashes; 'short'/'long' noted where the diacritic matters. Positions: initial | medial | final | before-e/i/y | after-short-vowel."
+  },
+
+  "consonants": {
+    "c": {
+      "sounds": [
+        { "phoneme": "/s/", "condition": "before e, i, or y (soft c)", "reliability": "very-high", "examples": ["cent", "city", "cycle"] },
+        { "phoneme": "/k/", "condition": "elsewhere (hard c)", "reliability": "very-high", "examples": ["cat", "cot", "cut"] }
+      ]
+    },
+    "g": {
+      "sounds": [
+        { "phoneme": "/dʒ/", "condition": "often before e, i, or y (soft g)", "reliability": "high-with-exceptions", "flag": "get, give, girl keep /g/", "examples": ["gem", "giant", "gym"] },
+        { "phoneme": "/g/", "condition": "elsewhere (hard g)", "reliability": "very-high", "examples": ["go", "gap"] }
+      ]
+    },
+    "ch": { "see": "origin-markers.json#originSensitiveGraphemes.ch" }
+  },
+
+  "positionalSpellingRules": {
+    "final_k": {
+      "rule": "/k/ is spelled 'ck' after a single short vowel in a one-syllable word; 'k' after a consonant or long vowel",
+      "reliability": "very-high",
+      "examples": { "ck": ["back", "duck"], "k": ["milk", "cake"] }
+    },
+    "floss": {
+      "rule": "double f, l, s (and z) after a single short vowel at the end of a one-syllable base word",
+      "examples": ["off", "bill", "miss", "buzz"]
+    },
+    "tch_dge": {
+      "rule": "/tʃ/ is 'tch' and /dʒ/ is 'dge' right after a single short vowel; else 'ch' / 'ge'",
+      "examples": { "tch": ["catch", "itch"], "ch": ["beach"], "dge": ["badge"], "ge": ["cage"] }
+    }
+  },
+
+  "vowelsBySyllableType": {
+    "_note": "Syllable type IS the vowel rule: the rime (vowel + following context) sets the sound. Reliable in STRESSED syllables; unstressed vowels reduce to schwa and are not fully rule-governed.",
+    "closed":  { "signature": "vowel + closing consonant(s)", "sound": "short", "examples": ["cat", "napkin"] },
+    "open":    { "signature": "vowel ends the syllable", "sound": "long", "examples": ["me", "go", "ti-ger"] },
+    "vce":     { "signature": "vowel + consonant + silent e", "sound": "long", "examples": ["cake", "while"] },
+    "vowel_team": { "signature": "two-vowel grapheme", "sound": "team's value", "examples": ["rain", "boat"] },
+    "r_controlled": { "signature": "vowel + r", "sound": "r-colored", "examples": ["car", "bird"] },
+    "consonant_le": { "signature": "final C + le", "sound": "/əl/", "examples": ["ta-ble", "lit-tle"] }
+  }
+}

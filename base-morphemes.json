@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "title": "Base morphemes and affixes",
+    "description": "A finite, teachable inventory of base words/roots and affixes used to place morpheme boundaries (which are hard syllable boundaries). This is the 'Option B' inventory that resolves the from-letters residue: farmer=farm+er because 'farm' is a listed base, while corner is NOT split as corn+er because it is not treated as a productive derivation of a listed base.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "Morphology as a distinct instructional layer, taught after core GPC/syllable work: UFLI Foundations; Wilson Reading System. Morphemes hold stable spelling across pronunciation shifts: Venezky (1970, 1999). '-ed' three-pronunciation rule and final-stable-syllable suffixes: Orton-Gillingham tradition.",
+    "status": "seed — a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
+  },
+
+  "prefixes": [
+    { "form": "re", "gloss": "again / back", "examples": ["react", "reality", "rewrite"] },
+    { "form": "de", "gloss": "down / away", "examples": ["despite", "decode"] },
+    { "form": "un", "gloss": "not / reverse", "examples": ["undo", "unhappy"] },
+    { "form": "pre", "gloss": "before", "examples": ["preview", "predict"] },
+    { "form": "dis", "gloss": "not / apart", "examples": ["discover", "dislike"] }
+  ],
+
+  "suffixes": {
+    "finalStableSyllable": [
+      { "form": "tion", "phoneme": "/ʃən/", "examples": ["attention", "nation"] },
+      { "form": "sion", "phoneme": "/ʒən/", "examples": ["television", "vision"] },
+      { "form": "ture", "phoneme": "/tʃər/", "examples": ["feature", "picture"] }
+    ],
+    "derivational": [
+      { "form": "er", "gloss": "one who / more", "examples": ["farmer", "teacher"], "residue_twin": "corner (not corn+er)" },
+      { "form": "y", "gloss": "having / full of", "examples": ["thorny", "cloudy"], "residue_twin": "baby (not bab+y)" },
+      { "form": "ly", "gloss": "in the manner of", "examples": ["quickly"] },
+      { "form": "ful", "gloss": "full of", "examples": ["helpful"] },
+      { "form": "ness", "gloss": "state of", "examples": ["kindness"] }
+    ],
+    "inflectional": [
+      { "form": "ed", "phonemes": ["/əd/", "/d/", "/t/"], "rule": "/əd/ after t or d (adds a syllable); /d/ after a voiced sound; /t/ after a voiceless sound", "examples": ["wanted", "played", "jumped"] },
+      { "form": "ing", "examples": ["reading", "jumping"] },
+      { "form": "s", "phonemes": ["/s/", "/z/"], "examples": ["cats", "dogs"] },
+      { "form": "es", "phoneme": "/əz/", "rule": "after a sibilant (s, x, z, ch, sh)", "examples": ["boxes", "dishes"] }
+    ]
+  },
+
+  "bases": {
+    "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
+    "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover"]
+  }
+}
