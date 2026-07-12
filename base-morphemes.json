@@ -42,7 +42,10 @@
   "bases": {
     "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
     "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover",
-      "real", "spite", "bomb", "plumb", "wash", "dark", "sad", "sick", "govern", "differ"]
+      "real", "spite", "bomb", "plumb", "wash", "dark", "sad", "sick", "govern", "differ",
+      "bear", "pay", "sale", "like", "trace", "clear", "arm", "adjust", "grace", "late", "care",
+      "fresh", "print", "comfort", "press", "dress", "work", "sharp", "pass", "health",
+      "cool", "count", "light", "mark", "hand", "mind", "sound", "treat", "present", "fair"]
   },
 
   "residue": {
