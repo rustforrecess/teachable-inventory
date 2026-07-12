@@ -18748,6 +18748,299 @@
       }
     }
   },
+  "conditioned": {
+    "g": [
+      {
+        "grapheme": "g",
+        "position": "final",
+        "context": "elsewhere",
+        "phoneme": "g",
+        "pct": 0.996,
+        "count": 848,
+        "total": 851,
+        "reliability": "very-high",
+        "examples": [
+          "aaberg",
+          "aalborg",
+          "aalburg"
+        ]
+      },
+      {
+        "grapheme": "g",
+        "position": "medial",
+        "context": "elsewhere",
+        "phoneme": "g",
+        "pct": 0.929,
+        "count": 2397,
+        "total": 2580,
+        "reliability": "very-high",
+        "examples": [
+          "abigail",
+          "abnegation",
+          "abrego"
+        ]
+      },
+      {
+        "grapheme": "g",
+        "position": "medial",
+        "context": "before-e/i/y",
+        "phoneme": "dʒ",
+        "pct": 0.694,
+        "count": 2054,
+        "total": 2960,
+        "reliability": "moderate",
+        "examples": [
+          "aboriginal",
+          "aborigine",
+          "aborigines"
+        ]
+      },
+      {
+        "grapheme": "g",
+        "position": "initial",
+        "context": "elsewhere",
+        "phoneme": "g",
+        "pct": 0.981,
+        "count": 2141,
+        "total": 2182,
+        "reliability": "very-high",
+        "examples": [
+          "gaal",
+          "gaar",
+          "gaarder"
+        ]
+      },
+      {
+        "grapheme": "g",
+        "position": "initial",
+        "context": "before-e/i/y",
+        "phoneme": "dʒ",
+        "pct": 0.524,
+        "count": 531,
+        "total": 1013,
+        "reliability": "low",
+        "examples": [
+          "geagea",
+          "gean",
+          "gebbia"
+        ]
+      }
+    ],
+    "s": [
+      {
+        "grapheme": "s",
+        "position": "medial",
+        "context": "after-voiced-cons",
+        "phoneme": "s",
+        "pct": 0.811,
+        "count": 2427,
+        "total": 2992,
+        "reliability": "high",
+        "examples": [
+          "aalseth",
+          "aaronson",
+          "abrahamsen"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "final",
+        "context": "after-vowel",
+        "phoneme": "z",
+        "pct": 0.573,
+        "count": 2996,
+        "total": 5230,
+        "reliability": "moderate",
+        "examples": [
+          "abalones",
+          "abductees",
+          "abilities"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "final",
+        "context": "after-voiced-cons",
+        "phoneme": "z",
+        "pct": 0.986,
+        "count": 6504,
+        "total": 6598,
+        "reliability": "very-high",
+        "examples": [
+          "aarons",
+          "abandons",
+          "abbs"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "medial",
+        "context": "after-vowel",
+        "phoneme": "s",
+        "pct": 0.685,
+        "count": 3968,
+        "total": 5792,
+        "reliability": "moderate",
+        "examples": [
+          "aase",
+          "aasen",
+          "abascal"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "final",
+        "context": "after-voiceless-cons",
+        "phoneme": "s",
+        "pct": 0.997,
+        "count": 2607,
+        "total": 2614,
+        "reliability": "very-high",
+        "examples": [
+          "abandonments",
+          "abatements",
+          "abducts"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "final",
+        "context": "after-none",
+        "phoneme": "s",
+        "pct": 0.57,
+        "count": 792,
+        "total": 1389,
+        "reliability": "moderate",
+        "examples": [
+          "abates",
+          "abbreviates",
+          "abdicates"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "medial",
+        "context": "after-voiceless-cons",
+        "phoneme": "s",
+        "pct": 0.925,
+        "count": 421,
+        "total": 455,
+        "reliability": "very-high",
+        "examples": [
+          "acampsia",
+          "afsane",
+          "agematsu"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "medial",
+        "context": "after-none",
+        "phoneme": "s",
+        "pct": 0.542,
+        "count": 65,
+        "total": 120,
+        "reliability": "low",
+        "examples": [
+          "adolphson",
+          "aforesaid",
+          "awesomeness"
+        ]
+      },
+      {
+        "grapheme": "s",
+        "position": "initial",
+        "context": "after-none",
+        "phoneme": "s",
+        "pct": 0.926,
+        "count": 5420,
+        "total": 5856,
+        "reliability": "very-high",
+        "examples": [
+          "saab",
+          "saad",
+          "saal"
+        ]
+      }
+    ],
+    "c": [
+      {
+        "grapheme": "c",
+        "position": "medial",
+        "context": "elsewhere",
+        "phoneme": "k",
+        "pct": 0.899,
+        "count": 5184,
+        "total": 5768,
+        "reliability": "high",
+        "examples": [
+          "aancor",
+          "abaco",
+          "abacus"
+        ]
+      },
+      {
+        "grapheme": "c",
+        "position": "medial",
+        "context": "before-e/i/y",
+        "phoneme": "s",
+        "pct": 0.794,
+        "count": 2978,
+        "total": 3749,
+        "reliability": "high",
+        "examples": [
+          "abeyance",
+          "abhorrence",
+          "absence"
+        ]
+      },
+      {
+        "grapheme": "c",
+        "position": "final",
+        "context": "elsewhere",
+        "phoneme": "k",
+        "pct": 0.99,
+        "count": 1235,
+        "total": 1248,
+        "reliability": "very-high",
+        "examples": [
+          "academic",
+          "acerbic",
+          "acetic"
+        ]
+      },
+      {
+        "grapheme": "c",
+        "position": "initial",
+        "context": "elsewhere",
+        "phoneme": "k",
+        "pct": 0.983,
+        "count": 5404,
+        "total": 5495,
+        "reliability": "very-high",
+        "examples": [
+          "caan",
+          "cab",
+          "caba"
+        ]
+      },
+      {
+        "grapheme": "c",
+        "position": "initial",
+        "context": "before-e/i/y",
+        "phoneme": "s",
+        "pct": 0.873,
+        "count": 543,
+        "total": 622,
+        "reliability": "high",
+        "examples": [
+          "ceara",
+          "cearley",
+          "ceasar"
+        ]
+      }
+    ]
+  },
   "engineGaps": [
     {
       "grapheme": "e",
