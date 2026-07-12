@@ -29,6 +29,7 @@ adapt, and redistribute this, with attribution. **Credits:** see
 | File | Purpose | Status |
 |------|---------|--------|
 | `gpc-table.json` | Core grapheme→phoneme correspondences, ordered by frequency, with positional context | seed |
+| `gpc-mined.json` | Empirical grapheme→phoneme frequencies mined by code from CMUdict (aggregate letter statistics; companion to the hand-seeded `gpc-table.json`). Regenerate: `node src/tests/G2PMiner.js` | mined |
 | `origin-markers.json` | Greek/French orthographic markers that disambiguate origin-sensitive graphemes (e.g. `ch`) | seed |
 | `base-morphemes.json` | Finite list of base words/roots + affixes, to resolve morpheme boundaries | seed |
 | `articulation.json` | Place/manner/voicing + "how a child FEELS each sound" — the multisensory teaching layer | seed |
