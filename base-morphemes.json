@@ -27,7 +27,9 @@
       { "form": "y", "gloss": "having / full of", "examples": ["thorny", "cloudy"], "residue_twin": "baby (not bab+y)" },
       { "form": "ly", "gloss": "in the manner of", "examples": ["quickly"] },
       { "form": "ful", "gloss": "full of", "examples": ["helpful"] },
-      { "form": "ness", "gloss": "state of", "examples": ["kindness"] }
+      { "form": "ness", "gloss": "state of", "examples": ["kindness"] },
+      { "form": "ity", "gloss": "state / quality of", "examples": ["reality", "ability"], "residue_twin": "city (not cit+y form)" },
+      { "form": "able", "gloss": "able to be", "examples": ["readable", "washable"] }
     ],
     "inflectional": [
       { "form": "ed", "phonemes": ["/əd/", "/d/", "/t/"], "rule": "/əd/ after t or d (adds a syllable); /d/ after a voiced sound; /t/ after a voiceless sound", "examples": ["wanted", "played", "jumped"] },
@@ -39,7 +41,8 @@
 
   "bases": {
     "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
-    "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover"]
+    "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover",
+      "real", "spite", "bomb", "plumb", "wash", "dark", "sad", "sick", "govern", "differ"]
   },
 
   "residue": {
