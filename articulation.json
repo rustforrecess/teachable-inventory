@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "title": "Articulation — how each English sound is made and FELT",
+    "description": "Place x Manner x Voicing for English consonants and vowels, plus a plain 'how a child feels it' cue for the multisensory teaching layer. These are shared facts of articulatory phonetics (not any program's materials).",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "Articulatory feature scheme: ASHA place/manner/voicing chart; standard phonetics. Multisensory 'feel it' pedagogy validated by Ehri lab (mouth pictures transfer to reading), the visible-mouth study, and the Lindamood/LiPS tradition — cited, NOT reproduced. Voicing test (hand on throat) and manner cues are common field facts.",
+    "note": "Consonants keyed by their most common grapheme. Sounds are properties of PHONEMES; a decoder maps grapheme→phoneme first (see phonologicalPatterns.json)."
+  },
+
+  "voicingTest": "Put a hand on your throat: VOICED sounds buzz (b, z, m), VOICELESS sounds don't (p, s, t).",
+
+  "mannerFeel": {
+    "stop":      "a closure then a release — the air is blocked, then pops out (p, t, k, b, d, g)",
+    "nasal":     "air comes out the NOSE — pinch your nose and the sound stops (m, n, ng)",
+    "fricative": "a long, continuous hiss or buzz — the air squeezes through (f, s, sh, th, v, z)",
+    "affricate": "a stop THEN a fricative, joined — a tap then a hiss (ch, j)",
+    "liquid":    "the tongue glides and the air flows around it (l, r)",
+    "glide":     "the mouth slides toward the next vowel (w, y)"
+  },
+
+  "consonants": {
+    "p":  { "ipa": "/p/",  "place": "bilabial",     "manner": "stop",      "voiced": false, "feel": "lips press together, then pop apart — no throat buzz" },
+    "b":  { "ipa": "/b/",  "place": "bilabial",     "manner": "stop",      "voiced": true,  "feel": "lips pop apart — throat buzzes" },
+    "t":  { "ipa": "/t/",  "place": "alveolar",     "manner": "stop",      "voiced": false, "feel": "tongue tip taps behind the top teeth — no buzz" },
+    "d":  { "ipa": "/d/",  "place": "alveolar",     "manner": "stop",      "voiced": true,  "feel": "tongue tip taps the ridge — throat buzzes" },
+    "k":  { "ipa": "/k/",  "place": "velar",        "manner": "stop",      "voiced": false, "feel": "back of the tongue lifts to the roof — no buzz" },
+    "g":  { "ipa": "/g/",  "place": "velar",        "manner": "stop",      "voiced": true,  "feel": "back of the tongue lifts — throat buzzes" },
+    "m":  { "ipa": "/m/",  "place": "bilabial",     "manner": "nasal",     "voiced": true,  "feel": "lips closed, humming out the nose" },
+    "n":  { "ipa": "/n/",  "place": "alveolar",     "manner": "nasal",     "voiced": true,  "feel": "tongue tip up, humming out the nose" },
+    "ng": { "ipa": "/ŋ/",  "place": "velar",        "manner": "nasal",     "voiced": true,  "feel": "back of tongue up, humming out the nose" },
+    "f":  { "ipa": "/f/",  "place": "labiodental",  "manner": "fricative", "voiced": false, "feel": "top teeth on the bottom lip, air hisses out" },
+    "v":  { "ipa": "/v/",  "place": "labiodental",  "manner": "fricative", "voiced": true,  "feel": "teeth on lip — buzzing air" },
+    "s":  { "ipa": "/s/",  "place": "alveolar",     "manner": "fricative", "voiced": false, "feel": "air hisses over the tongue tip — a snake sound" },
+    "z":  { "ipa": "/z/",  "place": "alveolar",     "manner": "fricative", "voiced": true,  "feel": "a buzzing hiss — a bee sound" },
+    "sh": { "ipa": "/ʃ/",  "place": "postalveolar", "manner": "fricative", "voiced": false, "feel": "quiet 'shh' air, lips a little round" },
+    "th": { "ipa": "/θ/",  "place": "dental",       "manner": "fricative", "voiced": false, "feel": "tongue between the teeth, air out (thin)" },
+    "h":  { "ipa": "/h/",  "place": "glottal",      "manner": "fricative", "voiced": false, "feel": "a soft puff from the throat" },
+    "ch": { "ipa": "/tʃ/", "place": "postalveolar", "manner": "affricate", "voiced": false, "feel": "a tap then a 'shh' — like a sneeze" },
+    "j":  { "ipa": "/dʒ/", "place": "postalveolar", "manner": "affricate", "voiced": true,  "feel": "a tap then a buzz" },
+    "l":  { "ipa": "/l/",  "place": "alveolar",     "manner": "liquid",    "voiced": true,  "feel": "tongue tip up, air slides around the sides" },
+    "r":  { "ipa": "/r/",  "place": "alveolar",     "manner": "liquid",    "voiced": true,  "feel": "tongue pulls back and bunches — nothing touches" },
+    "w":  { "ipa": "/w/",  "place": "labial-velar", "manner": "glide",     "voiced": true,  "feel": "lips round, then slide to the vowel" },
+    "y":  { "ipa": "/j/",  "place": "palatal",      "manner": "glide",     "voiced": true,  "feel": "tongue high, then slides to the vowel" }
+  },
+
+  "vowels": {
+    "_note": "Vowels are 'open' sounds — the voice is on and the air flows freely; you feel them in the JAW (how far it drops), the TONGUE (high/low, front/back), and the LIPS (round or not).",
+    "short": {
+      "feel": "a quick, relaxed sound — the jaw and tongue stay loose",
+      "examples": { "a": "cat", "e": "bed", "i": "sit", "o": "hot", "u": "cup" }
+    },
+    "long": {
+      "feel": "the vowel 'says its name' — a longer, tenser sound",
+      "examples": { "a": "cake", "e": "these", "i": "bike", "o": "home", "u": "cute" }
+    },
+    "feelExamples": {
+      "ee": "smile — lips spread wide, tongue high and front (see)",
+      "ah": "drop the jaw wide open, tongue low (father)",
+      "oo": "round the lips into a tunnel (moon)"
+    }
+  }
+}

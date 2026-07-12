@@ -31,6 +31,7 @@ adapt, and redistribute this, with attribution. **Credits:** see
 | `gpc-table.json` | Core grapheme→phoneme correspondences, ordered by frequency, with positional context | seed |
 | `origin-markers.json` | Greek/French orthographic markers that disambiguate origin-sensitive graphemes (e.g. `ch`) | seed |
 | `base-morphemes.json` | Finite list of base words/roots + affixes, to resolve morpheme boundaries | seed |
+| `articulation.json` | Place/manner/voicing + "how a child FEELS each sound" — the multisensory teaching layer | seed |
 
 All three are **seeds** — deliberately small, correct starting points meant to
 be expanded. Growing them is the "Option B" inventory work discussed in the
