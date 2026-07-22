@@ -1,0 +1,836 @@
+{
+  "_meta": {
+    "title": "Base verbs and their complement frames",
+    "description": "A finite inventory of common English verbs in base form, each tagged with the complement frames it can take. Answers two different questions that no other file here answers: (1) is this word a verb at all - which pure suffix analysis cannot decide, since 'conduct' and 'plan' carry no inflection and '-s' is ambiguous between plural noun and third-person verb; and (2) what does this verb license - whether it can take an object, two objects, a clause, or none. Frames are the fact that lets a consumer reject a reading in which an intransitive verb has been given a direct object.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "Complement frames (subcategorization) are a standard descriptive category in English grammar; the six used here are the conventional teaching set. The gf_category field records the corresponding category name in Grammatical Framework's Resource Grammar Library, purely as an interoperability key - names of grammatical categories are not copyrightable and no GF code or data is used or derived from here. Recorded because GF's own engine is GPL-3.0 while its RGL is dual LGPL/BSD: if this project ever needs its own framework, this inventory should carry over unchanged.",
+    "status": "seed - common core. Incomplete by design and expected to grow; a verb's absence means unknown, never 'not a verb'.",
+    "framework_independence": "Deliberately engine-neutral. Frames are named in plain descriptive terms, with the GF category recorded alongside rather than instead. Nothing here assumes a parser, a formalism, or a programming language.",
+    "consumers": [
+      "vocabulary-measurement-system",
+      "loom (clause rung licensing)",
+      "morpheme-ninja"
+    ],
+    "see_also": "irregular-verbs.json holds the FORMS of verbs whose past is not -ed. This file holds what verbs COMBINE WITH. The two overlap in membership and neither subsumes the other: 'grow' appears in both, 'conduct' only here, and a verb may be irregular yet unremarkable in its frames."
+  },
+  "frames": {
+    "intransitive": {
+      "gloss": "Takes a subject and no object. \"Costs rose.\"",
+      "gf_category": "V"
+    },
+    "transitive": {
+      "gloss": "Takes a subject and one direct object. \"Students conduct investigations.\"",
+      "gf_category": "V2"
+    },
+    "ditransitive": {
+      "gloss": "Takes two objects. \"The company gave shareholders a dividend.\"",
+      "gf_category": "V3"
+    },
+    "clausal": {
+      "gloss": "Takes a that-clause as its complement. \"The report says that revenue increased.\"",
+      "gf_category": "VS"
+    },
+    "linking": {
+      "gloss": "Links the subject to a complement rather than acting on an object. \"The results are significant.\"",
+      "gf_category": "VA"
+    },
+    "verb_complement": {
+      "gloss": "Takes another verb as its complement. \"Students plan to investigate.\"",
+      "gf_category": "VV"
+    }
+  },
+  "verbs": [
+    {
+      "form": "add",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "agree",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ]
+    },
+    {
+      "form": "analyze",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "answer",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "appear",
+      "frames": [
+        "intransitive",
+        "linking"
+      ]
+    },
+    {
+      "form": "apply",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "approve",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "argue",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ]
+    },
+    {
+      "form": "arrive",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "ask",
+      "frames": [
+        "ditransitive",
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "become",
+      "frames": [
+        "linking"
+      ]
+    },
+    {
+      "form": "begin",
+      "frames": [
+        "intransitive",
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "believe",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "bring",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "build",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "buy",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "carry",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "change",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "claim",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "close",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "collect",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "compare",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "conduct",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "construct",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "contain",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "continue",
+      "frames": [
+        "intransitive",
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "create",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "decide",
+      "frames": [
+        "clausal",
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "decline",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "decrease",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "demonstrate",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "depart",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "describe",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "design",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "develop",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "emerge",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "end",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "evaluate",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "exceed",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "expect",
+      "frames": [
+        "clausal",
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "explain",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "fall",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "feel",
+      "frames": [
+        "intransitive",
+        "linking",
+        "transitive"
+      ]
+    },
+    {
+      "form": "find",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "fluctuate",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "follow",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "form",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "gather",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "get",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "give",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "grow",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "happen",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "hold",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "hope",
+      "frames": [
+        "intransitive",
+        "clausal",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "identify",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "improve",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "include",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "increase",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "keep",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "know",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "lead",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "learn",
+      "frames": [
+        "intransitive",
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "lend",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "look",
+      "frames": [
+        "intransitive",
+        "linking"
+      ]
+    },
+    {
+      "form": "make",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "mean",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "measure",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "move",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "need",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "note",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "observe",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "obtain",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "occur",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "offer",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "open",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "pay",
+      "frames": [
+        "ditransitive",
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "persist",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "plan",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "predict",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "produce",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "prove",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "provide",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "put",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "record",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "reduce",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "reflect",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "remain",
+      "frames": [
+        "intransitive",
+        "linking"
+      ]
+    },
+    {
+      "form": "report",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "represent",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "require",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "restate",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "rise",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "run",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "say",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "seem",
+      "frames": [
+        "linking",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "sell",
+      "frames": [
+        "ditransitive",
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "send",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "set",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "show",
+      "frames": [
+        "ditransitive",
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "sound",
+      "frames": [
+        "linking"
+      ]
+    },
+    {
+      "form": "start",
+      "frames": [
+        "intransitive",
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "state",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "stay",
+      "frames": [
+        "intransitive",
+        "linking"
+      ]
+    },
+    {
+      "form": "stop",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "suggest",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "support",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "take",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "teach",
+      "frames": [
+        "ditransitive",
+        "transitive"
+      ]
+    },
+    {
+      "form": "tell",
+      "frames": [
+        "ditransitive",
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "test",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "think",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ]
+    },
+    {
+      "form": "try",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "understand",
+      "frames": [
+        "clausal",
+        "transitive"
+      ]
+    },
+    {
+      "form": "use",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "vary",
+      "frames": [
+        "intransitive"
+      ]
+    },
+    {
+      "form": "want",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ]
+    },
+    {
+      "form": "withhold",
+      "frames": [
+        "transitive"
+      ]
+    },
+    {
+      "form": "work",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ]
+    }
+  ]
+}
