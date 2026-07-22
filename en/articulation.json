@@ -17,9 +17,10 @@
   },
   "_meta": {
     "title": "Articulation \u2014 how each English sound is made and FELT",
+    "language": "en",
     "description": "Place x Manner x Voicing for consonants and, for vowels, tongue Height x Backness x Rounding x Tenseness, plus formant/vocal-tract synth hints and a plain 'how a child feels it' cue for the multisensory teaching layer. Shared facts of articulatory phonetics (not any program's materials).",
     "license": "CC-BY-4.0",
-    "credits": "CREDITS.md",
+    "credits": "../CREDITS.md",
     "alignsWith": [
       "https://clts.clld.org/",
       "https://github.com/dmort27/panphon",

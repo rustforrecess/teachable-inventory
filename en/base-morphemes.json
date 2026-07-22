@@ -1,9 +1,10 @@
 {
   "_meta": {
     "title": "Base morphemes and affixes",
+    "language": "en",
     "description": "A finite, teachable inventory of base words/roots and affixes used to place morpheme boundaries (which are hard syllable boundaries). This is the 'Option B' inventory that resolves the from-letters residue: farmer=farm+er because 'farm' is a listed base, while corner is NOT split as corn+er because it is not treated as a productive derivation of a listed base.",
     "license": "CC-BY-4.0",
-    "credits": "CREDITS.md",
+    "credits": "../CREDITS.md",
     "source_notes": "Morphology as a distinct instructional layer, taught after core GPC/syllable work: UFLI Foundations; Wilson Reading System. Morphemes hold stable spelling across pronunciation shifts: Venezky (1970, 1999). '-ed' three-pronunciation rule and final-stable-syllable suffixes: Orton-Gillingham tradition.",
     "status": "seed \u2014 a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
   },
@@ -43,8 +44,8 @@
         "date": "2026-07-22",
         "commit_subject": "data: neoclassical combining forms, and Class I/II levels on the suffixes",
         "method": "assistant",
-        "scope": "combiningForms (9 neoclassical forms with position); -ic/-al/-ous added to derivational suffixes; Class I/II `level` field",
-        "by": "AI assistant, directed and accepted by the maintainer"
+        "by": "AI assistant, directed and accepted by the maintainer",
+        "scope": "-ic/-al/-ous added to derivational suffixes; Class I/II `level` field. (The combining forms from this same batch now live in shared/combining-forms.json.)"
       }
     ]
   },
@@ -91,110 +92,6 @@
       ]
     }
   ],
-  "combiningForms": {
-    "_note": "Neoclassical combining forms, from Greek and Latin. They belong in neither existing list: not `bases`, because they are not free words (there is no word 'therm'), and not `prefixes`, because prefixes attach to a free base while these combine with EACH OTHER - hypo+therm+ic has no free word anywhere in it. This is the layer that connects concepts rather than parses sentences: hypothermic and hyperthermic share `therm` and contrast only on hypo/hyper, and a learner who owns those three morphemes owns both words plus thermometer, thermal and isotherm.",
-    "_position": "Position is not free. An initial form precedes a final one, and most are fixed to one slot: photo- and hypo- are initial, -logy and -meter final, while therm and graph occur in both. Recorded per entry rather than assumed, because a parser that tries every form in every slot will split words that should stay whole.",
-    "forms": [
-      {
-        "form": "neo",
-        "position": "initial",
-        "origin": "grc",
-        "gloss": "new / recent",
-        "examples": [
-          "neoclassical",
-          "neolithic",
-          "neonatal"
-        ]
-      },
-      {
-        "form": "hypo",
-        "position": "initial",
-        "origin": "grc",
-        "gloss": "under / below normal",
-        "examples": [
-          "hypothermic",
-          "hypodermic",
-          "hypothesis"
-        ]
-      },
-      {
-        "form": "hyper",
-        "position": "initial",
-        "origin": "grc",
-        "gloss": "over / above normal",
-        "examples": [
-          "hyperthermic",
-          "hyperactive",
-          "hyperbole"
-        ]
-      },
-      {
-        "form": "therm",
-        "position": "either",
-        "origin": "grc",
-        "gloss": "heat",
-        "examples": [
-          "thermal",
-          "thermometer",
-          "hypothermic",
-          "isotherm"
-        ]
-      },
-      {
-        "form": "photo",
-        "position": "initial",
-        "origin": "grc",
-        "gloss": "light",
-        "examples": [
-          "photograph",
-          "photosynthesis"
-        ]
-      },
-      {
-        "form": "graph",
-        "position": "either",
-        "origin": "grc",
-        "gloss": "write / record",
-        "examples": [
-          "graphite",
-          "photograph",
-          "telegraph"
-        ]
-      },
-      {
-        "form": "meter",
-        "position": "final",
-        "origin": "grc",
-        "gloss": "measure",
-        "examples": [
-          "thermometer",
-          "diameter",
-          "barometer"
-        ]
-      },
-      {
-        "form": "logy",
-        "position": "final",
-        "origin": "grc",
-        "gloss": "study of",
-        "examples": [
-          "biology",
-          "geology"
-        ]
-      },
-      {
-        "form": "scope",
-        "position": "final",
-        "origin": "grc",
-        "gloss": "look at",
-        "examples": [
-          "microscope",
-          "telescope"
-        ]
-      }
-    ],
-    "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon."
-  },
   "suffixes": {
     "finalStableSyllable": [
       {

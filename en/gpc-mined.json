@@ -1,9 +1,10 @@
 {
   "_meta": {
     "title": "Mined grapheme-phoneme correspondences (empirical)",
+    "language": "en",
     "description": "Frequency-ordered phoneme(s) per grapheme, conditioned by position, mined by code from CMUdict via G2PAligner. Aggregate letter statistics (a property of the letter), NOT a whole-word pronunciation lookup. Empirical companion to the hand-seeded gpc-table.json.",
     "license": "CC-BY-4.0",
-    "credits": "CREDITS.md",
+    "credits": "../CREDITS.md",
     "source": "CMUdict (Carnegie Mellon Pronouncing Dictionary, permissive) \u2014 aggregate frequencies only; see data/PROVENANCE.md",
     "method": "Monotonic grapheme<->phoneme alignment (G2PAligner); words with per-phoneme alignment cost > 0.6 excluded as noisy (e.g. opaque -tion morphemes). ARPAbet folded to coarse IPA.",
     "notation": "coarse IPA (stress dropped, vowel length folded, r-controlled split into vowel+r). Positions: initial | medial | final.",

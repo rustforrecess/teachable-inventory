@@ -1,9 +1,10 @@
 {
   "_meta": {
     "title": "Core grapheme-phoneme correspondences",
+    "language": "en",
     "description": "The most common sound(s) for core graphemes, each ordered by frequency (most common first) and, where relevant, conditioned on position/context. Frequency-ORDERED per-grapheme sound lists are a legal pure-grapheme tiebreak (a property of the letter, not the word); a whole-word pronunciation lookup is not.",
     "license": "CC-BY-4.0",
-    "credits": "CREDITS.md",
+    "credits": "../CREDITS.md",
     "source_notes": "Empirical grapheme-phoneme probabilities: Berndt, Reggia & Mitchum (1987); Gontijo et al. (2003). Position/rime conditioning: Kessler & Treiman (2001, 2003); Siegelman et al. (2020). Soft/hard c & g and positional rules: Orton-Gillingham tradition.",
     "status": "seed \u2014 a small correct core; expand toward the full ~44-phoneme inventory and their graphemes",
     "notation": "IPA in slashes; 'short'/'long' noted where the diacritic matters. Positions: initial | medial | final | before-e/i/y | after-short-vowel."

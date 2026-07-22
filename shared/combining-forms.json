@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "title": "Neoclassical combining forms",
+    "language": "mul",
+    "description": "Greek and Latin combining forms, shared across languages rather than belonging to any one of them. hypo + therm yields English hypothermic, Spanish hipotermia and French hypothermie from the same two morphemes. That is why this file sits in shared/ and not under en/: a learner who owns these morphemes owns vocabulary in every language that borrowed them, which is the cognate bridge first-language instruction depends on.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "status": "seed - a small set. Expand as languages are added; a form belongs here only if it is genuinely shared, not merely present in English."
+  },
+  "_provenance": {
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry needing individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field.\n\nBatches are identified by DATE and COMMIT SUBJECT, deliberately not by commit hash. A hash means nothing to a human auditor and breaks the moment history is ever rewritten; a subject line is stable, readable, and findable with `git log --grep`.\n\n`method` is the load-bearing field. `authored` = compiled from facts by a person. `mined` = derived by code from a corpus named in PROVENANCE.md. `assistant` = drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts, so none affects the free-forever promise; recording which is which lets a downstream user filter and keeps the chain auditable by someone who was not here.",
+    "batches": [
+      {
+        "date": "2026-07-22",
+        "commit_subject": "data: neoclassical combining forms, and Class I/II levels on the suffixes",
+        "method": "assistant",
+        "scope": "combiningForms (9 neoclassical forms with position); -ic/-al/-ous added to derivational suffixes; Class I/II `level` field",
+        "by": "AI assistant, directed and accepted by the maintainer"
+      }
+    ]
+  },
+  "_note": "Neoclassical combining forms, from Greek and Latin. They belong in neither existing list: not `bases`, because they are not free words (there is no word 'therm'), and not `prefixes`, because prefixes attach to a free base while these combine with EACH OTHER - hypo+therm+ic has no free word anywhere in it. This is the layer that connects concepts rather than parses sentences: hypothermic and hyperthermic share `therm` and contrast only on hypo/hyper, and a learner who owns those three morphemes owns both words plus thermometer, thermal and isotherm.",
+  "_position": "Position is not free. An initial form precedes a final one, and most are fixed to one slot: photo- and hypo- are initial, -logy and -meter final, while therm and graph occur in both. Recorded per entry rather than assumed, because a parser that tries every form in every slot will split words that should stay whole.",
+  "forms": [
+    {
+      "form": "neo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "new / recent",
+      "examples": [
+        "neoclassical",
+        "neolithic",
+        "neonatal"
+      ]
+    },
+    {
+      "form": "hypo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "under / below normal",
+      "examples": [
+        "hypothermic",
+        "hypodermic",
+        "hypothesis"
+      ]
+    },
+    {
+      "form": "hyper",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "over / above normal",
+      "examples": [
+        "hyperthermic",
+        "hyperactive",
+        "hyperbole"
+      ]
+    },
+    {
+      "form": "therm",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "heat",
+      "examples": [
+        "thermal",
+        "thermometer",
+        "hypothermic",
+        "isotherm"
+      ]
+    },
+    {
+      "form": "photo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "light",
+      "examples": [
+        "photograph",
+        "photosynthesis"
+      ]
+    },
+    {
+      "form": "graph",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "write / record",
+      "examples": [
+        "graphite",
+        "photograph",
+        "telegraph"
+      ]
+    },
+    {
+      "form": "meter",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "measure",
+      "examples": [
+        "thermometer",
+        "diameter",
+        "barometer"
+      ]
+    },
+    {
+      "form": "logy",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "study of",
+      "examples": [
+        "biology",
+        "geology"
+      ]
+    },
+    {
+      "form": "scope",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "look at",
+      "examples": [
+        "microscope",
+        "telescope"
+      ]
+    }
+  ],
+  "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon."
+}

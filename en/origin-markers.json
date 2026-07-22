@@ -1,9 +1,10 @@
 {
   "_meta": {
     "title": "Orthographic origin markers",
+    "language": "en",
     "description": "Letter patterns whose presence in a word signals its language of origin, used to disambiguate origin-sensitive graphemes from the SPELLING ALONE (never from a word lookup). Conditioning a grapheme's sound on co-occurring marker graphemes is a pure-grapheme rule: you detect Greek-ness from 'ph'/'ps'/'y', not from knowing the word.",
     "license": "CC-BY-4.0",
-    "credits": "CREDITS.md",
+    "credits": "../CREDITS.md",
     "source_notes": "Conditioning sound on the identity of neighboring graphemes: Kessler & Treiman (2001, 2003). Multi-sound-phonogram / origin framing for 'ch': Orton-Gillingham tradition; Eide (2018) reports the Greek/French/English three-way for 'ch'.",
     "status": "seed \u2014 expand markers and origin-sensitive graphemes"
   },
