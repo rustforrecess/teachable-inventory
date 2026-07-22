@@ -5,61 +5,452 @@
     "license": "CC-BY-4.0",
     "credits": "../CREDITS.md",
     "source_notes": "Morphology as a distinct instructional layer, taught after core GPC/syllable work: UFLI Foundations; Wilson Reading System. Morphemes hold stable spelling across pronunciation shifts: Venezky (1970, 1999). '-ed' three-pronunciation rule and final-stable-syllable suffixes: Orton-Gillingham tradition.",
-    "status": "seed — a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
+    "status": "seed \u2014 a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
   },
-
   "prefixes": [
-    { "form": "re", "gloss": "again / back", "examples": ["react", "reality", "rewrite"] },
-    { "form": "de", "gloss": "down / away", "examples": ["despite", "decode"] },
-    { "form": "un", "gloss": "not / reverse", "examples": ["undo", "unhappy"] },
-    { "form": "pre", "gloss": "before", "examples": ["preview", "predict"] },
-    { "form": "dis", "gloss": "not / apart", "examples": ["discover", "dislike"] }
+    {
+      "form": "re",
+      "gloss": "again / back",
+      "examples": [
+        "react",
+        "reality",
+        "rewrite"
+      ]
+    },
+    {
+      "form": "de",
+      "gloss": "down / away",
+      "examples": [
+        "despite",
+        "decode"
+      ]
+    },
+    {
+      "form": "un",
+      "gloss": "not / reverse",
+      "examples": [
+        "undo",
+        "unhappy"
+      ]
+    },
+    {
+      "form": "pre",
+      "gloss": "before",
+      "examples": [
+        "preview",
+        "predict"
+      ]
+    },
+    {
+      "form": "dis",
+      "gloss": "not / apart",
+      "examples": [
+        "discover",
+        "dislike"
+      ]
+    }
   ],
-
+  "combiningForms": {
+    "_note": "Neoclassical combining forms, from Greek and Latin. They belong in neither existing list: not `bases`, because they are not free words (there is no word 'therm'), and not `prefixes`, because prefixes attach to a free base while these combine with EACH OTHER - hypo+therm+ic has no free word anywhere in it. This is the layer that connects concepts rather than parses sentences: hypothermic and hyperthermic share `therm` and contrast only on hypo/hyper, and a learner who owns those three morphemes owns both words plus thermometer, thermal and isotherm.",
+    "_position": "Position is not free. An initial form precedes a final one, and most are fixed to one slot: photo- and hypo- are initial, -logy and -meter final, while therm and graph occur in both. Recorded per entry rather than assumed, because a parser that tries every form in every slot will split words that should stay whole.",
+    "forms": [
+      {
+        "form": "neo",
+        "position": "initial",
+        "origin": "grc",
+        "gloss": "new / recent",
+        "examples": [
+          "neoclassical",
+          "neolithic",
+          "neonatal"
+        ]
+      },
+      {
+        "form": "hypo",
+        "position": "initial",
+        "origin": "grc",
+        "gloss": "under / below normal",
+        "examples": [
+          "hypothermic",
+          "hypodermic",
+          "hypothesis"
+        ]
+      },
+      {
+        "form": "hyper",
+        "position": "initial",
+        "origin": "grc",
+        "gloss": "over / above normal",
+        "examples": [
+          "hyperthermic",
+          "hyperactive",
+          "hyperbole"
+        ]
+      },
+      {
+        "form": "therm",
+        "position": "either",
+        "origin": "grc",
+        "gloss": "heat",
+        "examples": [
+          "thermal",
+          "thermometer",
+          "hypothermic",
+          "isotherm"
+        ]
+      },
+      {
+        "form": "photo",
+        "position": "initial",
+        "origin": "grc",
+        "gloss": "light",
+        "examples": [
+          "photograph",
+          "photosynthesis"
+        ]
+      },
+      {
+        "form": "graph",
+        "position": "either",
+        "origin": "grc",
+        "gloss": "write / record",
+        "examples": [
+          "graphite",
+          "photograph",
+          "telegraph"
+        ]
+      },
+      {
+        "form": "meter",
+        "position": "final",
+        "origin": "grc",
+        "gloss": "measure",
+        "examples": [
+          "thermometer",
+          "diameter",
+          "barometer"
+        ]
+      },
+      {
+        "form": "logy",
+        "position": "final",
+        "origin": "grc",
+        "gloss": "study of",
+        "examples": [
+          "biology",
+          "geology"
+        ]
+      },
+      {
+        "form": "scope",
+        "position": "final",
+        "origin": "grc",
+        "gloss": "look at",
+        "examples": [
+          "microscope",
+          "telescope"
+        ]
+      }
+    ],
+    "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon."
+  },
   "suffixes": {
     "finalStableSyllable": [
-      { "form": "tion", "phoneme": "/ʃən/", "examples": ["attention", "nation"] },
-      { "form": "sion", "phoneme": "/ʒən/", "examples": ["television", "vision"] },
-      { "form": "ture", "phoneme": "/tʃər/", "examples": ["feature", "picture"] }
+      {
+        "form": "tion",
+        "phoneme": "/\u0283\u0259n/",
+        "examples": [
+          "attention",
+          "nation"
+        ]
+      },
+      {
+        "form": "sion",
+        "phoneme": "/\u0292\u0259n/",
+        "examples": [
+          "television",
+          "vision"
+        ]
+      },
+      {
+        "form": "ture",
+        "phoneme": "/t\u0283\u0259r/",
+        "examples": [
+          "feature",
+          "picture"
+        ]
+      }
     ],
     "derivational": [
-      { "form": "er", "gloss": "one who / more", "examples": ["farmer", "teacher"], "residue_twin": "corner (not corn+er)" },
-      { "form": "y", "gloss": "having / full of", "examples": ["thorny", "cloudy"], "residue_twin": "baby (not bab+y)" },
-      { "form": "ly", "gloss": "in the manner of", "examples": ["quickly"] },
-      { "form": "ful", "gloss": "full of", "examples": ["helpful"] },
-      { "form": "ness", "gloss": "state of", "examples": ["kindness"] },
-      { "form": "ity", "gloss": "state / quality of", "examples": ["reality", "ability"], "residue_twin": "city (not cit+y form)" },
-      { "form": "able", "gloss": "able to be", "examples": ["readable", "washable"] }
+      {
+        "form": "er",
+        "gloss": "one who / more",
+        "examples": [
+          "farmer",
+          "teacher"
+        ],
+        "residue_twin": "corner (not corn+er)",
+        "level": 2
+      },
+      {
+        "form": "y",
+        "gloss": "having / full of",
+        "examples": [
+          "thorny",
+          "cloudy"
+        ],
+        "residue_twin": "baby (not bab+y)",
+        "level": 2
+      },
+      {
+        "form": "ly",
+        "gloss": "in the manner of",
+        "examples": [
+          "quickly"
+        ],
+        "level": 2
+      },
+      {
+        "form": "ful",
+        "gloss": "full of",
+        "examples": [
+          "helpful"
+        ],
+        "level": 2
+      },
+      {
+        "form": "ness",
+        "gloss": "state of",
+        "examples": [
+          "kindness"
+        ],
+        "level": 2
+      },
+      {
+        "form": "ity",
+        "gloss": "state / quality of",
+        "examples": [
+          "reality",
+          "ability"
+        ],
+        "residue_twin": "city (not cit+y form)",
+        "level": 1
+      },
+      {
+        "form": "able",
+        "gloss": "able to be",
+        "examples": [
+          "readable",
+          "washable"
+        ],
+        "level": 1
+      },
+      {
+        "form": "ic",
+        "gloss": "relating to / having the nature of",
+        "examples": [
+          "genetic",
+          "specific",
+          "thermic"
+        ],
+        "level": 1
+      },
+      {
+        "form": "al",
+        "gloss": "relating to",
+        "examples": [
+          "thermal",
+          "historical",
+          "seasonal"
+        ],
+        "level": 1
+      },
+      {
+        "form": "ous",
+        "gloss": "full of / having",
+        "examples": [
+          "porous",
+          "dangerous"
+        ],
+        "level": 1
+      }
     ],
     "inflectional": [
-      { "form": "ed", "phonemes": ["/əd/", "/d/", "/t/"], "rule": "/əd/ after t or d (adds a syllable); /d/ after a voiced sound; /t/ after a voiceless sound", "examples": ["wanted", "played", "jumped"] },
-      { "form": "ing", "examples": ["reading", "jumping"] },
-      { "form": "s", "phonemes": ["/s/", "/z/"], "examples": ["cats", "dogs"] },
-      { "form": "es", "phoneme": "/əz/", "rule": "after a sibilant (s, x, z, ch, sh)", "examples": ["boxes", "dishes"] }
-    ]
+      {
+        "form": "ed",
+        "phonemes": [
+          "/\u0259d/",
+          "/d/",
+          "/t/"
+        ],
+        "rule": "/\u0259d/ after t or d (adds a syllable); /d/ after a voiced sound; /t/ after a voiceless sound",
+        "examples": [
+          "wanted",
+          "played",
+          "jumped"
+        ]
+      },
+      {
+        "form": "ing",
+        "examples": [
+          "reading",
+          "jumping"
+        ]
+      },
+      {
+        "form": "s",
+        "phonemes": [
+          "/s/",
+          "/z/"
+        ],
+        "examples": [
+          "cats",
+          "dogs"
+        ]
+      },
+      {
+        "form": "es",
+        "phoneme": "/\u0259z/",
+        "rule": "after a sibilant (s, x, z, ch, sh)",
+        "examples": [
+          "boxes",
+          "dishes"
+        ]
+      }
+    ],
+    "_level_note": "`level` records the Class I / Class II distinction (Siegel 1974; Kiparsky 1982). Class I suffixes (-ic, -al, -ity, -ous) attach CLOSER to the root and can shift stress; Class II (-ly, -ness, -ful, -less) attach outside them and leave stress alone. That ordering is why hypothermically is therm+ic+al+ly and never therm+ly+ic+al. Treat it as a strong tendency, not a law: Fabb (1988) showed level ordering overpredicts, and Hay & Plag (2004) replace it with complexity-based ordering, where a suffix that is easier to parse out attaches outside one that is harder - gradient, and computable from a corpus."
   },
-
   "bases": {
     "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
-    "list": ["farm", "thorn", "read", "teach", "help", "play", "jump", "cloud", "kind", "quick", "cover",
-      "real", "spite", "bomb", "plumb", "wash", "dark", "sad", "sick", "govern", "differ",
-      "bear", "pay", "sale", "like", "trace", "clear", "arm", "adjust", "grace", "late", "care",
-      "fresh", "print", "comfort", "press", "dress", "work", "sharp", "pass", "health",
-      "cool", "count", "light", "mark", "hand", "mind", "sound", "treat", "present", "fair",
-      "elect", "wear", "allow", "use", "conscious", "service", "employ", "dear", "near",
-      "close", "complete", "nice", "develop", "white", "narrow", "slow", "charge", "deliver",
-      "high", "dry", "export", "install", "crisp", "position", "draft", "record", "question",
-      "stock", "support", "talk", "bend",
-      "believe", "enforce", "grate", "arrange", "blue", "issue", "occupy", "taste", "forgive",
-      "rare", "tune", "large", "size", "true", "manage", "whole", "trade", "shake", "active",
-      "sensitive", "aggressive", "competitive", "attractive", "terse", "insure", "organize"]
+    "list": [
+      "farm",
+      "thorn",
+      "read",
+      "teach",
+      "help",
+      "play",
+      "jump",
+      "cloud",
+      "kind",
+      "quick",
+      "cover",
+      "real",
+      "spite",
+      "bomb",
+      "plumb",
+      "wash",
+      "dark",
+      "sad",
+      "sick",
+      "govern",
+      "differ",
+      "bear",
+      "pay",
+      "sale",
+      "like",
+      "trace",
+      "clear",
+      "arm",
+      "adjust",
+      "grace",
+      "late",
+      "care",
+      "fresh",
+      "print",
+      "comfort",
+      "press",
+      "dress",
+      "work",
+      "sharp",
+      "pass",
+      "health",
+      "cool",
+      "count",
+      "light",
+      "mark",
+      "hand",
+      "mind",
+      "sound",
+      "treat",
+      "present",
+      "fair",
+      "elect",
+      "wear",
+      "allow",
+      "use",
+      "conscious",
+      "service",
+      "employ",
+      "dear",
+      "near",
+      "close",
+      "complete",
+      "nice",
+      "develop",
+      "white",
+      "narrow",
+      "slow",
+      "charge",
+      "deliver",
+      "high",
+      "dry",
+      "export",
+      "install",
+      "crisp",
+      "position",
+      "draft",
+      "record",
+      "question",
+      "stock",
+      "support",
+      "talk",
+      "bend",
+      "believe",
+      "enforce",
+      "grate",
+      "arrange",
+      "blue",
+      "issue",
+      "occupy",
+      "taste",
+      "forgive",
+      "rare",
+      "tune",
+      "large",
+      "size",
+      "true",
+      "manage",
+      "whole",
+      "trade",
+      "shake",
+      "active",
+      "sensitive",
+      "aggressive",
+      "competitive",
+      "attractive",
+      "terse",
+      "insure",
+      "organize"
+    ]
   },
-
   "residue": {
-    "_note": "The irreducible memorize-list (heart words): words the simple productive rules cannot resolve from letters alone. Consulted by the engine BEFORE applying an ambiguous rule, so the RULE stays one sentence and these stay a plain list — not rule clauses.",
+    "_note": "The irreducible memorize-list (heart words): words the simple productive rules cannot resolve from letters alone. Consulted by the engine BEFORE applying an ambiguous rule, so the RULE stays one sentence and these stay a plain list \u2014 not rule clauses.",
     "edNotSuffix": {
       "_rule": "In these words the final 'ed' is NOT the non-syllabic -ed suffix; the 'e' is a real vowel and its own syllable (hun-dred, sa-cred, na-ked). Skip the -ed rule for them. They are unresolvable from letters (naked vs baked, jagged vs jogged).",
-      "words": ["hundred", "sacred", "hatred", "kindred", "naked", "wicked", "crooked", "wretched", "jagged", "ragged", "rugged", "dogged"]
+      "words": [
+        "hundred",
+        "sacred",
+        "hatred",
+        "kindred",
+        "naked",
+        "wicked",
+        "crooked",
+        "wretched",
+        "jagged",
+        "ragged",
+        "rugged",
+        "dogged"
+      ]
     }
   }
 }
