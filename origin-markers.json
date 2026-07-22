@@ -3,33 +3,86 @@
     "title": "Orthographic origin markers",
     "description": "Letter patterns whose presence in a word signals its language of origin, used to disambiguate origin-sensitive graphemes from the SPELLING ALONE (never from a word lookup). Conditioning a grapheme's sound on co-occurring marker graphemes is a pure-grapheme rule: you detect Greek-ness from 'ph'/'ps'/'y', not from knowing the word.",
     "license": "CC-BY-4.0",
-    "credits": "../CREDITS.md",
+    "credits": "CREDITS.md",
     "source_notes": "Conditioning sound on the identity of neighboring graphemes: Kessler & Treiman (2001, 2003). Multi-sound-phonogram / origin framing for 'ch': Orton-Gillingham tradition; Eide (2018) reports the Greek/French/English three-way for 'ch'.",
-    "status": "seed — expand markers and origin-sensitive graphemes"
+    "status": "seed \u2014 expand markers and origin-sensitive graphemes"
   },
-
   "origins": {
     "greek": {
-      "markers": ["ph", "ps", "rh", "chr", "sch", "mn", "pn", "y_medial_vowel", "-osis", "-itis"],
+      "markers": [
+        "ph",
+        "ps",
+        "rh",
+        "chr",
+        "sch",
+        "mn",
+        "pn",
+        "y_medial_vowel",
+        "-osis",
+        "-itis"
+      ],
       "notes": "A medial 'y' acting as a vowel (gym, myth, system) is a strong Greek signal; so are the onset clusters chr-/sch- (chrome, scheme) and word-initial ps-/rh-/mn-/pn-."
     },
     "french": {
-      "markers": ["-ine", "-que", "-eau", "-oir", "-et_silent_t", "ou_as_long_oo", "-ette", "-ique"],
+      "markers": [
+        "-ine",
+        "-que",
+        "-eau",
+        "-oir",
+        "-et_silent_t",
+        "ou_as_long_oo",
+        "-ette",
+        "-ique"
+      ],
       "notes": "French loans often carry -ine=/een/ (machine), -que=/k/ (boutique), -eau=/oh/ (bureau), -oir (memoir)."
     }
   },
-
   "originSensitiveGraphemes": {
     "ch": {
       "sounds": [
-        { "phoneme": "/tʃ/", "origin": "english_default", "condition": "no origin marker present", "examples": ["church", "chip", "much", "lunch"] },
-        { "phoneme": "/k/",  "origin": "greek",           "condition": "word also contains a Greek marker (ph, ps, chr, sch, medial-y)", "examples": ["chemistry", "psychology", "chrome", "school"] },
-        { "phoneme": "/ʃ/",  "origin": "french",          "condition": "word also contains a French marker (-ine, -que, -et, ou)", "examples": ["machine", "chandelier", "quiche"] }
+        {
+          "phoneme": "/t\u0283/",
+          "origin": "english_default",
+          "condition": "no origin marker present",
+          "examples": [
+            "church",
+            "chip",
+            "much",
+            "lunch"
+          ]
+        },
+        {
+          "phoneme": "/k/",
+          "origin": "greek",
+          "condition": "word also contains a Greek marker (ph, ps, chr, sch, medial-y)",
+          "examples": [
+            "chemistry",
+            "psychology",
+            "chrome",
+            "school"
+          ]
+        },
+        {
+          "phoneme": "/\u0283/",
+          "origin": "french",
+          "condition": "word also contains a French marker (-ine, -que, -et, ou)",
+          "examples": [
+            "machine",
+            "chandelier",
+            "quiche"
+          ]
+        }
       ],
-      "default": "/tʃ/",
+      "default": "/t\u0283/",
       "residue": {
         "note": "Words with NO distinguishing marker cannot be resolved from letters alone and belong to the memorize-list.",
-        "examples": ["chef", "chic", "ache", "chaos", "yacht"]
+        "examples": [
+          "chef",
+          "chic",
+          "ache",
+          "chaos",
+          "yacht"
+        ]
       }
     }
   }

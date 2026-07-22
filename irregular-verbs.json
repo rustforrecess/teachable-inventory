@@ -3,7 +3,7 @@
     "title": "Irregular English verb forms",
     "description": "A finite, teachable inventory of English verbs whose past tense and past participle are not formed by adding -ed. Every entry is (base, past, participle) plus the pattern class it belongs to, so a consumer can show a learner WHY a form looks the way it does rather than only that it does. Regular verbs are deliberately absent: they are derivable by rule and do not belong in a list. This is a morphology inventory, not a pronunciation lookup - it says nothing about sound, so it does not conflict with the from-letters principle in data/README.md.",
     "license": "CC-BY-4.0",
-    "credits": "../CREDITS.md",
+    "credits": "CREDITS.md",
     "source_notes": "The pattern classes follow the traditional strong/weak verb distinction: 'strong' verbs mark tense by internal vowel change (Germanic ablaut) while 'weak' verbs add a dental suffix, which in English surfaces as -ed/-t. The groupings here are the conventional teaching families used in ELA and structured-literacy practice, not a novel classification. Individual verb forms are facts about English and are not copied from any curriculum's curated list.",
     "status": "seed - the high-frequency core. Expand toward the full inventory; coverage of rarer strong verbs is incomplete by design.",
     "consumers": [

@@ -3,7 +3,7 @@
     "title": "Base morphemes and affixes",
     "description": "A finite, teachable inventory of base words/roots and affixes used to place morpheme boundaries (which are hard syllable boundaries). This is the 'Option B' inventory that resolves the from-letters residue: farmer=farm+er because 'farm' is a listed base, while corner is NOT split as corn+er because it is not treated as a productive derivation of a listed base.",
     "license": "CC-BY-4.0",
-    "credits": "../CREDITS.md",
+    "credits": "CREDITS.md",
     "source_notes": "Morphology as a distinct instructional layer, taught after core GPC/syllable work: UFLI Foundations; Wilson Reading System. Morphemes hold stable spelling across pronunciation shifts: Venezky (1970, 1999). '-ed' three-pronunciation rule and final-stable-syllable suffixes: Orton-Gillingham tradition.",
     "status": "seed \u2014 a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
   },

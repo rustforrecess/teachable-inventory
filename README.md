@@ -6,7 +6,7 @@ literacy relies on (base morphemes, origin markers, core GPCs).
 
 **License:** [CC BY 4.0](LICENSE) — any school, curriculum, or product may use,
 adapt, and redistribute this, with attribution. **Credits:** see
-[`../CREDITS.md`](../CREDITS.md).
+[`CREDITS.md`](CREDITS.md).
 
 ## Principles for anything added here
 

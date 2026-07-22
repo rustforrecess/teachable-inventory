@@ -10,94 +10,462 @@
     "license": "dcterms:license",
     "title": "dcterms:title",
     "description": "dcterms:description",
-    "alignsWith": { "@id": "rdfs:seeAlso", "@type": "@id" }
+    "alignsWith": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
+    }
   },
-
   "_meta": {
-    "title": "Articulation — how each English sound is made and FELT",
+    "title": "Articulation \u2014 how each English sound is made and FELT",
     "description": "Place x Manner x Voicing for consonants and, for vowels, tongue Height x Backness x Rounding x Tenseness, plus formant/vocal-tract synth hints and a plain 'how a child feels it' cue for the multisensory teaching layer. Shared facts of articulatory phonetics (not any program's materials).",
     "license": "CC-BY-4.0",
-    "credits": "../CREDITS.md",
+    "credits": "CREDITS.md",
     "alignsWith": [
       "https://clts.clld.org/",
       "https://github.com/dmort27/panphon",
       "http://www.w3.org/ns/lemon/ontolex"
     ],
     "source_notes": "Consonant place/manner/voicing: ASHA chart + standard phonetics. Vowel height/backness/rounding/tense: the IPA vowel quadrilateral (textbook fact). Nominal formant values: Klatt/Peterson-Barney adult-male norms. Multisensory 'feel it' pedagogy: Ehri lab (mouth pictures), visible-mouth study, Lindamood/LiPS tradition (cited, NOT reproduced). See docs/articulatory-features-review.md.",
-    "validation": "Mechanically checked against PanPhon (MIT) and alignable to CLTS (CC-BY) by tools/validate-articulation-panphon.py. Tenseness of low vowels (ae, a) is theory-dependent — expect benign mismatches there, like glottal /h/ for manner.",
+    "validation": "Mechanically checked against PanPhon (MIT) and alignable to CLTS (CC-BY) by tools/validate-articulation-panphon.py. Tenseness of low vowels (ae, a) is theory-dependent \u2014 expect benign mismatches there, like glottal /h/ for manner.",
     "synthContract": "The 'tract' + 'formants' fields are the control-parameter contract for a separate MIT articulatory-synth project: backness->Pink Trombone tongueIndex, height->tongueDiameter, rounded->lip; height~inverse F1, backness~F2 for Klatt/klattsch.",
     "note": "Consonants keyed by common grapheme; vowelPhonemes keyed by IPA. Sounds are properties of PHONEMES; a decoder maps grapheme->phoneme first (see phonologicalPatterns.json)."
   },
-
   "voicingTest": "Put a hand on your throat: VOICED sounds buzz (b, z, m), VOICELESS sounds don't (p, s, t).",
-
   "mannerFeel": {
-    "stop":      "a closure then a release — the air is blocked, then pops out (p, t, k, b, d, g)",
-    "nasal":     "air comes out the NOSE — pinch your nose and the sound stops (m, n, ng)",
-    "fricative": "a long, continuous hiss or buzz — the air squeezes through (f, s, sh, th, v, z)",
-    "affricate": "a stop THEN a fricative, joined — a tap then a hiss (ch, j)",
-    "liquid":    "the tongue glides and the air flows around it (l, r)",
-    "glide":     "the mouth slides toward the next vowel (w, y)"
+    "stop": "a closure then a release \u2014 the air is blocked, then pops out (p, t, k, b, d, g)",
+    "nasal": "air comes out the NOSE \u2014 pinch your nose and the sound stops (m, n, ng)",
+    "fricative": "a long, continuous hiss or buzz \u2014 the air squeezes through (f, s, sh, th, v, z)",
+    "affricate": "a stop THEN a fricative, joined \u2014 a tap then a hiss (ch, j)",
+    "liquid": "the tongue glides and the air flows around it (l, r)",
+    "glide": "the mouth slides toward the next vowel (w, y)"
   },
-
   "consonants": {
-    "p":  { "ipa": "/p/",  "place": "bilabial",     "manner": "stop",      "voiced": false, "feel": "lips press together, then pop apart — no throat buzz" },
-    "b":  { "ipa": "/b/",  "place": "bilabial",     "manner": "stop",      "voiced": true,  "feel": "lips pop apart — throat buzzes" },
-    "t":  { "ipa": "/t/",  "place": "alveolar",     "manner": "stop",      "voiced": false, "feel": "tongue tip taps behind the top teeth — no buzz" },
-    "d":  { "ipa": "/d/",  "place": "alveolar",     "manner": "stop",      "voiced": true,  "feel": "tongue tip taps the ridge — throat buzzes" },
-    "k":  { "ipa": "/k/",  "place": "velar",        "manner": "stop",      "voiced": false, "feel": "back of the tongue lifts to the roof — no buzz" },
-    "g":  { "ipa": "/g/",  "place": "velar",        "manner": "stop",      "voiced": true,  "feel": "back of the tongue lifts — throat buzzes" },
-    "m":  { "ipa": "/m/",  "place": "bilabial",     "manner": "nasal",     "voiced": true,  "feel": "lips closed, humming out the nose" },
-    "n":  { "ipa": "/n/",  "place": "alveolar",     "manner": "nasal",     "voiced": true,  "feel": "tongue tip up, humming out the nose" },
-    "ng": { "ipa": "/ŋ/",  "place": "velar",        "manner": "nasal",     "voiced": true,  "feel": "back of tongue up, humming out the nose" },
-    "f":  { "ipa": "/f/",  "place": "labiodental",  "manner": "fricative", "voiced": false, "strident": true, "feel": "top teeth on the bottom lip, air hisses out" },
-    "v":  { "ipa": "/v/",  "place": "labiodental",  "manner": "fricative", "voiced": true,  "strident": true, "feel": "teeth on lip — buzzing air" },
-    "s":  { "ipa": "/s/",  "place": "alveolar",     "manner": "fricative", "voiced": false, "strident": true, "feel": "air hisses over the tongue tip — a snake sound" },
-    "z":  { "ipa": "/z/",  "place": "alveolar",     "manner": "fricative", "voiced": true,  "strident": true, "feel": "a buzzing hiss — a bee sound" },
-    "sh": { "ipa": "/ʃ/",  "place": "postalveolar", "manner": "fricative", "voiced": false, "strident": true, "feel": "quiet 'shh' air, lips a little round" },
-    "th": { "ipa": "/θ/",  "place": "dental",       "manner": "fricative", "voiced": false, "feel": "tongue between the teeth, air out (thin)" },
-    "h":  { "ipa": "/h/",  "place": "glottal",      "manner": "fricative", "voiced": false, "feel": "a soft puff from the throat" },
-    "ch": { "ipa": "/tʃ/", "place": "postalveolar", "manner": "affricate", "voiced": false, "strident": true, "affricate": true, "feel": "a tap then a 'shh' — like a sneeze" },
-    "j":  { "ipa": "/dʒ/", "place": "postalveolar", "manner": "affricate", "voiced": true,  "strident": true, "affricate": true, "feel": "a tap then a buzz" },
-    "l":  { "ipa": "/l/",  "place": "alveolar",     "manner": "liquid",    "voiced": true,  "lateral": true, "feel": "tongue tip up, air slides around the sides" },
-    "r":  { "ipa": "/r/",  "place": "alveolar",     "manner": "liquid",    "voiced": true,  "feel": "tongue pulls back and bunches — nothing touches" },
-    "w":  { "ipa": "/w/",  "place": "labial-velar", "manner": "glide",     "voiced": true,  "secondary": "labial-velar", "feel": "lips round, then slide to the vowel" },
-    "y":  { "ipa": "/j/",  "place": "palatal",      "manner": "glide",     "voiced": true,  "feel": "tongue high, then slides to the vowel" }
+    "p": {
+      "ipa": "/p/",
+      "place": "bilabial",
+      "manner": "stop",
+      "voiced": false,
+      "feel": "lips press together, then pop apart \u2014 no throat buzz"
+    },
+    "b": {
+      "ipa": "/b/",
+      "place": "bilabial",
+      "manner": "stop",
+      "voiced": true,
+      "feel": "lips pop apart \u2014 throat buzzes"
+    },
+    "t": {
+      "ipa": "/t/",
+      "place": "alveolar",
+      "manner": "stop",
+      "voiced": false,
+      "feel": "tongue tip taps behind the top teeth \u2014 no buzz"
+    },
+    "d": {
+      "ipa": "/d/",
+      "place": "alveolar",
+      "manner": "stop",
+      "voiced": true,
+      "feel": "tongue tip taps the ridge \u2014 throat buzzes"
+    },
+    "k": {
+      "ipa": "/k/",
+      "place": "velar",
+      "manner": "stop",
+      "voiced": false,
+      "feel": "back of the tongue lifts to the roof \u2014 no buzz"
+    },
+    "g": {
+      "ipa": "/g/",
+      "place": "velar",
+      "manner": "stop",
+      "voiced": true,
+      "feel": "back of the tongue lifts \u2014 throat buzzes"
+    },
+    "m": {
+      "ipa": "/m/",
+      "place": "bilabial",
+      "manner": "nasal",
+      "voiced": true,
+      "feel": "lips closed, humming out the nose"
+    },
+    "n": {
+      "ipa": "/n/",
+      "place": "alveolar",
+      "manner": "nasal",
+      "voiced": true,
+      "feel": "tongue tip up, humming out the nose"
+    },
+    "ng": {
+      "ipa": "/\u014b/",
+      "place": "velar",
+      "manner": "nasal",
+      "voiced": true,
+      "feel": "back of tongue up, humming out the nose"
+    },
+    "f": {
+      "ipa": "/f/",
+      "place": "labiodental",
+      "manner": "fricative",
+      "voiced": false,
+      "strident": true,
+      "feel": "top teeth on the bottom lip, air hisses out"
+    },
+    "v": {
+      "ipa": "/v/",
+      "place": "labiodental",
+      "manner": "fricative",
+      "voiced": true,
+      "strident": true,
+      "feel": "teeth on lip \u2014 buzzing air"
+    },
+    "s": {
+      "ipa": "/s/",
+      "place": "alveolar",
+      "manner": "fricative",
+      "voiced": false,
+      "strident": true,
+      "feel": "air hisses over the tongue tip \u2014 a snake sound"
+    },
+    "z": {
+      "ipa": "/z/",
+      "place": "alveolar",
+      "manner": "fricative",
+      "voiced": true,
+      "strident": true,
+      "feel": "a buzzing hiss \u2014 a bee sound"
+    },
+    "sh": {
+      "ipa": "/\u0283/",
+      "place": "postalveolar",
+      "manner": "fricative",
+      "voiced": false,
+      "strident": true,
+      "feel": "quiet 'shh' air, lips a little round"
+    },
+    "th": {
+      "ipa": "/\u03b8/",
+      "place": "dental",
+      "manner": "fricative",
+      "voiced": false,
+      "feel": "tongue between the teeth, air out (thin)"
+    },
+    "h": {
+      "ipa": "/h/",
+      "place": "glottal",
+      "manner": "fricative",
+      "voiced": false,
+      "feel": "a soft puff from the throat"
+    },
+    "ch": {
+      "ipa": "/t\u0283/",
+      "place": "postalveolar",
+      "manner": "affricate",
+      "voiced": false,
+      "strident": true,
+      "affricate": true,
+      "feel": "a tap then a 'shh' \u2014 like a sneeze"
+    },
+    "j": {
+      "ipa": "/d\u0292/",
+      "place": "postalveolar",
+      "manner": "affricate",
+      "voiced": true,
+      "strident": true,
+      "affricate": true,
+      "feel": "a tap then a buzz"
+    },
+    "l": {
+      "ipa": "/l/",
+      "place": "alveolar",
+      "manner": "liquid",
+      "voiced": true,
+      "lateral": true,
+      "feel": "tongue tip up, air slides around the sides"
+    },
+    "r": {
+      "ipa": "/r/",
+      "place": "alveolar",
+      "manner": "liquid",
+      "voiced": true,
+      "feel": "tongue pulls back and bunches \u2014 nothing touches"
+    },
+    "w": {
+      "ipa": "/w/",
+      "place": "labial-velar",
+      "manner": "glide",
+      "voiced": true,
+      "secondary": "labial-velar",
+      "feel": "lips round, then slide to the vowel"
+    },
+    "y": {
+      "ipa": "/j/",
+      "place": "palatal",
+      "manner": "glide",
+      "voiced": true,
+      "feel": "tongue high, then slides to the vowel"
+    }
   },
-
   "vowels": {
-    "_note": "Vowels are 'open' sounds — the voice is on and the air flows freely; you feel them in the JAW (how far it drops), the TONGUE (high/low, front/back), and the LIPS (round or not). Per-phoneme detail is in vowelPhonemes; short/long below is the classroom grouping.",
+    "_note": "Vowels are 'open' sounds \u2014 the voice is on and the air flows freely; you feel them in the JAW (how far it drops), the TONGUE (high/low, front/back), and the LIPS (round or not). Per-phoneme detail is in vowelPhonemes; short/long below is the classroom grouping.",
     "short": {
-      "feel": "a quick, relaxed (lax) sound — the jaw and tongue stay loose",
-      "examples": { "a": "cat", "e": "bed", "i": "sit", "o": "hot", "u": "cup" }
+      "feel": "a quick, relaxed (lax) sound \u2014 the jaw and tongue stay loose",
+      "examples": {
+        "a": "cat",
+        "e": "bed",
+        "i": "sit",
+        "o": "hot",
+        "u": "cup"
+      }
     },
     "long": {
-      "feel": "the vowel 'says its name' — a longer, tenser sound",
-      "examples": { "a": "cake", "e": "these", "i": "bike", "o": "home", "u": "cute" }
+      "feel": "the vowel 'says its name' \u2014 a longer, tenser sound",
+      "examples": {
+        "a": "cake",
+        "e": "these",
+        "i": "bike",
+        "o": "home",
+        "u": "cute"
+      }
     },
     "feelExamples": {
-      "ee": "smile — lips spread wide, tongue high and front (see)",
+      "ee": "smile \u2014 lips spread wide, tongue high and front (see)",
       "ah": "drop the jaw wide open, tongue low (father)",
       "oo": "round the lips into a tunnel (moon)"
     }
   },
-
   "vowelPhonemes": {
-    "i":  { "ipa": "/i/",  "height": "high", "backness": "front",   "rounded": false, "tense": true,  "formants": { "F1": 270, "F2": 2290 }, "tract": { "tongueIndex": "front",   "tongueDiameter": "close",     "lip": "spread"  }, "feel": "tongue high and forward, lips spread in a smile — a long, bright sound (see)" },
-    "ɪ":  { "ipa": "/ɪ/",  "height": "high", "backness": "front",   "rounded": false, "tense": false, "formants": { "F1": 390, "F2": 1990 }, "tract": { "tongueIndex": "front",   "tongueDiameter": "near-close", "lip": "spread"  }, "feel": "like /i/ but relaxed — tongue drops a little, jaw loose (sit)" },
-    "ɛ":  { "ipa": "/ɛ/",  "height": "mid",  "backness": "front",   "rounded": false, "tense": false, "formants": { "F1": 530, "F2": 1840 }, "tract": { "tongueIndex": "front",   "tongueDiameter": "mid",       "lip": "neutral" }, "feel": "tongue mid and forward, mouth a little open (bed)" },
-    "æ":  { "ipa": "/æ/",  "height": "low",  "backness": "front",   "rounded": false, "tense": false, "formants": { "F1": 660, "F2": 1720 }, "tract": { "tongueIndex": "front",   "tongueDiameter": "open",      "lip": "neutral" }, "feel": "jaw drops low, tongue forward — mouth wide (cat)" },
-    "ɑ":  { "ipa": "/ɑ/",  "height": "low",  "backness": "back",    "rounded": false, "tense": true,  "formants": { "F1": 730, "F2": 1090 }, "tract": { "tongueIndex": "back",    "tongueDiameter": "open",      "lip": "neutral" }, "feel": "jaw drops wide, tongue low and pulled back (father)" },
-    "ɒ":  { "ipa": "/ɒ/",  "height": "low",  "backness": "back",    "rounded": true,  "tense": false, "formants": { "F1": 600, "F2": 900  }, "tract": { "tongueIndex": "back",    "tongueDiameter": "open",      "lip": "round"   }, "feel": "low and back with a little lip rounding (British hot)" },
-    "ɔ":  { "ipa": "/ɔ/",  "height": "mid",  "backness": "back",    "rounded": true,  "tense": true,  "formants": { "F1": 570, "F2": 840  }, "tract": { "tongueIndex": "back",    "tongueDiameter": "mid",       "lip": "round"   }, "feel": "tongue back, lips rounded (bought)" },
-    "ʌ":  { "ipa": "/ʌ/",  "height": "mid",  "backness": "central", "rounded": false, "tense": false, "formants": { "F1": 640, "F2": 1190 }, "tract": { "tongueIndex": "central", "tongueDiameter": "mid",       "lip": "neutral" }, "feel": "a short, relaxed middle sound, mouth slightly open (cup)" },
-    "ʊ":  { "ipa": "/ʊ/",  "height": "high", "backness": "back",    "rounded": true,  "tense": false, "formants": { "F1": 440, "F2": 1020 }, "tract": { "tongueIndex": "back",    "tongueDiameter": "near-close", "lip": "round"   }, "feel": "tongue high and back, lips a little round — relaxed (book)" },
-    "u":  { "ipa": "/u/",  "height": "high", "backness": "back",    "rounded": true,  "tense": true,  "formants": { "F1": 300, "F2": 870  }, "tract": { "tongueIndex": "back",    "tongueDiameter": "close",     "lip": "round"   }, "feel": "tongue high and back, lips round into a tunnel — a long sound (moon)" },
-    "ə":  { "ipa": "/ə/",  "height": "mid",  "backness": "central", "rounded": false, "tense": false, "formants": { "F1": 500, "F2": 1500 }, "tract": { "tongueIndex": "central", "tongueDiameter": "mid",       "lip": "neutral" }, "feel": "the lazy middle sound — mouth barely moves (about)" },
-    "eɪ": { "ipa": "/eɪ/", "type": "diphthong", "glide": { "from": "ɛ", "to": "i" }, "feel": "starts mid-front, glides up toward /i/ as the jaw closes (day)" },
-    "oʊ": { "ipa": "/oʊ/", "type": "diphthong", "glide": { "from": "ɔ", "to": "u" }, "feel": "starts back, glides up and rounds toward /u/ (go)" },
-    "aɪ": { "ipa": "/aɪ/", "type": "diphthong", "glide": { "from": "ɑ", "to": "i" }, "feel": "starts low and open, glides up to /i/ as the jaw closes (my)" },
-    "aʊ": { "ipa": "/aʊ/", "type": "diphthong", "glide": { "from": "ɑ", "to": "ʊ" }, "feel": "starts low and open, glides up and rounds (cow)" },
-    "ɔɪ": { "ipa": "/ɔɪ/", "type": "diphthong", "glide": { "from": "ɔ", "to": "i" }, "feel": "starts back and rounded, glides forward to /i/ (boy)" }
+    "i": {
+      "ipa": "/i/",
+      "height": "high",
+      "backness": "front",
+      "rounded": false,
+      "tense": true,
+      "formants": {
+        "F1": 270,
+        "F2": 2290
+      },
+      "tract": {
+        "tongueIndex": "front",
+        "tongueDiameter": "close",
+        "lip": "spread"
+      },
+      "feel": "tongue high and forward, lips spread in a smile \u2014 a long, bright sound (see)"
+    },
+    "\u026a": {
+      "ipa": "/\u026a/",
+      "height": "high",
+      "backness": "front",
+      "rounded": false,
+      "tense": false,
+      "formants": {
+        "F1": 390,
+        "F2": 1990
+      },
+      "tract": {
+        "tongueIndex": "front",
+        "tongueDiameter": "near-close",
+        "lip": "spread"
+      },
+      "feel": "like /i/ but relaxed \u2014 tongue drops a little, jaw loose (sit)"
+    },
+    "\u025b": {
+      "ipa": "/\u025b/",
+      "height": "mid",
+      "backness": "front",
+      "rounded": false,
+      "tense": false,
+      "formants": {
+        "F1": 530,
+        "F2": 1840
+      },
+      "tract": {
+        "tongueIndex": "front",
+        "tongueDiameter": "mid",
+        "lip": "neutral"
+      },
+      "feel": "tongue mid and forward, mouth a little open (bed)"
+    },
+    "\u00e6": {
+      "ipa": "/\u00e6/",
+      "height": "low",
+      "backness": "front",
+      "rounded": false,
+      "tense": false,
+      "formants": {
+        "F1": 660,
+        "F2": 1720
+      },
+      "tract": {
+        "tongueIndex": "front",
+        "tongueDiameter": "open",
+        "lip": "neutral"
+      },
+      "feel": "jaw drops low, tongue forward \u2014 mouth wide (cat)"
+    },
+    "\u0251": {
+      "ipa": "/\u0251/",
+      "height": "low",
+      "backness": "back",
+      "rounded": false,
+      "tense": true,
+      "formants": {
+        "F1": 730,
+        "F2": 1090
+      },
+      "tract": {
+        "tongueIndex": "back",
+        "tongueDiameter": "open",
+        "lip": "neutral"
+      },
+      "feel": "jaw drops wide, tongue low and pulled back (father)"
+    },
+    "\u0252": {
+      "ipa": "/\u0252/",
+      "height": "low",
+      "backness": "back",
+      "rounded": true,
+      "tense": false,
+      "formants": {
+        "F1": 600,
+        "F2": 900
+      },
+      "tract": {
+        "tongueIndex": "back",
+        "tongueDiameter": "open",
+        "lip": "round"
+      },
+      "feel": "low and back with a little lip rounding (British hot)"
+    },
+    "\u0254": {
+      "ipa": "/\u0254/",
+      "height": "mid",
+      "backness": "back",
+      "rounded": true,
+      "tense": true,
+      "formants": {
+        "F1": 570,
+        "F2": 840
+      },
+      "tract": {
+        "tongueIndex": "back",
+        "tongueDiameter": "mid",
+        "lip": "round"
+      },
+      "feel": "tongue back, lips rounded (bought)"
+    },
+    "\u028c": {
+      "ipa": "/\u028c/",
+      "height": "mid",
+      "backness": "central",
+      "rounded": false,
+      "tense": false,
+      "formants": {
+        "F1": 640,
+        "F2": 1190
+      },
+      "tract": {
+        "tongueIndex": "central",
+        "tongueDiameter": "mid",
+        "lip": "neutral"
+      },
+      "feel": "a short, relaxed middle sound, mouth slightly open (cup)"
+    },
+    "\u028a": {
+      "ipa": "/\u028a/",
+      "height": "high",
+      "backness": "back",
+      "rounded": true,
+      "tense": false,
+      "formants": {
+        "F1": 440,
+        "F2": 1020
+      },
+      "tract": {
+        "tongueIndex": "back",
+        "tongueDiameter": "near-close",
+        "lip": "round"
+      },
+      "feel": "tongue high and back, lips a little round \u2014 relaxed (book)"
+    },
+    "u": {
+      "ipa": "/u/",
+      "height": "high",
+      "backness": "back",
+      "rounded": true,
+      "tense": true,
+      "formants": {
+        "F1": 300,
+        "F2": 870
+      },
+      "tract": {
+        "tongueIndex": "back",
+        "tongueDiameter": "close",
+        "lip": "round"
+      },
+      "feel": "tongue high and back, lips round into a tunnel \u2014 a long sound (moon)"
+    },
+    "\u0259": {
+      "ipa": "/\u0259/",
+      "height": "mid",
+      "backness": "central",
+      "rounded": false,
+      "tense": false,
+      "formants": {
+        "F1": 500,
+        "F2": 1500
+      },
+      "tract": {
+        "tongueIndex": "central",
+        "tongueDiameter": "mid",
+        "lip": "neutral"
+      },
+      "feel": "the lazy middle sound \u2014 mouth barely moves (about)"
+    },
+    "e\u026a": {
+      "ipa": "/e\u026a/",
+      "type": "diphthong",
+      "glide": {
+        "from": "\u025b",
+        "to": "i"
+      },
+      "feel": "starts mid-front, glides up toward /i/ as the jaw closes (day)"
+    },
+    "o\u028a": {
+      "ipa": "/o\u028a/",
+      "type": "diphthong",
+      "glide": {
+        "from": "\u0254",
+        "to": "u"
+      },
+      "feel": "starts back, glides up and rounds toward /u/ (go)"
+    },
+    "a\u026a": {
+      "ipa": "/a\u026a/",
+      "type": "diphthong",
+      "glide": {
+        "from": "\u0251",
+        "to": "i"
+      },
+      "feel": "starts low and open, glides up to /i/ as the jaw closes (my)"
+    },
+    "a\u028a": {
+      "ipa": "/a\u028a/",
+      "type": "diphthong",
+      "glide": {
+        "from": "\u0251",
+        "to": "\u028a"
+      },
+      "feel": "starts low and open, glides up and rounds (cow)"
+    },
+    "\u0254\u026a": {
+      "ipa": "/\u0254\u026a/",
+      "type": "diphthong",
+      "glide": {
+        "from": "\u0254",
+        "to": "i"
+      },
+      "feel": "starts back and rounded, glides forward to /i/ (boy)"
+    }
   }
 }
