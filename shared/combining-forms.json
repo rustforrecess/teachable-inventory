@@ -5,7 +5,8 @@
     "description": "Greek and Latin combining forms, shared across languages rather than belonging to any one of them. hypo + therm yields English hypothermic, Spanish hipotermia and French hypothermie from the same two morphemes. That is why this file sits in shared/ and not under en/: a learner who owns these morphemes owns vocabulary in every language that borrowed them, which is the cognate bridge first-language instruction depends on.",
     "license": "CC-BY-4.0",
     "credits": "../CREDITS.md",
-    "status": "seed - a small set. Expand as languages are added; a form belongs here only if it is genuinely shared, not merely present in English."
+    "status": "seed+ - the common science set. Greek/Latin combining forms are open-ended; origins/positions on the 2026-07-22 assistant batch are unreviewed.",
+    "_short_form_caveat": "Forms of one or two letters (di, bi, an, tri, eu) match the start of many unrelated words. A consumer must not split on them unless the REMAINDER is itself a listed morpheme or word - the same corner-is-not-corn-plus-er guard the base-morpheme inventory uses. Position alone is not enough here."
   },
   "_provenance": {
     "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry needing individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field.\n\nBatches are identified by DATE and COMMIT SUBJECT, deliberately not by commit hash. A hash means nothing to a human auditor and breaks the moment history is ever rewritten; a subject line is stable, readable, and findable with `git log --grep`.\n\n`method` is the load-bearing field. `authored` = compiled from facts by a person. `mined` = derived by code from a corpus named in PROVENANCE.md. `assistant` = drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts, so none affects the free-forever promise; recording which is which lets a downstream user filter and keeps the chain auditable by someone who was not here.",
@@ -16,6 +17,14 @@
         "method": "assistant",
         "scope": "combiningForms (9 neoclassical forms with position); -ic/-al/-ous added to derivational suffixes; Class I/II `level` field",
         "by": "AI assistant, directed and accepted by the maintainer"
+      },
+      {
+        "date": "2026-07-22",
+        "commit_subject": "shared: expand science combining forms",
+        "method": "assistant",
+        "by": "AI assistant, directed by the maintainer; ORIGINS AND POSITIONS NOT YET REVIEWED - drafted from general knowledge of Greek/Latin roots and expected to contain errors until a maintainer or linguist checks them",
+        "scope": "+89 Greek/Latin combining forms common in science vocabulary: SI prefixes (kilo/centi/milli/nano), quantity (mono/di/tri/poly), spatial (endo/exo/trans), roots (bio/geo/hydro/electro/cyto) and final forms (-lysis/-sphere/-troph/-vore/-gen); +pro (forward), potent (power/able), kine (movement) added same session; mot (move)",
+        "prompted_by": "morphology-into-science-vocabulary line - Trussell et al. 2018; the combining-form layer is what that instruction operationalises (endo+thermic, hydro+lysis, photo+synthesis)"
       }
     ]
   },
@@ -23,14 +32,219 @@
   "_position": "Position is not free. An initial form precedes a final one, and most are fixed to one slot: photo- and hypo- are initial, -logy and -meter final, while therm and graph occur in both. Recorded per entry rather than assumed, because a parser that tries every form in every slot will split words that should stay whole.",
   "forms": [
     {
-      "form": "neo",
+      "form": "an",
       "position": "initial",
       "origin": "grc",
-      "gloss": "new / recent",
+      "gloss": "not / without",
       "examples": [
-        "neoclassical",
-        "neolithic",
-        "neonatal"
+        "anaerobic",
+        "anhydrous"
+      ]
+    },
+    {
+      "form": "ana",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "up / back",
+      "examples": [
+        "anatomy",
+        "anabolic"
+      ]
+    },
+    {
+      "form": "bi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "two",
+      "examples": [
+        "bilateral",
+        "biped"
+      ]
+    },
+    {
+      "form": "cata",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "down",
+      "examples": [
+        "catabolic",
+        "catalyst"
+      ]
+    },
+    {
+      "form": "centi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "hundredth",
+      "examples": [
+        "centimeter",
+        "centigrade"
+      ]
+    },
+    {
+      "form": "circum",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "around",
+      "examples": [
+        "circumference",
+        "circumnavigate"
+      ]
+    },
+    {
+      "form": "deci",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "tenth",
+      "examples": [
+        "decimeter",
+        "deciliter"
+      ]
+    },
+    {
+      "form": "di",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "two",
+      "examples": [
+        "dioxide",
+        "diatomic",
+        "dicot"
+      ]
+    },
+    {
+      "form": "dia",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "through / across",
+      "examples": [
+        "diameter",
+        "diaphragm",
+        "dialysis"
+      ]
+    },
+    {
+      "form": "dys",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "bad / difficult",
+      "examples": [
+        "dysfunction",
+        "dystrophy"
+      ]
+    },
+    {
+      "form": "ecto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "outside",
+      "examples": [
+        "ectotherm",
+        "ectoderm"
+      ]
+    },
+    {
+      "form": "endo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "inside",
+      "examples": [
+        "endothermic",
+        "endoskeleton",
+        "endoplasm"
+      ]
+    },
+    {
+      "form": "epi",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "upon / above",
+      "examples": [
+        "epidermis",
+        "epicenter",
+        "epiphyte"
+      ]
+    },
+    {
+      "form": "equi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "equal",
+      "examples": [
+        "equilateral",
+        "equilibrium"
+      ]
+    },
+    {
+      "form": "eu",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "good / true",
+      "examples": [
+        "eukaryote",
+        "euphoria"
+      ]
+    },
+    {
+      "form": "exo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "outside",
+      "examples": [
+        "exothermic",
+        "exoskeleton",
+        "exoplanet"
+      ]
+    },
+    {
+      "form": "giga",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "giant / billion",
+      "examples": [
+        "gigabyte",
+        "gigawatt"
+      ]
+    },
+    {
+      "form": "hetero",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "different",
+      "examples": [
+        "heterogeneous",
+        "heterotroph"
+      ]
+    },
+    {
+      "form": "hexa",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "six",
+      "examples": [
+        "hexagon",
+        "hexose"
+      ]
+    },
+    {
+      "form": "homo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "same",
+      "examples": [
+        "homogeneous",
+        "homologous"
+      ]
+    },
+    {
+      "form": "hyper",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "over / above normal",
+      "examples": [
+        "hyperthermic",
+        "hyperactive",
+        "hyperbole"
       ]
     },
     {
@@ -45,14 +259,583 @@
       ]
     },
     {
-      "form": "hyper",
+      "form": "infra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "below",
+      "examples": [
+        "infrared"
+      ]
+    },
+    {
+      "form": "inter",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "between",
+      "examples": [
+        "intercellular",
+        "interstellar"
+      ]
+    },
+    {
+      "form": "intra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "within",
+      "examples": [
+        "intracellular",
+        "intravenous"
+      ]
+    },
+    {
+      "form": "iso",
       "position": "initial",
       "origin": "grc",
-      "gloss": "over / above normal",
+      "gloss": "equal",
       "examples": [
-        "hyperthermic",
-        "hyperactive",
-        "hyperbole"
+        "isotope",
+        "isotherm",
+        "isobar"
+      ]
+    },
+    {
+      "form": "kilo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "thousand",
+      "examples": [
+        "kilogram",
+        "kilometer"
+      ]
+    },
+    {
+      "form": "macro",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "large",
+      "examples": [
+        "macroscopic",
+        "macromolecule"
+      ]
+    },
+    {
+      "form": "mega",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "great / million",
+      "examples": [
+        "megafauna",
+        "megabyte"
+      ]
+    },
+    {
+      "form": "meta",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "change / beyond",
+      "examples": [
+        "metamorphosis",
+        "metabolism"
+      ]
+    },
+    {
+      "form": "micro",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "small / millionth",
+      "examples": [
+        "microscope",
+        "microbe",
+        "micrometer"
+      ]
+    },
+    {
+      "form": "milli",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "thousandth",
+      "examples": [
+        "millimeter",
+        "milligram"
+      ]
+    },
+    {
+      "form": "mono",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "one",
+      "examples": [
+        "monomer",
+        "monoxide",
+        "monocot"
+      ]
+    },
+    {
+      "form": "multi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "many",
+      "examples": [
+        "multicellular",
+        "multimeter"
+      ]
+    },
+    {
+      "form": "nano",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "billionth / dwarf",
+      "examples": [
+        "nanometer",
+        "nanoparticle"
+      ]
+    },
+    {
+      "form": "neo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "new / recent",
+      "examples": [
+        "neoclassical",
+        "neolithic",
+        "neonatal"
+      ]
+    },
+    {
+      "form": "omni",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "all",
+      "examples": [
+        "omnivore",
+        "omnidirectional"
+      ]
+    },
+    {
+      "form": "para",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "beside",
+      "examples": [
+        "parasite",
+        "parallel"
+      ]
+    },
+    {
+      "form": "penta",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "five",
+      "examples": [
+        "pentagon",
+        "pentose"
+      ]
+    },
+    {
+      "form": "peri",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "around",
+      "examples": [
+        "perimeter",
+        "pericardium"
+      ]
+    },
+    {
+      "form": "photo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "light",
+      "examples": [
+        "photograph",
+        "photosynthesis"
+      ]
+    },
+    {
+      "form": "poly",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "many",
+      "examples": [
+        "polymer",
+        "polygon",
+        "polyatomic"
+      ]
+    },
+    {
+      "form": "pro",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "forward / before",
+      "examples": [
+        "progressive",
+        "procession",
+        "produce",
+        "project"
+      ]
+    },
+    {
+      "form": "proto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "first",
+      "examples": [
+        "proton",
+        "prototype",
+        "protozoa"
+      ]
+    },
+    {
+      "form": "semi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "half",
+      "examples": [
+        "semiconductor",
+        "semicircle",
+        "semipermeable"
+      ]
+    },
+    {
+      "form": "sub",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "under",
+      "examples": [
+        "substrate",
+        "subatomic",
+        "subsonic"
+      ]
+    },
+    {
+      "form": "super",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "above / over",
+      "examples": [
+        "supersonic",
+        "supernova",
+        "supersaturated"
+      ]
+    },
+    {
+      "form": "syn",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "together",
+      "examples": [
+        "synthesis",
+        "synapse"
+      ]
+    },
+    {
+      "form": "tetra",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "four",
+      "examples": [
+        "tetrahedron",
+        "tetrapod"
+      ]
+    },
+    {
+      "form": "trans",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "across",
+      "examples": [
+        "transpiration",
+        "transmit",
+        "transcription"
+      ]
+    },
+    {
+      "form": "tri",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "three",
+      "examples": [
+        "triangle",
+        "triatomic",
+        "trimester"
+      ]
+    },
+    {
+      "form": "ultra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "beyond",
+      "examples": [
+        "ultraviolet",
+        "ultrasonic"
+      ]
+    },
+    {
+      "form": "uni",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "one",
+      "examples": [
+        "unicellular",
+        "universe"
+      ]
+    },
+    {
+      "form": "aero",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "air",
+      "examples": [
+        "aerobic",
+        "aerodynamic",
+        "anaerobic"
+      ]
+    },
+    {
+      "form": "astro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "star",
+      "examples": [
+        "astronomy",
+        "astronaut",
+        "asteroid"
+      ]
+    },
+    {
+      "form": "baro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "pressure / weight",
+      "examples": [
+        "barometer",
+        "isobar"
+      ]
+    },
+    {
+      "form": "bio",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "life",
+      "examples": [
+        "biology",
+        "biosphere",
+        "aerobic"
+      ]
+    },
+    {
+      "form": "cardio",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "heart",
+      "examples": [
+        "cardiac",
+        "cardiology"
+      ]
+    },
+    {
+      "form": "chloro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "green",
+      "examples": [
+        "chlorophyll",
+        "chloroplast",
+        "chlorine"
+      ]
+    },
+    {
+      "form": "chromo",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "color",
+      "examples": [
+        "chromosome",
+        "chromatography"
+      ]
+    },
+    {
+      "form": "cyto",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "cell",
+      "examples": [
+        "cytoplasm",
+        "cytology",
+        "erythrocyte"
+      ]
+    },
+    {
+      "form": "dermo",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "skin",
+      "examples": [
+        "dermis",
+        "epidermis",
+        "dermatology"
+      ]
+    },
+    {
+      "form": "electro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "electric (from amber)",
+      "examples": [
+        "electron",
+        "electric",
+        "electrolysis",
+        "electromagnet"
+      ]
+    },
+    {
+      "form": "geo",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "earth",
+      "examples": [
+        "geology",
+        "geothermal",
+        "geography"
+      ]
+    },
+    {
+      "form": "graph",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "write / record",
+      "examples": [
+        "graphite",
+        "photograph",
+        "telegraph"
+      ]
+    },
+    {
+      "form": "helio",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "sun",
+      "examples": [
+        "heliocentric",
+        "heliosphere"
+      ]
+    },
+    {
+      "form": "hemo",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "blood",
+      "examples": [
+        "hemoglobin",
+        "hematology"
+      ]
+    },
+    {
+      "form": "hydro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "water",
+      "examples": [
+        "hydrogen",
+        "hydrolysis",
+        "dehydrate"
+      ]
+    },
+    {
+      "form": "kine",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "movement",
+      "examples": [
+        "kinetic",
+        "kinesis",
+        "telekinesis"
+      ]
+    },
+    {
+      "form": "litho",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "stone",
+      "examples": [
+        "lithosphere",
+        "monolith"
+      ]
+    },
+    {
+      "form": "morph",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "form / shape",
+      "examples": [
+        "morphology",
+        "amorphous",
+        "metamorphosis"
+      ]
+    },
+    {
+      "form": "mot",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "move",
+      "examples": [
+        "promote",
+        "motion",
+        "motor",
+        "locomotion",
+        "demote"
+      ]
+    },
+    {
+      "form": "neuro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "nerve",
+      "examples": [
+        "neuron",
+        "neurology"
+      ]
+    },
+    {
+      "form": "phono",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "sound",
+      "examples": [
+        "phonology",
+        "microphone",
+        "telephone"
+      ]
+    },
+    {
+      "form": "phyto",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "plant",
+      "examples": [
+        "phytoplankton",
+        "epiphyte"
+      ]
+    },
+    {
+      "form": "potent",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "power / able",
+      "examples": [
+        "potential",
+        "potent",
+        "omnipotent"
+      ]
+    },
+    {
+      "form": "pyro",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "fire",
+      "examples": [
+        "pyroclastic",
+        "pyrometer"
       ]
     },
     {
@@ -68,24 +851,65 @@
       ]
     },
     {
-      "form": "photo",
-      "position": "initial",
+      "form": "thermo",
+      "position": "either",
       "origin": "grc",
-      "gloss": "light",
+      "gloss": "heat",
       "examples": [
-        "photograph",
-        "photosynthesis"
+        "thermometer",
+        "thermodynamics"
       ]
     },
     {
-      "form": "graph",
+      "form": "zoo",
       "position": "either",
       "origin": "grc",
-      "gloss": "write / record",
+      "gloss": "animal",
       "examples": [
-        "graphite",
-        "photograph",
-        "telegraph"
+        "zoology",
+        "protozoa"
+      ]
+    },
+    {
+      "form": "cyte",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "cell",
+      "examples": [
+        "erythrocyte",
+        "leukocyte"
+      ]
+    },
+    {
+      "form": "gen",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "producing / produced",
+      "examples": [
+        "hydrogen",
+        "oxygen",
+        "pathogen"
+      ]
+    },
+    {
+      "form": "logy",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "study of",
+      "examples": [
+        "biology",
+        "geology"
+      ]
+    },
+    {
+      "form": "lysis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "breaking / loosening",
+      "examples": [
+        "hydrolysis",
+        "electrolysis",
+        "photolysis"
       ]
     },
     {
@@ -100,13 +924,93 @@
       ]
     },
     {
-      "form": "logy",
+      "form": "naut",
       "position": "final",
       "origin": "grc",
-      "gloss": "study of",
+      "gloss": "sailor / voyager",
       "examples": [
-        "biology",
-        "geology"
+        "astronaut",
+        "aeronaut"
+      ]
+    },
+    {
+      "form": "oid",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "resembling",
+      "examples": [
+        "asteroid",
+        "spheroid",
+        "humanoid"
+      ]
+    },
+    {
+      "form": "philic",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "loving / attracting",
+      "examples": [
+        "hydrophilic"
+      ]
+    },
+    {
+      "form": "phobic",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "fearing / repelling",
+      "examples": [
+        "hydrophobic"
+      ]
+    },
+    {
+      "form": "phore",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "carrier / bearer",
+      "examples": [
+        "chromophore",
+        "semaphore"
+      ]
+    },
+    {
+      "form": "phyll",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "leaf",
+      "examples": [
+        "chlorophyll",
+        "mesophyll"
+      ]
+    },
+    {
+      "form": "phyte",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "plant",
+      "examples": [
+        "epiphyte",
+        "gametophyte"
+      ]
+    },
+    {
+      "form": "plasm",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "formed material",
+      "examples": [
+        "cytoplasm",
+        "protoplasm"
+      ]
+    },
+    {
+      "form": "pod",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "foot",
+      "examples": [
+        "arthropod",
+        "gastropod",
+        "tetrapod"
       ]
     },
     {
@@ -117,6 +1021,78 @@
       "examples": [
         "microscope",
         "telescope"
+      ]
+    },
+    {
+      "form": "some",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "body",
+      "examples": [
+        "chromosome",
+        "ribosome",
+        "lysosome"
+      ]
+    },
+    {
+      "form": "sphere",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "ball / globe",
+      "examples": [
+        "atmosphere",
+        "biosphere",
+        "hydrosphere"
+      ]
+    },
+    {
+      "form": "stasis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "standing still",
+      "examples": [
+        "homeostasis"
+      ]
+    },
+    {
+      "form": "stat",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "keeping stationary",
+      "examples": [
+        "thermostat",
+        "hemostat"
+      ]
+    },
+    {
+      "form": "thesis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "putting / placing",
+      "examples": [
+        "photosynthesis",
+        "hypothesis"
+      ]
+    },
+    {
+      "form": "troph",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "nourishment / feeding",
+      "examples": [
+        "autotroph",
+        "heterotroph"
+      ]
+    },
+    {
+      "form": "vore",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "one who eats",
+      "examples": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
       ]
     }
   ],
