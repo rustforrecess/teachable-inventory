@@ -13,11 +13,11 @@
     ]
   },
   "_provenance": {
-    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry that needs individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field. `method` is the load-bearing field - `authored` means compiled from facts by a person, `mined` means derived by code from a corpus named in PROVENANCE.md, `assistant` means drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts; recording which is which lets a downstream user filter, and keeps the chain auditable.",
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry needing individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field.\n\nBatches are identified by DATE and COMMIT SUBJECT, deliberately not by commit hash. A hash means nothing to a human auditor and breaks the moment history is ever rewritten; a subject line is stable, readable, and findable with `git log --grep`.\n\n`method` is the load-bearing field. `authored` = compiled from facts by a person. `mined` = derived by code from a corpus named in PROVENANCE.md. `assistant` = drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts, so none affects the free-forever promise; recording which is which lets a downstream user filter and keeps the chain auditable by someone who was not here.",
     "batches": [
       {
         "date": "2026-07-21",
-        "commit": "ba7ffbb",
+        "commit_subject": "data: irregular English verb forms inventory (CC BY 4.0)",
         "method": "assistant",
         "scope": "all 107 verbs and the 18 pattern classes",
         "by": "AI assistant, directed and accepted by the maintainer"

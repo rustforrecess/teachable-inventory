@@ -15,18 +15,18 @@
     "see_also": "irregular-verbs.json holds the FORMS of verbs whose past is not -ed. This file holds what verbs COMBINE WITH. The two overlap in membership and neither subsumes the other: 'grow' appears in both, 'conduct' only here, and a verb may be irregular yet unremarkable in its frames."
   },
   "_provenance": {
-    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry that needs individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field. `method` is the load-bearing field - `authored` means compiled from facts by a person, `mined` means derived by code from a corpus named in PROVENANCE.md, `assistant` means drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts; recording which is which lets a downstream user filter, and keeps the chain auditable.",
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry needing individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field.\n\nBatches are identified by DATE and COMMIT SUBJECT, deliberately not by commit hash. A hash means nothing to a human auditor and breaks the moment history is ever rewritten; a subject line is stable, readable, and findable with `git log --grep`.\n\n`method` is the load-bearing field. `authored` = compiled from facts by a person. `mined` = derived by code from a corpus named in PROVENANCE.md. `assistant` = drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts, so none affects the free-forever promise; recording which is which lets a downstream user filter and keeps the chain auditable by someone who was not here.",
     "batches": [
       {
         "date": "2026-07-21",
-        "commit": "b44f64c",
+        "commit_subject": "data: base verbs and their complement frames (CC BY 4.0)",
         "method": "assistant",
         "scope": "initial 118 verbs with complement frames",
         "by": "AI assistant, directed and accepted by the maintainer"
       },
       {
         "date": "2026-07-21",
-        "commit": "fdc6889",
+        "commit_subject": "data: add the copula/auxiliary set and common science-register verbs (118 -> 155)",
         "method": "assistant",
         "scope": "+37: copula/auxiliary set and science-register verbs (118 -> 155)",
         "by": "AI assistant, directed and accepted by the maintainer",
