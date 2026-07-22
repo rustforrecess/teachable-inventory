@@ -12,6 +12,18 @@
       "morpheme-ninja"
     ]
   },
+  "_provenance": {
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry that needs individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field. `method` is the load-bearing field - `authored` means compiled from facts by a person, `mined` means derived by code from a corpus named in PROVENANCE.md, `assistant` means drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts; recording which is which lets a downstream user filter, and keeps the chain auditable.",
+    "batches": [
+      {
+        "date": "2026-07-21",
+        "commit": "ba7ffbb",
+        "method": "assistant",
+        "scope": "all 107 verbs and the 18 pattern classes",
+        "by": "AI assistant, directed and accepted by the maintainer"
+      }
+    ]
+  },
   "patterns": {
     "no-change": "All three forms are identical. Nothing is added and nothing changes.",
     "d-to-t": "Final -d becomes -t. The vowel does not change.",

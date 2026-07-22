@@ -7,6 +7,47 @@
     "source_notes": "Morphology as a distinct instructional layer, taught after core GPC/syllable work: UFLI Foundations; Wilson Reading System. Morphemes hold stable spelling across pronunciation shifts: Venezky (1970, 1999). '-ed' three-pronunciation rule and final-stable-syllable suffixes: Orton-Gillingham tradition.",
     "status": "seed \u2014 a small correct starting set; expand toward the common base-morpheme inventory taught in grades K-5"
   },
+  "_provenance": {
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry that needs individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field. `method` is the load-bearing field - `authored` means compiled from facts by a person, `mined` means derived by code from a corpus named in PROVENANCE.md, `assistant` means drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts; recording which is which lets a downstream user filter, and keeps the chain auditable.",
+    "batches": [
+      {
+        "date": "2026-07-12",
+        "commit": "66f8032",
+        "method": "authored",
+        "scope": "initial own-inventory morpheme layer - prefixes, suffixes, base seed",
+        "by": "maintainer",
+        "note": "Path 1, CC-BY, WikiMorph-free by construction"
+      },
+      {
+        "date": "2026-07-12",
+        "commit": "2eab90b",
+        "method": "mined",
+        "scope": "+30 bases",
+        "by": "BaseMiner (data-gated, --min threshold)"
+      },
+      {
+        "date": "2026-07-12",
+        "commit": "ae04b46",
+        "method": "mined",
+        "scope": "+31 bases",
+        "by": "BaseMiner --min 3"
+      },
+      {
+        "date": "2026-07-12",
+        "commit": "5e0571a",
+        "method": "authored",
+        "scope": "orthographic-shift support (e-drop, y->i)",
+        "by": "maintainer"
+      },
+      {
+        "date": "2026-07-22",
+        "commit": "acb03d7",
+        "method": "assistant",
+        "scope": "combiningForms (9 neoclassical forms with position); -ic/-al/-ous added to derivational suffixes; Class I/II `level` field",
+        "by": "AI assistant, directed and accepted by the maintainer"
+      }
+    ]
+  },
   "prefixes": [
     {
       "form": "re",

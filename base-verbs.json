@@ -14,6 +14,26 @@
     ],
     "see_also": "irregular-verbs.json holds the FORMS of verbs whose past is not -ed. This file holds what verbs COMBINE WITH. The two overlap in membership and neither subsumes the other: 'grow' appears in both, 'conduct' only here, and a verb may be irregular yet unremarkable in its frames."
   },
+  "_provenance": {
+    "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry that needs individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field. `method` is the load-bearing field - `authored` means compiled from facts by a person, `mined` means derived by code from a corpus named in PROVENANCE.md, `assistant` means drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts; recording which is which lets a downstream user filter, and keeps the chain auditable.",
+    "batches": [
+      {
+        "date": "2026-07-21",
+        "commit": "b44f64c",
+        "method": "assistant",
+        "scope": "initial 118 verbs with complement frames",
+        "by": "AI assistant, directed and accepted by the maintainer"
+      },
+      {
+        "date": "2026-07-21",
+        "commit": "fdc6889",
+        "method": "assistant",
+        "scope": "+37: copula/auxiliary set and science-register verbs (118 -> 155)",
+        "by": "AI assistant, directed and accepted by the maintainer",
+        "prompted_by": "held-out NGSS measurement showed `be` was missing"
+      }
+    ]
+  },
   "frames": {
     "intransitive": {
       "gloss": "Takes a subject and no object. \"Costs rose.\"",
