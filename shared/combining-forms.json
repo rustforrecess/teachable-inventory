@@ -51,6 +51,14 @@
         "by": "AI assistant, asked to 'think of as many as you can'. Word selection AND morpheme extraction are the assistant's. This is the LARGEST and LEAST-reviewed batch; origins, positions and glosses are drafted from knowledge and certainly contain errors. Do not teach from it before a linguist pass.",
         "scope": "+90 roots across biology (nucle/zyg/kary/gam/spor/gastr/hepat/oste), chemistry (ion/ox/carb/ferr/gluc/glyc/lip/prote), physics-math (erg/son/ton/magnet/centr/radi/fract/rect/vect/calc/integ), earth-space (stell/lun/petr/seism/vulcan/mar/ocean/meteor) and Latin process/cognition roots (nat/fac/act/ven/loc/pos/sci/gnos/put/cred/ver/doc/migr). Includes two false-friend pairs: radi(ray)/radic(root), dent(Latin tooth)/odont(Greek tooth).",
         "prompted_by": "maintainer: 'go think of as many as you can' - continued self-labelling sweep"
+      },
+      {
+        "date": "2026-07-22",
+        "commit_subject": "shared: mer (part), top (place)",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+mer=part (polymer/monomer), top=place (isotope/topography); agr=field, cult=grow/till (agriculture)",
+        "prompted_by": "maintainer coverage check: isomer, polymer, isotope"
       }
     ]
   },
@@ -901,6 +909,18 @@
       "reviewed": false
     },
     {
+      "form": "agr",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "field",
+      "examples": [
+        "agriculture",
+        "agrarian",
+        "agronomy"
+      ],
+      "reviewed": false
+    },
+    {
       "form": "angul",
       "position": "either",
       "origin": "lat",
@@ -1235,6 +1255,19 @@
         "credible",
         "incredible",
         "credential"
+      ],
+      "reviewed": false
+    },
+    {
+      "form": "cult",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "grow / till / cultivate",
+      "examples": [
+        "agriculture",
+        "cultivate",
+        "culture",
+        "horticulture"
       ],
       "reviewed": false
     },
@@ -1996,6 +2029,19 @@
         "medium",
         "intermediate",
         "mediate"
+      ],
+      "reviewed": false
+    },
+    {
+      "form": "mer",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "part",
+      "examples": [
+        "polymer",
+        "monomer",
+        "isomer",
+        "dimer"
       ],
       "reviewed": false
     },
@@ -2962,6 +3008,19 @@
         "tonic",
         "isotonic",
         "monotone"
+      ],
+      "reviewed": false
+    },
+    {
+      "form": "top",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "place",
+      "examples": [
+        "isotope",
+        "topography",
+        "topology",
+        "topic"
       ],
       "reviewed": false
     },
