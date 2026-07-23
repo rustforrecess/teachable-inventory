@@ -6,7 +6,9 @@
     "license": "CC-BY-4.0",
     "credits": "../CREDITS.md",
     "source_notes": "Conditioning sound on the identity of neighboring graphemes: Kessler & Treiman (2001, 2003). Multi-sound-phonogram / origin framing for 'ch': Orton-Gillingham tradition; Eide (2018) reports the Greek/French/English three-way for 'ch'.",
-    "status": "seed \u2014 expand markers and origin-sensitive graphemes"
+    "status": "seed \u2014 expand markers and origin-sensitive graphemes",
+    "method": "authored",
+    "reviewed": true
   },
   "origins": {
     "greek": {

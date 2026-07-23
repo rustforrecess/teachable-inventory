@@ -57,7 +57,9 @@
         "react",
         "reality",
         "rewrite"
-      ]
+      ],
+      "method": "authored",
+      "reviewed": true
     },
     {
       "form": "de",
@@ -65,7 +67,9 @@
       "examples": [
         "despite",
         "decode"
-      ]
+      ],
+      "method": "authored",
+      "reviewed": true
     },
     {
       "form": "un",
@@ -73,7 +77,9 @@
       "examples": [
         "undo",
         "unhappy"
-      ]
+      ],
+      "method": "authored",
+      "reviewed": true
     },
     {
       "form": "pre",
@@ -81,7 +87,9 @@
       "examples": [
         "preview",
         "predict"
-      ]
+      ],
+      "method": "authored",
+      "reviewed": true
     },
     {
       "form": "dis",
@@ -89,7 +97,9 @@
       "examples": [
         "discover",
         "dislike"
-      ]
+      ],
+      "method": "authored",
+      "reviewed": true
     }
   ],
   "suffixes": {
@@ -100,7 +110,9 @@
         "examples": [
           "attention",
           "nation"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "sion",
@@ -108,7 +120,9 @@
         "examples": [
           "television",
           "vision"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ture",
@@ -116,7 +130,9 @@
         "examples": [
           "feature",
           "picture"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       }
     ],
     "derivational": [
@@ -128,7 +144,9 @@
           "teacher"
         ],
         "residue_twin": "corner (not corn+er)",
-        "level": 2
+        "level": 2,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "y",
@@ -138,7 +156,9 @@
           "cloudy"
         ],
         "residue_twin": "baby (not bab+y)",
-        "level": 2
+        "level": 2,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ly",
@@ -146,7 +166,9 @@
         "examples": [
           "quickly"
         ],
-        "level": 2
+        "level": 2,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ful",
@@ -154,7 +176,9 @@
         "examples": [
           "helpful"
         ],
-        "level": 2
+        "level": 2,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ness",
@@ -162,7 +186,9 @@
         "examples": [
           "kindness"
         ],
-        "level": 2
+        "level": 2,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ity",
@@ -172,7 +198,9 @@
           "ability"
         ],
         "residue_twin": "city (not cit+y form)",
-        "level": 1
+        "level": 1,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "able",
@@ -181,7 +209,9 @@
           "readable",
           "washable"
         ],
-        "level": 1
+        "level": 1,
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ic",
@@ -191,7 +221,9 @@
           "specific",
           "thermic"
         ],
-        "level": 1
+        "level": 1,
+        "method": "assistant",
+        "reviewed": false
       },
       {
         "form": "al",
@@ -201,7 +233,9 @@
           "historical",
           "seasonal"
         ],
-        "level": 1
+        "level": 1,
+        "method": "assistant",
+        "reviewed": false
       },
       {
         "form": "ous",
@@ -210,7 +244,9 @@
           "porous",
           "dangerous"
         ],
-        "level": 1
+        "level": 1,
+        "method": "assistant",
+        "reviewed": false
       }
     ],
     "inflectional": [
@@ -226,14 +262,18 @@
           "wanted",
           "played",
           "jumped"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "ing",
         "examples": [
           "reading",
           "jumping"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "s",
@@ -244,7 +284,9 @@
         "examples": [
           "cats",
           "dogs"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       },
       {
         "form": "es",
@@ -253,7 +295,9 @@
         "examples": [
           "boxes",
           "dishes"
-        ]
+        ],
+        "method": "authored",
+        "reviewed": true
       }
     ],
     "_level_note": "`level` records the Class I / Class II distinction (Siegel 1974; Kiparsky 1982). Class I suffixes (-ic, -al, -ity, -ous) attach CLOSER to the root and can shift stress; Class II (-ly, -ness, -ful, -less) attach outside them and leave stress alone. That ordering is why hypothermically is therm+ic+al+ly and never therm+ly+ic+al. Treat it as a strong tendency, not a law: Fabb (1988) showed level ordering overpredicts, and Hay & Plag (2004) replace it with complexity-based ordering, where a suffix that is easier to parse out attaches outside one that is harder - gradient, and computable from a corpus."
@@ -261,115 +305,548 @@
   "bases": {
     "_note": "Free base words a young reader is taught to recognize. Listing a form here authorizes morpheme splits like <base>+<suffix>. Deliberately conservative: absence of a base means look-alikes (corner, sister) stay with the phonological engine rather than being force-split.",
     "list": [
-      "farm",
-      "thorn",
-      "read",
-      "teach",
-      "help",
-      "play",
-      "jump",
-      "cloud",
-      "kind",
-      "quick",
-      "cover",
-      "real",
-      "spite",
-      "bomb",
-      "plumb",
-      "wash",
-      "dark",
-      "sad",
-      "sick",
-      "govern",
-      "differ",
-      "bear",
-      "pay",
-      "sale",
-      "like",
-      "trace",
-      "clear",
-      "arm",
-      "adjust",
-      "grace",
-      "late",
-      "care",
-      "fresh",
-      "print",
-      "comfort",
-      "press",
-      "dress",
-      "work",
-      "sharp",
-      "pass",
-      "health",
-      "cool",
-      "count",
-      "light",
-      "mark",
-      "hand",
-      "mind",
-      "sound",
-      "treat",
-      "present",
-      "fair",
-      "elect",
-      "wear",
-      "allow",
-      "use",
-      "conscious",
-      "service",
-      "employ",
-      "dear",
-      "near",
-      "close",
-      "complete",
-      "nice",
-      "develop",
-      "white",
-      "narrow",
-      "slow",
-      "charge",
-      "deliver",
-      "high",
-      "dry",
-      "export",
-      "install",
-      "crisp",
-      "position",
-      "draft",
-      "record",
-      "question",
-      "stock",
-      "support",
-      "talk",
-      "bend",
-      "believe",
-      "enforce",
-      "grate",
-      "arrange",
-      "blue",
-      "issue",
-      "occupy",
-      "taste",
-      "forgive",
-      "rare",
-      "tune",
-      "large",
-      "size",
-      "true",
-      "manage",
-      "whole",
-      "trade",
-      "shake",
-      "active",
-      "sensitive",
-      "aggressive",
-      "competitive",
-      "attractive",
-      "terse",
-      "insure",
-      "organize"
-    ]
+      {
+        "form": "active",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "adjust",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "aggressive",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "allow",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "arm",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "arrange",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "attractive",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "bear",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "believe",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "bend",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "blue",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "bomb",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "care",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "charge",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "clear",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "close",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "cloud",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "comfort",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "competitive",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "complete",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "conscious",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "cool",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "count",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "cover",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "crisp",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "dark",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "dear",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "deliver",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "develop",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "differ",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "draft",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "dress",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "dry",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "elect",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "employ",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "enforce",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "export",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "fair",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "farm",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "forgive",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "fresh",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "govern",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "grace",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "grate",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "hand",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "health",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "help",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "high",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "install",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "insure",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "issue",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "jump",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "kind",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "large",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "late",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "light",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "like",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "manage",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "mark",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "mind",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "narrow",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "near",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "nice",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "occupy",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "organize",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "pass",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "pay",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "play",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "plumb",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "position",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "present",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "press",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "print",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "question",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "quick",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "rare",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "read",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "real",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "record",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "sad",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "sale",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "sensitive",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "service",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "shake",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "sharp",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "sick",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "size",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "slow",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "sound",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "spite",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "stock",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "support",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "talk",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "taste",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "teach",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "terse",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "thorn",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "trace",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "trade",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "treat",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "true",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "tune",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "use",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "wash",
+        "method": "authored",
+        "reviewed": true
+      },
+      {
+        "form": "wear",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "white",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "whole",
+        "method": "mined",
+        "reviewed": false
+      },
+      {
+        "form": "work",
+        "method": "mined",
+        "reviewed": false
+      }
+    ],
+    "_provenance_note": "Each base carries method+reviewed. The authored set is the original human seed (commit 'Add own-inventory morpheme layer'); mined bases came from BaseMiner passes over CMUdict/Moby and are reviewed=false pending human verification."
   },
   "residue": {
     "_note": "The irreducible memorize-list (heart words): words the simple productive rules cannot resolve from letters alone. Consulted by the engine BEFORE applying an ambiguous rule, so the RULE stays one sentence and these stay a plain list \u2014 not rule clauses.",

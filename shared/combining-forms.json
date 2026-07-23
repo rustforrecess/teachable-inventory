@@ -82,7 +82,8 @@
         "anaerobic",
         "anhydrous"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ana",
@@ -93,7 +94,8 @@
         "anatomy",
         "anabolic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "atmo",
@@ -104,7 +106,8 @@
         "atmosphere",
         "atmospheric"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "bi",
@@ -115,7 +118,8 @@
         "bilateral",
         "biped"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cata",
@@ -126,7 +130,8 @@
         "catabolic",
         "catalyst"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "centi",
@@ -137,7 +142,8 @@
         "centimeter",
         "centigrade"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "circum",
@@ -148,7 +154,8 @@
         "circumference",
         "circumnavigate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "con",
@@ -162,7 +169,8 @@
         "combine"
       ],
       "variant_note": "com before b/p/m: combine, compress, commit",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dec",
@@ -176,7 +184,8 @@
         "decimate"
       ],
       "note": "Latin ten; distinct from Greek deca (decagon) and SI deci (one tenth).",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "deca",
@@ -189,7 +198,8 @@
         "decathlon"
       ],
       "note": "THREE look-alikes: deca=ten (Greek), deci=one tenth (Latin, SI), dec=ten (Latin, December). Do not conflate.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "deci",
@@ -200,7 +210,8 @@
         "decimeter",
         "deciliter"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "di",
@@ -212,7 +223,8 @@
         "diatomic",
         "dicot"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dia",
@@ -224,7 +236,8 @@
         "diaphragm",
         "dialysis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dodeca",
@@ -235,7 +248,8 @@
         "dodecagon",
         "dodecahedron"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dys",
@@ -246,7 +260,8 @@
         "dysfunction",
         "dystrophy"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ecto",
@@ -257,7 +272,8 @@
         "ectotherm",
         "ectoderm"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "endo",
@@ -269,7 +285,8 @@
         "endoskeleton",
         "endoplasm"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ennea",
@@ -281,7 +298,8 @@
         "ennead"
       ],
       "note": "the Greek nine; Latin uses non- (nonagon).",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "epi",
@@ -293,7 +311,8 @@
         "epicenter",
         "epiphyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "equi",
@@ -304,7 +323,8 @@
         "equilateral",
         "equilibrium"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "eu",
@@ -315,7 +335,8 @@
         "eukaryote",
         "euphoria"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "exo",
@@ -327,7 +348,8 @@
         "exoskeleton",
         "exoplanet"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "giga",
@@ -338,7 +360,8 @@
         "gigabyte",
         "gigawatt"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hepta",
@@ -349,7 +372,8 @@
         "heptagon",
         "heptathlon"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hetero",
@@ -360,7 +384,8 @@
         "heterogeneous",
         "heterotroph"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hexa",
@@ -371,7 +396,8 @@
         "hexagon",
         "hexose"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "homo",
@@ -382,7 +408,8 @@
         "homogeneous",
         "homologous"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hyper",
@@ -394,7 +421,8 @@
         "hyperactive",
         "hyperbole"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "hypo",
@@ -406,7 +434,8 @@
         "hypodermic",
         "hypothesis"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "in",
@@ -420,7 +449,8 @@
         "invertebrate"
       ],
       "meaning_note": "Two Latin in-: 'not' (infinite, inorganic) and 'into' (inject, insert).",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "infra",
@@ -430,7 +460,8 @@
       "examples": [
         "infrared"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "inter",
@@ -441,7 +472,8 @@
         "intercellular",
         "interstellar"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "intra",
@@ -452,7 +484,8 @@
         "intracellular",
         "intravenous"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "iso",
@@ -464,7 +497,8 @@
         "isotherm",
         "isobar"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "kilo",
@@ -475,7 +509,8 @@
         "kilogram",
         "kilometer"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "macro",
@@ -486,7 +521,8 @@
         "macroscopic",
         "macromolecule"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mega",
@@ -497,7 +533,8 @@
         "megafauna",
         "megabyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "meta",
@@ -508,7 +545,8 @@
         "metamorphosis",
         "metabolism"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "micro",
@@ -520,7 +558,8 @@
         "microbe",
         "micrometer"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "milli",
@@ -531,7 +570,8 @@
         "millimeter",
         "milligram"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mono",
@@ -543,7 +583,8 @@
         "monoxide",
         "monocot"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "multi",
@@ -554,7 +595,8 @@
         "multicellular",
         "multimeter"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nano",
@@ -565,7 +607,8 @@
         "nanometer",
         "nanoparticle"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "neo",
@@ -577,7 +620,8 @@
         "neolithic",
         "neonatal"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "non",
@@ -591,7 +635,8 @@
       ],
       "note": "FALSE FRIEND: non=nine (November) vs non=not (nonmetal, nonzero). The remainder decides.",
       "homograph": "non=not is a separate entry (nonmetal); the remainder decides",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "non",
@@ -605,7 +650,8 @@
         "nonpolar"
       ],
       "homograph": "non=nine is a separate entry (November); nonmetal is not, not nine",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "oct",
@@ -619,7 +665,8 @@
         "octopod"
       ],
       "note": "Greek okto and Latin octo coincide; Latin gives October, octave.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "omni",
@@ -630,7 +677,8 @@
         "omnivore",
         "omnidirectional"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "para",
@@ -641,7 +689,8 @@
         "parasite",
         "parallel"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "penta",
@@ -652,7 +701,8 @@
         "pentagon",
         "pentose"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "per",
@@ -665,7 +715,8 @@
         "persist",
         "permanent"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "peri",
@@ -676,7 +727,8 @@
         "perimeter",
         "pericardium"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "photo",
@@ -687,7 +739,8 @@
         "photograph",
         "photosynthesis"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "poly",
@@ -699,7 +752,8 @@
         "polygon",
         "polyatomic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "pro",
@@ -712,7 +766,8 @@
         "produce",
         "project"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "proto",
@@ -724,7 +779,8 @@
         "prototype",
         "protozoa"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "quadr",
@@ -737,7 +793,8 @@
         "quadratic",
         "quadrant"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "quint",
@@ -749,7 +806,8 @@
         "quintuple",
         "quintuplet"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "semi",
@@ -761,7 +819,8 @@
         "semicircle",
         "semipermeable"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sept",
@@ -773,7 +832,8 @@
         "septet"
       ],
       "note": "septic is NOT this - it is Greek sepsis (rot). False friend.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sext",
@@ -784,7 +844,8 @@
         "sextet",
         "sextant"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sub",
@@ -796,7 +857,8 @@
         "subatomic",
         "subsonic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "super",
@@ -808,7 +870,8 @@
         "supernova",
         "supersaturated"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "syn",
@@ -819,7 +882,8 @@
         "synthesis",
         "synapse"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tele",
@@ -832,7 +896,8 @@
         "television",
         "telegraph"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tetra",
@@ -843,7 +908,8 @@
         "tetrahedron",
         "tetrapod"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "trans",
@@ -855,7 +921,8 @@
         "transmit",
         "transcription"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tri",
@@ -867,7 +934,8 @@
         "triatomic",
         "trimester"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ultra",
@@ -878,7 +946,8 @@
         "ultraviolet",
         "ultrasonic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "uni",
@@ -889,7 +958,8 @@
         "unicellular",
         "universe"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "act",
@@ -902,7 +972,8 @@
         "agent",
         "react"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "aero",
@@ -914,7 +985,8 @@
         "aerodynamic",
         "anaerobic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "agr",
@@ -926,7 +998,8 @@
         "agrarian",
         "agronomy"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "angul",
@@ -939,7 +1012,8 @@
         "triangle",
         "rectangle"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ann",
@@ -953,7 +1027,8 @@
         "millennium"
       ],
       "note": "enn is the same root: perennial, millennium",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "anthrop",
@@ -965,7 +1040,8 @@
         "anthropoid",
         "philanthropy"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "aqu",
@@ -978,7 +1054,8 @@
         "aqueduct"
       ],
       "note": "the Latin water-root; Greek hydro is its counterpart",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "arch",
@@ -991,7 +1068,8 @@
         "hierarchy",
         "archive"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "astro",
@@ -1003,7 +1081,8 @@
         "astronaut",
         "asteroid"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "av",
@@ -1015,7 +1094,8 @@
         "aviation",
         "avian"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "baro",
@@ -1026,7 +1106,8 @@
         "barometer",
         "isobar"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "bio",
@@ -1038,7 +1119,8 @@
         "biosphere",
         "aerobic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "calc",
@@ -1050,7 +1132,8 @@
         "calculus",
         "calcium"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "capit",
@@ -1064,7 +1147,8 @@
         "captain"
       ],
       "false_friend_note": "The 'cip' in precipitate is this root (caput, head - headlong, falling), NOT the 'cip' of recipient (capere, take). Same surface, different origin.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "carb",
@@ -1076,7 +1160,8 @@
         "carbohydrate",
         "carbonate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cardio",
@@ -1087,7 +1172,8 @@
         "cardiac",
         "cardiology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "carn",
@@ -1099,7 +1185,8 @@
         "carnal",
         "incarnate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ced",
@@ -1113,7 +1200,8 @@
         "process"
       ],
       "note": "cess is the same root: process, recession",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cent",
@@ -1127,7 +1215,8 @@
         "centennial"
       ],
       "note": "distinct from centi = one hundredth (SI); cent=hundred",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "centr",
@@ -1140,7 +1229,8 @@
         "concentric",
         "centripetal"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cerebr",
@@ -1152,7 +1242,8 @@
         "cerebrum",
         "cerebellum"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "chem",
@@ -1165,7 +1256,8 @@
         "biochemistry"
       ],
       "note": "origin debated (Greek khemeia); treated as grc",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "chloro",
@@ -1177,7 +1269,8 @@
         "chloroplast",
         "chlorine"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "chromo",
@@ -1188,7 +1281,8 @@
         "chromosome",
         "chromatography"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "chron",
@@ -1201,7 +1295,8 @@
         "chronometer",
         "chronic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cip",
@@ -1214,7 +1309,8 @@
         "participate"
       ],
       "allomorphs_note": "cap / cept / ceive are the same root: capture, accept, receive",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "circ",
@@ -1227,7 +1323,8 @@
         "circulate",
         "circumference"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "clin",
@@ -1239,7 +1336,8 @@
         "decline",
         "inclination"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cosm",
@@ -1251,7 +1349,8 @@
         "cosmic",
         "microcosm"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cred",
@@ -1264,7 +1363,8 @@
         "incredible",
         "credential"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cult",
@@ -1277,7 +1377,8 @@
         "culture",
         "horticulture"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "curv",
@@ -1289,7 +1390,8 @@
         "curvature",
         "curvilinear"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cycl",
@@ -1302,7 +1404,8 @@
         "recycle",
         "cyclone"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cyto",
@@ -1314,7 +1417,8 @@
         "cytology",
         "erythrocyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dem",
@@ -1327,7 +1431,8 @@
         "epidemic",
         "pandemic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dent",
@@ -1340,7 +1445,8 @@
         "dentin"
       ],
       "note": "Latin tooth; Greek odont is the counterpart (orthodontist)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dermo",
@@ -1352,7 +1458,8 @@
         "epidermis",
         "dermatology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dict",
@@ -1365,7 +1472,8 @@
         "contradict",
         "verdict"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "doc",
@@ -1377,7 +1485,8 @@
         "doctrine",
         "document"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "duc",
@@ -1391,7 +1500,8 @@
         "introduce"
       ],
       "reviewed": false,
-      "note": "duct is the same root: conduct, product; short Latin forms may not auto-segment (guard)"
+      "note": "duct is the same root: conduct, product; short Latin forms may not auto-segment (guard)",
+      "method": "assistant"
     },
     {
       "form": "duct",
@@ -1405,7 +1515,8 @@
         "reduce",
         "aqueduct"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dur",
@@ -1417,7 +1528,8 @@
         "duration",
         "endure"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "dyna",
@@ -1430,7 +1542,8 @@
         "dynamics",
         "dynamite"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "electro",
@@ -1443,7 +1556,8 @@
         "electrolysis",
         "electromagnet"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "encephal",
@@ -1454,7 +1568,8 @@
         "encephalitis",
         "encephalogram"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "erg",
@@ -1466,7 +1581,8 @@
         "ergonomic",
         "erg"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "fac",
@@ -1480,7 +1596,8 @@
         "factor"
       ],
       "note": "fic/fect are the same root: efficient, effect",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "fenestr",
@@ -1492,7 +1609,8 @@
         "fenestrated",
         "fenestra"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ferr",
@@ -1504,7 +1622,8 @@
         "ferric",
         "ferromagnetic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "fin",
@@ -1518,7 +1637,8 @@
         "define",
         "confine"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "flect",
@@ -1532,7 +1652,8 @@
         "inflection"
       ],
       "note": "flex is the same root: flexible, reflex",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "flor",
@@ -1544,7 +1665,8 @@
         "floral",
         "florist"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "flu",
@@ -1557,7 +1679,8 @@
         "fluent",
         "flux"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "form",
@@ -1571,7 +1694,8 @@
         "formation"
       ],
       "note": "the Latin shape-root; Greek morph is its counterpart (morphology / transformation)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "fract",
@@ -1585,7 +1709,8 @@
         "refract"
       ],
       "note": "frag is the same root: fragment, fragile",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gam",
@@ -1598,7 +1723,8 @@
         "monogamy",
         "polygamy"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gastr",
@@ -1610,7 +1736,8 @@
         "gastropod",
         "gastrointestinal"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "geo",
@@ -1622,7 +1749,8 @@
         "geothermal",
         "geography"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "germ",
@@ -1634,7 +1762,8 @@
         "germination",
         "germ"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "glaci",
@@ -1645,7 +1774,8 @@
         "glacier",
         "glacial"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gluc",
@@ -1657,7 +1787,8 @@
         "glucagon"
       ],
       "note": "glyc is the same root: glycogen, glycolysis",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "glyc",
@@ -1669,7 +1800,8 @@
         "glycolysis",
         "glycerin"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gnos",
@@ -1681,7 +1813,8 @@
         "prognosis",
         "agnostic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "grad",
@@ -1695,7 +1828,8 @@
         "graduate"
       ],
       "note": "gress is the same root: progress, congress",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gram",
@@ -1709,7 +1843,8 @@
         "telegram"
       ],
       "note": "related to graph (write): a gram is what is written",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "graph",
@@ -1721,7 +1856,8 @@
         "photograph",
         "telegraph"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "grav",
@@ -1733,7 +1869,8 @@
         "gravitate",
         "gravitational"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "greg",
@@ -1745,7 +1882,8 @@
         "congregation",
         "segregate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "helio",
@@ -1756,7 +1894,8 @@
         "heliocentric",
         "heliosphere"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hemo",
@@ -1767,7 +1906,8 @@
         "hemoglobin",
         "hematology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hepat",
@@ -1778,7 +1918,8 @@
         "hepatitis",
         "hepatic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "herb",
@@ -1790,7 +1931,8 @@
         "herbal",
         "herbicide"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hist",
@@ -1801,7 +1943,8 @@
         "histology",
         "histamine"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "hydro",
@@ -1813,7 +1956,8 @@
         "hydrolysis",
         "dehydrate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "iatr",
@@ -1826,7 +1970,8 @@
         "geriatric",
         "podiatry"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "integ",
@@ -1838,7 +1983,8 @@
         "integral",
         "integrate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ion",
@@ -1851,7 +1997,8 @@
         "anion",
         "ionize"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ject",
@@ -1864,7 +2011,8 @@
         "eject",
         "trajectory"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "kary",
@@ -1876,7 +2024,8 @@
         "prokaryote",
         "karyotype"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "kine",
@@ -1888,7 +2037,8 @@
         "kinesis",
         "telekinesis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "later",
@@ -1901,7 +2051,8 @@
         "bilateral",
         "quadrilateral"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "lev",
@@ -1914,7 +2065,8 @@
         "elevator",
         "levitate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "lin",
@@ -1926,7 +2078,8 @@
         "outline",
         "linefeed"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "lip",
@@ -1938,7 +2091,8 @@
         "lipase",
         "lipoprotein"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "litho",
@@ -1949,7 +2103,8 @@
         "lithosphere",
         "monolith"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "loc",
@@ -1962,7 +2117,8 @@
         "locate",
         "allocate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "log",
@@ -1977,7 +2133,8 @@
         "catalog"
       ],
       "related_note": "the root behind the final form -logy (study of): biology = bio + log + y",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "luc",
@@ -1990,7 +2147,8 @@
         "elucidate"
       ],
       "note": "lum is a related light-root: luminous, illuminate",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "lun",
@@ -2002,7 +2160,8 @@
         "lunation",
         "lunatic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "magn",
@@ -2014,7 +2173,8 @@
         "magnify",
         "magnificent"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "magnet",
@@ -2027,7 +2187,8 @@
         "electromagnet",
         "magnetite"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mar",
@@ -2039,7 +2200,8 @@
         "maritime",
         "submarine"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "med",
@@ -2052,7 +2214,8 @@
         "intermediate",
         "mediate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mer",
@@ -2065,7 +2228,8 @@
         "isomer",
         "dimer"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "meteor",
@@ -2077,7 +2241,8 @@
         "meteorology",
         "meteorite"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "metr",
@@ -2091,7 +2256,8 @@
         "thermometry"
       ],
       "note": "the root behind the final form -meter: measure",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "migr",
@@ -2104,7 +2270,8 @@
         "immigrant",
         "emigrate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "min",
@@ -2117,7 +2284,8 @@
         "diminish",
         "minute"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mit",
@@ -2131,7 +2299,8 @@
         "emission"
       ],
       "note": "miss is the same root: emission, transmission",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "morph",
@@ -2143,7 +2312,8 @@
         "amorphous",
         "metamorphosis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mort",
@@ -2155,7 +2325,8 @@
         "mortality",
         "immortal"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "mot",
@@ -2169,7 +2340,8 @@
         "locomotion",
         "demote"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nat",
@@ -2182,7 +2354,8 @@
         "natural",
         "prenatal"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nav",
@@ -2194,7 +2367,8 @@
         "navigate",
         "navy"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "necr",
@@ -2205,7 +2379,8 @@
         "necrosis",
         "necrotic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "neuro",
@@ -2216,7 +2391,8 @@
         "neuron",
         "neurology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nom",
@@ -2230,7 +2406,8 @@
         "taxonomy"
       ],
       "homograph": "nom=name (Latin) is a separate entry: nominal, nomenclature",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nom",
@@ -2244,7 +2421,8 @@
         "nominate"
       ],
       "homograph": "nom=law (Greek) is a separate entry: astronomy, economy",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nov",
@@ -2257,7 +2435,8 @@
         "renovate"
       ],
       "note": "the Latin new-root; Greek neo is its counterpart",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "nucle",
@@ -2270,7 +2449,8 @@
         "nucleotide",
         "nucleon"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "numer",
@@ -2283,7 +2463,8 @@
         "enumerate",
         "numerous"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ocean",
@@ -2295,7 +2476,8 @@
         "oceanic",
         "oceanography"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "od",
@@ -2310,7 +2492,8 @@
         "exodus"
       ],
       "note": "Greek hodos; period=peri+od, method=meta+od",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "odont",
@@ -2321,7 +2504,8 @@
         "orthodontist",
         "periodontal"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "opt",
@@ -2333,7 +2517,8 @@
         "optical",
         "optometry"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ord",
@@ -2346,7 +2531,8 @@
         "coordinate",
         "subordinate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "oste",
@@ -2357,7 +2543,8 @@
         "osteoporosis",
         "osteopath"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ov",
@@ -2370,7 +2557,8 @@
         "ovulate",
         "oval"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ox",
@@ -2383,7 +2571,8 @@
         "oxidize",
         "antioxidant"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "paed",
@@ -2397,7 +2586,8 @@
         "orthopedic"
       ],
       "note": "US English spells this 'ped', colliding with Latin ped=foot. This is the child-root: paediatrics, paedagogy.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "path",
@@ -2410,7 +2600,8 @@
         "empathy",
         "pathogen"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ped",
@@ -2424,7 +2615,8 @@
         "centipede"
       ],
       "note": "FALSE FRIEND: ped=foot (Latin) vs paed/ped=child (Greek, pediatric). US spelling collapses both to 'ped', so the remainder decides: ped+al=foot, paed+iatr=child+healer.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "pend",
@@ -2438,7 +2630,8 @@
         "suspend",
         "pendant"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "petr",
@@ -2450,7 +2643,8 @@
         "petrology",
         "petrify"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phag",
@@ -2462,7 +2656,8 @@
         "phagocyte",
         "bacteriophage"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phil",
@@ -2476,7 +2671,8 @@
         "philanthropy"
       ],
       "note": "root behind the final -philic",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phob",
@@ -2489,7 +2685,8 @@
         "claustrophobia"
       ],
       "note": "root behind the final -phobic",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phono",
@@ -2501,7 +2698,8 @@
         "microphone",
         "telephone"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phys",
@@ -2513,7 +2711,8 @@
         "physical",
         "physiology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phyto",
@@ -2524,7 +2723,8 @@
         "phytoplankton",
         "epiphyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "polis",
@@ -2536,7 +2736,8 @@
         "cosmopolitan",
         "politics"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "popul",
@@ -2548,7 +2749,8 @@
         "popular",
         "populate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "port",
@@ -2561,7 +2763,8 @@
         "export",
         "portable"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "pos",
@@ -2575,7 +2778,8 @@
         "component"
       ],
       "note": "pon is the same root: component, proponent",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "potent",
@@ -2587,7 +2791,8 @@
         "potent",
         "omnipotent"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "press",
@@ -2600,7 +2805,8 @@
         "express",
         "depression"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "prote",
@@ -2611,7 +2817,8 @@
         "protein",
         "proteome"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "psych",
@@ -2623,7 +2830,8 @@
         "psychic",
         "psychiatry"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "puls",
@@ -2636,7 +2844,8 @@
         "propulsion",
         "expulsion"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "put",
@@ -2649,7 +2858,8 @@
         "reputation",
         "computer"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "pyro",
@@ -2660,7 +2870,8 @@
         "pyroclastic",
         "pyrometer"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "radi",
@@ -2674,7 +2885,8 @@
         "radial"
       ],
       "note": "FALSE FRIEND: radi=ray vs radic=root (radical)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "radic",
@@ -2687,7 +2899,8 @@
         "radish"
       ],
       "note": "FALSE FRIEND: radic=root vs radi=ray (radiation). Different Latin roots.",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "rect",
@@ -2700,7 +2913,8 @@
         "direct",
         "correct"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "rupt",
@@ -2713,7 +2927,8 @@
         "rupture",
         "disrupt"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sacchar",
@@ -2725,7 +2940,8 @@
         "polysaccharide",
         "monosaccharide"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sal",
@@ -2737,7 +2953,8 @@
         "salinity",
         "desalinate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "scal",
@@ -2749,7 +2966,8 @@
         "scalar",
         "escalate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sci",
@@ -2761,7 +2979,8 @@
         "conscious",
         "omniscient"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "scrib",
@@ -2775,7 +2994,8 @@
         "inscription"
       ],
       "note": "script is the same root: transcript, prescription",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "script",
@@ -2789,7 +3009,8 @@
         "transcript"
       ],
       "reviewed": false,
-      "note": "scrib is the same root: describe, scribe"
+      "note": "scrib is the same root: describe, scribe",
+      "method": "assistant"
     },
     {
       "form": "sect",
@@ -2802,7 +3023,8 @@
         "bisect",
         "section"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "seism",
@@ -2814,7 +3036,8 @@
         "seismograph",
         "seismology"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sens",
@@ -2828,7 +3051,8 @@
         "consensus"
       ],
       "note": "sent is the same root: consent, sentiment",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sequ",
@@ -2840,7 +3064,8 @@
         "consecutive",
         "subsequent"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sol",
@@ -2853,7 +3078,8 @@
         "parasol"
       ],
       "note": "the sun-root, not sol = alone (solitary)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "son",
@@ -2866,7 +3092,8 @@
         "resonate",
         "ultrasound"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "soph",
@@ -2878,7 +3105,8 @@
         "sophomore",
         "sophisticated"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "spect",
@@ -2891,7 +3119,8 @@
         "perspective",
         "spectator"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "spir",
@@ -2904,7 +3133,8 @@
         "expire",
         "transpire"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "spor",
@@ -2916,7 +3146,8 @@
         "sporophyte",
         "sporadic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sta",
@@ -2931,7 +3162,8 @@
         "instant"
       ],
       "cognate_note": "Latin stare; cognate with Greek -stasis/-stat (homeostasis, thermostat)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "stell",
@@ -2944,7 +3176,8 @@
         "interstellar"
       ],
       "note": "Latin star; Greek astro is the counterpart",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "struct",
@@ -2957,7 +3190,8 @@
         "instruct",
         "infrastructure"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tech",
@@ -2969,7 +3203,8 @@
         "technique",
         "technical"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "temp",
@@ -2982,7 +3217,8 @@
         "contemporary",
         "tempo"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tend",
@@ -2995,7 +3231,8 @@
         "intend",
         "extensive"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "terr",
@@ -3008,7 +3245,8 @@
         "subterranean"
       ],
       "note": "the Latin earth-root; Greek geo is its counterpart",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "therm",
@@ -3021,7 +3259,8 @@
         "hypothermic",
         "isotherm"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "thermo",
@@ -3032,7 +3271,8 @@
         "thermometer",
         "thermodynamics"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ton",
@@ -3045,7 +3285,8 @@
         "isotonic",
         "monotone"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "top",
@@ -3058,7 +3299,8 @@
         "topology",
         "topic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "tract",
@@ -3071,7 +3313,8 @@
         "contract",
         "subtract"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "val",
@@ -3085,7 +3328,8 @@
         "valence",
         "evaluate"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "var",
@@ -3099,7 +3343,8 @@
         "variation",
         "vary"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vect",
@@ -3111,7 +3356,8 @@
         "convection",
         "vehicle"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ven",
@@ -3124,7 +3370,8 @@
         "invention",
         "intervene"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "ver",
@@ -3136,7 +3383,8 @@
         "verdict",
         "veracity"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vert",
@@ -3150,7 +3398,8 @@
         "diverse"
       ],
       "note": "vers is the same root: reverse, diverse, controversy",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vit",
@@ -3162,7 +3411,8 @@
         "vitamin",
         "revitalize"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "viv",
@@ -3176,7 +3426,8 @@
         "vivarium"
       ],
       "note": "related: vit=life (vital, vitamin)",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vol",
@@ -3189,7 +3440,8 @@
         "evolve"
       ],
       "note": "distinct from vol = wish (volunteer); this is the roll-root",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vulcan",
@@ -3201,7 +3453,8 @@
         "volcanic",
         "vulcanize"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "zoo",
@@ -3212,7 +3465,8 @@
         "zoology",
         "protozoa"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "zyg",
@@ -3224,7 +3478,8 @@
         "homozygous",
         "heterozygous"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "cyte",
@@ -3235,7 +3490,8 @@
         "erythrocyte",
         "leukocyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gen",
@@ -3247,7 +3503,8 @@
         "oxygen",
         "pathogen"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "gon",
@@ -3261,7 +3518,8 @@
         "diagonal"
       ],
       "note": "the Greek angle-root, in the -gon shape names",
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "logy",
@@ -3272,7 +3530,8 @@
         "biology",
         "geology"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "lysis",
@@ -3284,7 +3543,8 @@
         "electrolysis",
         "photolysis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "meter",
@@ -3296,7 +3556,8 @@
         "diameter",
         "barometer"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "naut",
@@ -3307,7 +3568,8 @@
         "astronaut",
         "aeronaut"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "oid",
@@ -3319,7 +3581,8 @@
         "spheroid",
         "humanoid"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "philic",
@@ -3329,7 +3592,8 @@
       "examples": [
         "hydrophilic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phobic",
@@ -3339,7 +3603,8 @@
       "examples": [
         "hydrophobic"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phore",
@@ -3350,7 +3615,8 @@
         "chromophore",
         "semaphore"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phyll",
@@ -3361,7 +3627,8 @@
         "chlorophyll",
         "mesophyll"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "phyte",
@@ -3372,7 +3639,8 @@
         "epiphyte",
         "gametophyte"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "plankt",
@@ -3384,7 +3652,8 @@
         "zooplankton",
         "phytoplankton"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "plasm",
@@ -3395,7 +3664,8 @@
         "cytoplasm",
         "protoplasm"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "pod",
@@ -3407,7 +3677,8 @@
         "gastropod",
         "tetrapod"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "scope",
@@ -3418,7 +3689,8 @@
         "microscope",
         "telescope"
       ],
-      "reviewed": true
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "some",
@@ -3430,7 +3702,8 @@
         "ribosome",
         "lysosome"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "sphere",
@@ -3442,7 +3715,8 @@
         "biosphere",
         "hydrosphere"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "stasis",
@@ -3452,7 +3726,8 @@
       "examples": [
         "homeostasis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "stat",
@@ -3463,7 +3738,8 @@
         "thermostat",
         "hemostat"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "thesis",
@@ -3474,7 +3750,8 @@
         "photosynthesis",
         "hypothesis"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "troph",
@@ -3485,7 +3762,8 @@
         "autotroph",
         "heterotroph"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     },
     {
       "form": "vore",
@@ -3497,7 +3775,8 @@
         "carnivore",
         "omnivore"
       ],
-      "reviewed": false
+      "reviewed": false,
+      "method": "assistant"
     }
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon."

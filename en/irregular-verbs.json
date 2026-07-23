@@ -76,643 +76,857 @@
       "base": "bear",
       "past": "bore",
       "participle": "borne",
-      "pattern": "ear-ore-orn"
+      "pattern": "ear-ore-orn",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "become",
       "past": "became",
       "participle": "become",
-      "pattern": "come-came-come"
+      "pattern": "come-came-come",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "begin",
       "past": "began",
       "participle": "begun",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "bend",
       "past": "bent",
       "participle": "bent",
-      "pattern": "d-to-t"
+      "pattern": "d-to-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "bind",
       "past": "bound",
       "participle": "bound",
-      "pattern": "ind-ound"
+      "pattern": "ind-ound",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "bite",
       "past": "bit",
       "participle": "bitten",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "blow",
       "past": "blew",
       "participle": "blown",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "break",
       "past": "broke",
       "participle": "broken",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "bring",
       "past": "brought",
       "participle": "brought",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "build",
       "past": "built",
       "participle": "built",
-      "pattern": "d-to-t"
+      "pattern": "d-to-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "burst",
       "past": "burst",
       "participle": "burst",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "buy",
       "past": "bought",
       "participle": "bought",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "cast",
       "past": "cast",
       "participle": "cast",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "catch",
       "past": "caught",
       "participle": "caught",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "choose",
       "past": "chose",
       "participle": "chosen",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "come",
       "past": "came",
       "participle": "come",
-      "pattern": "come-came-come"
+      "pattern": "come-came-come",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "cost",
       "past": "cost",
       "participle": "cost",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "creep",
       "past": "crept",
       "participle": "crept",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "cut",
       "past": "cut",
       "participle": "cut",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "deal",
       "past": "dealt",
       "participle": "dealt",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "dig",
       "past": "dug",
       "participle": "dug",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "draw",
       "past": "drew",
       "participle": "drawn",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "drink",
       "past": "drank",
       "participle": "drunk",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "drive",
       "past": "drove",
       "participle": "driven",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "eat",
       "past": "ate",
       "participle": "eaten",
-      "pattern": "distinct-participle"
+      "pattern": "distinct-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "fall",
       "past": "fell",
       "participle": "fallen",
-      "pattern": "distinct-participle"
+      "pattern": "distinct-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "feed",
       "past": "fed",
       "participle": "fed",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "feel",
       "past": "felt",
       "participle": "felt",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "fight",
       "past": "fought",
       "participle": "fought",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "find",
       "past": "found",
       "participle": "found",
-      "pattern": "ind-ound"
+      "pattern": "ind-ound",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "fly",
       "past": "flew",
       "participle": "flown",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "forget",
       "past": "forgot",
       "participle": "forgotten",
-      "pattern": "distinct-participle"
+      "pattern": "distinct-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "forgive",
       "past": "forgave",
       "participle": "forgiven",
-      "pattern": "ive-ave-iven"
+      "pattern": "ive-ave-iven",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "freeze",
       "past": "froze",
       "participle": "frozen",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "get",
       "past": "got",
       "participle": "gotten",
-      "pattern": "distinct-participle"
+      "pattern": "distinct-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "give",
       "past": "gave",
       "participle": "given",
-      "pattern": "ive-ave-iven"
+      "pattern": "ive-ave-iven",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "go",
       "past": "went",
       "participle": "gone",
-      "pattern": "suppletive"
+      "pattern": "suppletive",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "grow",
       "past": "grew",
       "participle": "grown",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hang",
       "past": "hung",
       "participle": "hung",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hear",
       "past": "heard",
       "participle": "heard",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hide",
       "past": "hid",
       "participle": "hidden",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hit",
       "past": "hit",
       "participle": "hit",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hold",
       "past": "held",
       "participle": "held",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "hurt",
       "past": "hurt",
       "participle": "hurt",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "keep",
       "past": "kept",
       "participle": "kept",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "know",
       "past": "knew",
       "participle": "known",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "lay",
       "past": "laid",
       "participle": "laid",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "lead",
       "past": "led",
       "participle": "led",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "leave",
       "past": "left",
       "participle": "left",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "lend",
       "past": "lent",
       "participle": "lent",
-      "pattern": "d-to-t"
+      "pattern": "d-to-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "let",
       "past": "let",
       "participle": "let",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "lie",
       "past": "lay",
       "participle": "lain",
-      "pattern": "suppletive"
+      "pattern": "suppletive",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "light",
       "past": "lit",
       "participle": "lit",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "lose",
       "past": "lost",
       "participle": "lost",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "make",
       "past": "made",
       "participle": "made",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "mean",
       "past": "meant",
       "participle": "meant",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "meet",
       "past": "met",
       "participle": "met",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "mistake",
       "past": "mistook",
       "participle": "mistaken",
-      "pattern": "ake-ook-aken"
+      "pattern": "ake-ook-aken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "pay",
       "past": "paid",
       "participle": "paid",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "put",
       "past": "put",
       "participle": "put",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "quit",
       "past": "quit",
       "participle": "quit",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "read",
       "past": "read",
       "participle": "read",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "ride",
       "past": "rode",
       "participle": "ridden",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "ring",
       "past": "rang",
       "participle": "rung",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "rise",
       "past": "rose",
       "participle": "risen",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "run",
       "past": "ran",
       "participle": "run",
-      "pattern": "come-came-come"
+      "pattern": "come-came-come",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "say",
       "past": "said",
       "participle": "said",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "see",
       "past": "saw",
       "participle": "seen",
-      "pattern": "distinct-participle"
+      "pattern": "distinct-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "seek",
       "past": "sought",
       "participle": "sought",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sell",
       "past": "sold",
       "participle": "sold",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "send",
       "past": "sent",
       "participle": "sent",
-      "pattern": "d-to-t"
+      "pattern": "d-to-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "set",
       "past": "set",
       "participle": "set",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sew",
       "past": "sewed",
       "participle": "sewn",
-      "pattern": "regular-past-irregular-participle"
+      "pattern": "regular-past-irregular-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "shake",
       "past": "shook",
       "participle": "shaken",
-      "pattern": "ake-ook-aken"
+      "pattern": "ake-ook-aken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "shoot",
       "past": "shot",
       "participle": "shot",
-      "pattern": "spelling-same-sound-change"
+      "pattern": "spelling-same-sound-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "show",
       "past": "showed",
       "participle": "shown",
-      "pattern": "regular-past-irregular-participle"
+      "pattern": "regular-past-irregular-participle",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "shrink",
       "past": "shrank",
       "participle": "shrunk",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "shut",
       "past": "shut",
       "participle": "shut",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sing",
       "past": "sang",
       "participle": "sung",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sink",
       "past": "sank",
       "participle": "sunk",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sit",
       "past": "sat",
       "participle": "sat",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sleep",
       "past": "slept",
       "participle": "slept",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "speak",
       "past": "spoke",
       "participle": "spoken",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "spend",
       "past": "spent",
       "participle": "spent",
-      "pattern": "d-to-t"
+      "pattern": "d-to-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "split",
       "past": "split",
       "participle": "split",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "spread",
       "past": "spread",
       "participle": "spread",
-      "pattern": "no-change"
+      "pattern": "no-change",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "spring",
       "past": "sprang",
       "participle": "sprung",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "stand",
       "past": "stood",
       "participle": "stood",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "steal",
       "past": "stole",
       "participle": "stolen",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "stick",
       "past": "stuck",
       "participle": "stuck",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "strike",
       "past": "struck",
       "participle": "struck",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "swear",
       "past": "swore",
       "participle": "sworn",
-      "pattern": "ear-ore-orn"
+      "pattern": "ear-ore-orn",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "sweep",
       "past": "swept",
       "participle": "swept",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "swim",
       "past": "swam",
       "participle": "swum",
-      "pattern": "i-a-u"
+      "pattern": "i-a-u",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "take",
       "past": "took",
       "participle": "taken",
-      "pattern": "ake-ook-aken"
+      "pattern": "ake-ook-aken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "teach",
       "past": "taught",
       "participle": "taught",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "tear",
       "past": "tore",
       "participle": "torn",
-      "pattern": "ear-ore-orn"
+      "pattern": "ear-ore-orn",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "tell",
       "past": "told",
       "participle": "told",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "think",
       "past": "thought",
       "participle": "thought",
-      "pattern": "augh-ough"
+      "pattern": "augh-ough",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "throw",
       "past": "threw",
       "participle": "thrown",
-      "pattern": "ow-ew-own"
+      "pattern": "ow-ew-own",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "understand",
       "past": "understood",
       "participle": "understood",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "wake",
       "past": "woke",
       "participle": "woken",
-      "pattern": "eak-oke-oken"
+      "pattern": "eak-oke-oken",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "wear",
       "past": "wore",
       "participle": "worn",
-      "pattern": "ear-ore-orn"
+      "pattern": "ear-ore-orn",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "weep",
       "past": "wept",
       "participle": "wept",
-      "pattern": "vowel-shorten-t"
+      "pattern": "vowel-shorten-t",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "win",
       "past": "won",
       "participle": "won",
-      "pattern": "vowel-change-same"
+      "pattern": "vowel-change-same",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "wind",
       "past": "wound",
       "participle": "wound",
-      "pattern": "ind-ound"
+      "pattern": "ind-ound",
+      "method": "assistant",
+      "reviewed": false
     },
     {
       "base": "write",
       "past": "wrote",
       "participle": "written",
-      "pattern": "ide-ode-idden"
+      "pattern": "ide-ode-idden",
+      "method": "assistant",
+      "reviewed": false
     }
   ],
   "irregular_present": {

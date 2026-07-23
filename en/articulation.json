@@ -29,7 +29,9 @@
     "source_notes": "Consonant place/manner/voicing: ASHA chart + standard phonetics. Vowel height/backness/rounding/tense: the IPA vowel quadrilateral (textbook fact). Nominal formant values: Klatt/Peterson-Barney adult-male norms. Multisensory 'feel it' pedagogy: Ehri lab (mouth pictures), visible-mouth study, Lindamood/LiPS tradition (cited, NOT reproduced). See docs/articulatory-features-review.md.",
     "validation": "Mechanically checked against PanPhon (MIT) and alignable to CLTS (CC-BY) by tools/validate-articulation-panphon.py. Tenseness of low vowels (ae, a) is theory-dependent \u2014 expect benign mismatches there, like glottal /h/ for manner.",
     "synthContract": "The 'tract' + 'formants' fields are the control-parameter contract for a separate MIT articulatory-synth project: backness->Pink Trombone tongueIndex, height->tongueDiameter, rounded->lip; height~inverse F1, backness~F2 for Klatt/klattsch.",
-    "note": "Consonants keyed by common grapheme; vowelPhonemes keyed by IPA. Sounds are properties of PHONEMES; a decoder maps grapheme->phoneme first (see phonologicalPatterns.json)."
+    "note": "Consonants keyed by common grapheme; vowelPhonemes keyed by IPA. Sounds are properties of PHONEMES; a decoder maps grapheme->phoneme first (see phonologicalPatterns.json).",
+    "method": "authored",
+    "reviewed": true
   },
   "voicingTest": "Put a hand on your throat: VOICED sounds buzz (b, z, m), VOICELESS sounds don't (p, s, t).",
   "mannerFeel": {
