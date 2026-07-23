@@ -1,0 +1,669 @@
+{
+  "_meta": {
+    "title": "English conjunctions",
+    "language": "en",
+    "description": "The closed class of English conjunctions: coordinating (FANBOYS), correlative pairs, subordinating (grouped by the clause relation they mark), and conjunctive adverbs (which connect but are punctuated with a semicolon and are technically adverbs). Many forms are multi-category \u2014 as/since/while/before/after/than are conjunctions AND prepositions or adverbs depending on use; the `also` field records that, and a consumer must disambiguate by position, not by the word.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "The four-way split (coordinating / correlative / subordinating / conjunctive-adverb) and the subordinating functional groups (time, cause, condition, contrast, comparison, place, manner, purpose) are standard descriptive English grammar, not a novel classification. Individual conjunctions are facts about the language.",
+    "status": "seed \u2014 a broad but not exhaustive list, ASSISTANT-DRAFTED and unreviewed; verify categories/multi-category flags before teaching from it.",
+    "method": "assistant",
+    "reviewed": false
+  },
+  "_provenance": {
+    "_note": "method: authored | mined | assistant. Every entry here is assistant.",
+    "batches": [
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: English conjunctions inventory (assistant-drafted)",
+        "method": "assistant",
+        "by": "AI assistant \u2014 compiled the conjunction list and its category/function/multi-category tags from standard English grammar, at the maintainer's request. Categories are standard descriptive grammar; the compilation is the assistant's and is unreviewed (reviewed=false on every entry).",
+        "scope": "70 conjunctions: 7 coordinating, 10 correlative, 37 subordinating (by function), 16 conjunctive adverbs; multi-category forms flagged via `also`.",
+        "prompted_by": "maintainer: 'give me a list of conjunctions' \u2014 and 'cite that they came from you'"
+      }
+    ]
+  },
+  "conjunctions": [
+    {
+      "form": "for",
+      "type": "coordinating",
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "and",
+      "type": "coordinating",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "nor",
+      "type": "coordinating",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "but",
+      "type": "coordinating",
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "or",
+      "type": "coordinating",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "yet",
+      "type": "coordinating",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "so",
+      "type": "coordinating",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "both \u2026 and",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "either \u2026 or",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "neither \u2026 nor",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "not only \u2026 but also",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "whether \u2026 or",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as \u2026 as",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "such \u2026 that",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "so \u2026 that",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "no sooner \u2026 than",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "rather \u2026 than",
+      "type": "correlative",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "after",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "preposition",
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "before",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "preposition",
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "when",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "whenever",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "while",
+      "type": "subordinating",
+      "functions": [
+        "time",
+        "contrast"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "since",
+      "type": "subordinating",
+      "functions": [
+        "time",
+        "cause"
+      ],
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "until",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "till",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "once",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as",
+      "type": "subordinating",
+      "functions": [
+        "time",
+        "cause",
+        "comparison",
+        "manner"
+      ],
+      "also": [
+        "preposition",
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as soon as",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "by the time",
+      "type": "subordinating",
+      "functions": [
+        "time"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "now that",
+      "type": "subordinating",
+      "functions": [
+        "time",
+        "cause"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "because",
+      "type": "subordinating",
+      "functions": [
+        "cause"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "so that",
+      "type": "subordinating",
+      "functions": [
+        "cause",
+        "purpose"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "in order that",
+      "type": "subordinating",
+      "functions": [
+        "cause",
+        "purpose"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "if",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "unless",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "provided",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "providing",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as long as",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "in case",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "even if",
+      "type": "subordinating",
+      "functions": [
+        "condition",
+        "contrast"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "only if",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "whether",
+      "type": "subordinating",
+      "functions": [
+        "condition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "although",
+      "type": "subordinating",
+      "functions": [
+        "contrast"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "though",
+      "type": "subordinating",
+      "functions": [
+        "contrast"
+      ],
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "even though",
+      "type": "subordinating",
+      "functions": [
+        "contrast"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "whereas",
+      "type": "subordinating",
+      "functions": [
+        "contrast"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "than",
+      "type": "subordinating",
+      "functions": [
+        "comparison"
+      ],
+      "also": [
+        "preposition"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as if",
+      "type": "subordinating",
+      "functions": [
+        "comparison",
+        "manner"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "as though",
+      "type": "subordinating",
+      "functions": [
+        "comparison",
+        "manner"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "just as",
+      "type": "subordinating",
+      "functions": [
+        "comparison"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "where",
+      "type": "subordinating",
+      "functions": [
+        "place"
+      ],
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wherever",
+      "type": "subordinating",
+      "functions": [
+        "place"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "how",
+      "type": "subordinating",
+      "functions": [
+        "manner"
+      ],
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "lest",
+      "type": "subordinating",
+      "functions": [
+        "purpose"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "however",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "therefore",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "moreover",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "nevertheless",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "consequently",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "furthermore",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "otherwise",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "thus",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hence",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "meanwhile",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "besides",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "instead",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "accordingly",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "subsequently",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "likewise",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "still",
+      "type": "conjunctive_adverb",
+      "also": [
+        "adverb"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    }
+  ]
+}
