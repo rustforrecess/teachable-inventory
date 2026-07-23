@@ -8,7 +8,8 @@
     "source_notes": "Directly serves definitional-antecedent coreference (the 'referred to as \"the Company\"' aliasing pattern in SEC filings and contracts) and definitional/glossary grounding. The equative/naming/defining distinction is standard semantics; the list is a compilation, not a novel taxonomy.",
     "status": "seed \u2014 assistant-drafted and unreviewed; the subtype assignments in particular need a human check (describe/represent/include sit on category boundaries).",
     "method": "assistant",
-    "reviewed": false
+    "reviewed": false,
+    "_match_field_note": "Entries with a `match` field carry a regex-ready surface pattern for the naming/aliasing predicate \u2014 a consumer (e.g. Loom's definitional-antecedent coref) collects these to build its matcher. The verb list stays caller-supplied; nothing embeds it."
   },
   "_provenance": {
     "_note": "method: authored | mined | assistant. Every entry here is assistant.",
@@ -71,35 +72,40 @@
       "subtype": "naming",
       "pattern": "X is called Y / we call X Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "called"
     },
     {
       "form": "name",
       "subtype": "naming",
       "pattern": "X is named Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "named"
     },
     {
       "form": "term",
       "subtype": "naming",
       "pattern": "X is termed Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "termed"
     },
     {
       "form": "label",
       "subtype": "naming",
       "pattern": "X is labeled Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "labell?ed"
     },
     {
       "form": "designate",
       "subtype": "naming",
       "pattern": "X is designated (as) Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "designated"
     },
     {
       "form": "refer",
@@ -107,28 +113,32 @@
       "pattern": "X, referred to (herein) as Y",
       "note": "the load-bearing pattern for document coreference \u2014 'Apple Inc. (referred to as \"the Company\")'",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "referred\\s+to\\s+(?:herein\\s+)?as|hereinafter\\s+referred\\s+to\\s+as|herein\\s+referred\\s+to\\s+as"
     },
     {
       "form": "know",
       "subtype": "naming",
       "pattern": "X, (also) known as Y / a.k.a.",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "known\\s+(?:herein\\s+)?as|herein\\s+known\\s+as"
     },
     {
       "form": "dub",
       "subtype": "naming",
       "pattern": "X, dubbed Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "dubbed"
     },
     {
       "form": "style",
       "subtype": "naming",
       "pattern": "X, styled Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "styled"
     },
     {
       "form": "entitle",
@@ -143,7 +153,8 @@
       "pattern": "X (hereinafter Y) / (hereinafter referred to as Y)",
       "note": "legal/document marker, not a verb but the same aliasing function",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "hereinafter"
     },
     {
       "form": "mean",
@@ -164,7 +175,8 @@
       "subtype": "defining",
       "pattern": "X denotes Y",
       "method": "assistant",
-      "reviewed": false
+      "reviewed": false,
+      "match": "denoted"
     },
     {
       "form": "signify",
@@ -294,6 +306,23 @@
       "form": "tantamount",
       "subtype": "equivalence",
       "pattern": "X is tantamount to Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "identify",
+      "subtype": "naming",
+      "pattern": "X is identified as Y",
+      "match": "identified\\s+as",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "collectively",
+      "subtype": "naming",
+      "pattern": "X and Z, collectively the Y",
+      "note": "the plural-grouping aliasing marker",
+      "match": "collectively(?:\\s+with[^,)]{0,40})?,?\\s+(?:the\\s+)?",
       "method": "assistant",
       "reviewed": false
     }
