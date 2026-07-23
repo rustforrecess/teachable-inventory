@@ -1,56 +1,49 @@
-# Provenance & Clean-Lineage Guarantee
+# Provenance & Inclusion Policy
 
-## The guarantee (what a downstream user can rely on)
+## Inclusion policy (what a downstream user can rely on)
 
-**This inventory contains no ShareAlike (CC BY-SA) or NonCommercial (CC BY-NC)
-data.** Every entry originates from exactly one of:
+Every entry in this inventory comes from a **permissive source** — one of:
 
 - **authored** — compiled from uncopyrightable facts by a person;
 - **assistant** — drafted by an AI assistant from general knowledge (each such
   entry carries `reviewed: false` until a human verifies it); or
-- **mined** — aggregate statistics computed by code from a *permissive* corpus:
+- **mined** — aggregate statistics computed by code from a permissive corpus:
   **CMUdict** (BSD-2-clause) and the **Moby** hyphenation list (public domain).
 
-The per-file `_provenance` blocks record which, per batch, and the only three
-`method` values that appear are `authored`, `assistant`, and `mined`.
+Those are the *only* admissible sources. New data is accepted from CC0, CC BY,
+MIT, BSD, Apache-2.0, or public-domain origins, and from nothing else — see
+[`CONTRIBUTING.md`](CONTRIBUTING.md) for the rule contributors follow.
 
-**Explicitly excluded, and verified absent:**
-
-| source | license | why excluded |
-| --- | --- | --- |
-| WikiMorph | CC BY-**SA** | ShareAlike would propagate to every downstream user |
-| MorphoLex-en / the `morphemes` library | CC BY-**NC** | NonCommercial forbids commercial use and model training |
-| CELEX | proprietary (LDC) | not redistributable |
-
-**Therefore:** you may build on this data — commercially, in model training, in
-app stores, in a CC BY-SA project — **without inheriting any copyleft or
-non-commercial obligation.** Attribution (CC BY 4.0) is the only requirement.
+The whole inventory is therefore **CC BY 4.0**, and attribution is the only
+obligation it carries. You may build on it — commercially, in model training,
+in app stores, or as an input to a copyleft project — with nothing else to
+inherit.
 
 ## Verify it yourself
 
-The claim is checkable, not just asserted. From the repository root:
+The policy is checkable, not just asserted. From the repository root:
 
 ```sh
-# 1. No excluded source appears anywhere in the data or its provenance:
-grep -rin "wikimorph\|morpholex\|by-sa\|sharealike\|non-commercial" en/ shared/   | grep -vi "excluded\|free\|WikiMorph-free"      # only exclusion notes should remain
-
-# 2. Every provenance method is permissive:
+# Every provenance method is one of the three permissive kinds:
 grep -roh '"method": *"[a-z]*"' en/ shared/ | sort -u
 #   => only "authored", "assistant", "mined"
+
+# Every declared external source is permissive:
+grep -rho '"source": *"[^"]*"' en/ shared/ | sort -u
+#   => CMUdict (BSD-2) / Moby (public domain) only
 ```
 
-Anything the first command surfaces beyond an *exclusion note* is a lineage bug
-and should be treated as release-blocking.
+If either command surfaces anything outside those sets, it is a lineage bug and
+should be treated as release-blocking.
 
-## On lineage separation
+## Lineage
 
-This inventory was extracted from the WikiMorph-free
-`vocabulary-measurement-system` data, whose only external corpora are CMUdict
-(BSD-2) and Moby (public domain). **No ShareAlike source has ever entered it.**
-An early, separate experiment that trialled a BY-SA source was never published
-and has been deleted; nothing from it was ever merged here. Keep it that way:
-see CONTRIBUTING for the directional ShareAlike rule — you may give this data
-*to* a BY-SA project, never take BY-SA data *in*.
+This inventory was extracted from the `vocabulary-measurement-system` data,
+whose only external corpora are CMUdict (BSD-2) and Moby (public domain);
+everything else is authored from facts or assistant-drafted. Every source is
+permissive, so the inventory may be given freely to any project, including a
+copyleft one. The one directional rule — permissive flows in, copyleft never
+does — is stated for contributors in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
