@@ -58,6 +58,14 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+5 verbs (file/review/process/stage/audit): the unravel demo's own default text used them and the equipped honesty floor correctly declined to vouch — the inventory was missing ordinary verbs, not the engine wrong."
+      },
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: broad base-verb expansion — the price of clean lineage, paid",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+236 verbs authored from scratch with complement frames: general high-frequency, everyday K-12, the irregular-table bases that lacked frames, science/NGSS process verbs, communication, cognition, motion, finance, and 5 more collective verbs. No external dataset consulted or copied — this is the deliberate cost of the CC BY-only lineage policy: the inventory grows by authorship and review, never by absorption.",
+        "prompted_by": "the unravel demo: a 173-verb inventory made the equipped honesty floor decline ordinary sentences; decision to keep growing the inventory rather than weaken the floor."
       }
     ]
   },
@@ -101,10 +109,38 @@
       "reviewed": false
     },
     {
+      "form": "accrue",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "add",
       "frames": [
         "clausal",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "admit",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "advise",
+      "frames": [
+        "transitive",
+        "clausal",
+        "verb_complement"
       ],
       "method": "assistant",
       "reviewed": false
@@ -127,6 +163,15 @@
       "reviewed": false
     },
     {
+      "form": "align",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "allow",
       "frames": [
         "transitive",
@@ -144,10 +189,27 @@
       "reviewed": false
     },
     {
+      "form": "announce",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "answer",
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "apologize",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -170,6 +232,15 @@
       "reviewed": false
     },
     {
+      "form": "approach",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "approve",
       "frames": [
         "transitive"
@@ -182,6 +253,14 @@
       "frames": [
         "intransitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "arrange",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -215,6 +294,24 @@
       "reviewed": false
     },
     {
+      "form": "assume",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "attempt",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "attract",
       "frames": [
         "transitive"
@@ -231,10 +328,35 @@
       "reviewed": false
     },
     {
+      "form": "avoid",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "be",
       "frames": [
         "intransitive",
         "linking"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "bear",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "beat",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -267,6 +389,68 @@
       "reviewed": false
     },
     {
+      "form": "bend",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "bind",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "bite",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "blow",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "borrow",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "bounce",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "break",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "bring",
       "frames": [
         "ditransitive",
@@ -278,6 +462,15 @@
     {
       "form": "build",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "burst",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -301,7 +494,47 @@
       "reviewed": false
     },
     {
+      "form": "call",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cancel",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "capitalize",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "carry",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cast",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "catch",
       "frames": [
         "transitive"
       ],
@@ -318,9 +551,35 @@
       "reviewed": false
     },
     {
+      "form": "certify",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "change",
       "frames": [
         "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "choose",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cite",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -331,6 +590,32 @@
       "frames": [
         "clausal",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "classify",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "clean",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "climb",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -372,8 +657,42 @@
       "reviewed": false
     },
     {
+      "form": "come",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "compare",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "complain",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "comply",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "conclude",
+      "frames": [
+        "clausal",
         "transitive"
       ],
       "method": "assistant",
@@ -383,6 +702,15 @@
       "form": "conduct",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "consider",
+      "frames": [
+        "transitive",
+        "clausal"
       ],
       "method": "assistant",
       "reviewed": false
@@ -430,6 +758,23 @@
       "reviewed": false
     },
     {
+      "form": "contrast",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "converge",
+      "frames": [
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "convert",
       "frames": [
         "intransitive",
@@ -439,8 +784,121 @@
       "reviewed": false
     },
     {
+      "form": "convince",
+      "frames": [
+        "transitive",
+        "clausal",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cook",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "correspond",
+      "frames": [
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cost",
+      "frames": [
+        "transitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "count",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cover",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "crawl",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "create",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "creep",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cross",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cry",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cut",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "dance",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "deal",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -475,10 +933,44 @@
       "reviewed": false
     },
     {
+      "form": "default",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "define",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "demand",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "demonstrate",
       "frames": [
         "clausal",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "deny",
+      "frames": [
+        "transitive",
+        "clausal"
       ],
       "method": "assistant",
       "reviewed": false
@@ -495,6 +987,14 @@
       "form": "depend",
       "frames": [
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "deposit",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -542,8 +1042,51 @@
       "reviewed": false
     },
     {
+      "form": "die",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "differ",
       "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "dig",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "discover",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "discuss",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "divide",
+      "frames": [
+        "transitive",
         "intransitive"
       ],
       "method": "assistant",
@@ -559,9 +1102,79 @@
       "reviewed": false
     },
     {
+      "form": "doubt",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "draw",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "drift",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "drink",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "drive",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "drizzle",
       "frames": [
         "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "drop",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "eat",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "edit",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -592,10 +1205,37 @@
       "reviewed": false
     },
     {
+      "form": "encourage",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "end",
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "enjoy",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "enter",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -642,11 +1282,28 @@
       "reviewed": false
     },
     {
+      "form": "exit",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "expect",
       "frames": [
         "clausal",
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "experiment",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -661,9 +1318,27 @@
       "reviewed": false
     },
     {
+      "form": "fail",
+      "frames": [
+        "intransitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "fall",
       "frames": [
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "feed",
+      "frames": [
+        "transitive",
+        "ditransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -679,6 +1354,15 @@
       "reviewed": false
     },
     {
+      "form": "fight",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "file",
       "frames": [
         "transitive",
@@ -688,9 +1372,36 @@
       "reviewed": false
     },
     {
+      "form": "fill",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "find",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "finish",
+      "frames": [
+        "transitive",
+        "intransitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "float",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -713,6 +1424,15 @@
       "reviewed": false
     },
     {
+      "form": "fly",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "follow",
       "frames": [
         "intransitive",
@@ -722,7 +1442,35 @@
       "reviewed": false
     },
     {
+      "form": "forget",
+      "frames": [
+        "transitive",
+        "clausal",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "forgive",
+      "frames": [
+        "transitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "form",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "freeze",
       "frames": [
         "intransitive",
         "transitive"
@@ -766,7 +1514,39 @@
       "reviewed": false
     },
     {
+      "form": "glide",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "go",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "graph",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "greet",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "group",
       "frames": [
         "transitive"
       ],
@@ -783,9 +1563,27 @@
       "reviewed": false
     },
     {
+      "form": "guess",
+      "frames": [
+        "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "hail",
       "frames": [
         "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hang",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -799,10 +1597,54 @@
       "reviewed": false
     },
     {
+      "form": "hate",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "have",
       "frames": [
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hear",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "help",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hide",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hit",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -826,9 +1668,44 @@
       "reviewed": false
     },
     {
+      "form": "huddle",
+      "frames": [
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hurry",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hurt",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "identify",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "imagine",
+      "frames": [
+        "transitive",
+        "clausal"
       ],
       "method": "assistant",
       "reviewed": false
@@ -860,6 +1737,50 @@
       "reviewed": false
     },
     {
+      "form": "incur",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "infer",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "insist",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "instruct",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "intend",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "intersect",
       "frames": [
         "intransitive",
@@ -870,9 +1791,61 @@
       "reviewed": false
     },
     {
+      "form": "investigate",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "invite",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "involve",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "issue",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "join",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "judge",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "jump",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -886,9 +1859,41 @@
       "reviewed": false
     },
     {
+      "form": "kick",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "know",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "label",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "laugh",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "lay",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -914,10 +1919,85 @@
       "reviewed": false
     },
     {
+      "form": "leave",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "lend",
       "frames": [
         "ditransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "lie",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "lift",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "light",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "like",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "liquidate",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "list",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "listen",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "live",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -932,9 +2012,45 @@
       "reviewed": false
     },
     {
+      "form": "lose",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "love",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "make",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "manage",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "match",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -967,12 +2083,29 @@
       "reviewed": false
     },
     {
+      "form": "mention",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "merge",
       "frames": [
         "intransitive",
         "transitive"
       ],
       "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "mistake",
+      "frames": [
+        "transitive"
+      ],
       "method": "assistant",
       "reviewed": false
     },
@@ -994,6 +2127,15 @@
       "reviewed": false
     },
     {
+      "form": "multiply",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "need",
       "frames": [
         "transitive",
@@ -1003,10 +2145,28 @@
       "reviewed": false
     },
     {
+      "form": "negotiate",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "note",
       "frames": [
         "clausal",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "notice",
+      "frames": [
+        "transitive",
+        "clausal"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1055,6 +2215,44 @@
       "reviewed": false
     },
     {
+      "form": "overlap",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "owe",
+      "frames": [
+        "transitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "paint",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "pass",
+      "frames": [
+        "transitive",
+        "intransitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "pay",
       "frames": [
         "ditransitive",
@@ -1065,9 +2263,35 @@
       "reviewed": false
     },
     {
+      "form": "perceive",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "persist",
       "frames": [
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "persuade",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "place",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1082,8 +2306,26 @@
       "reviewed": false
     },
     {
+      "form": "play",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "plot",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "point",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -1098,10 +2340,38 @@
       "reviewed": false
     },
     {
+      "form": "practice",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "predict",
       "frames": [
         "clausal",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "prefer",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "prepare",
+      "frames": [
+        "transitive",
+        "intransitive",
+        "verb_complement"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1118,6 +2388,16 @@
       "form": "produce",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "promise",
+      "frames": [
+        "ditransitive",
+        "clausal",
+        "verb_complement"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1140,9 +2420,44 @@
       "reviewed": false
     },
     {
+      "form": "pull",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "push",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "put",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "question",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "quit",
+      "frames": [
+        "transitive",
+        "intransitive",
+        "verb_complement"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1156,7 +2471,75 @@
       "reviewed": false
     },
     {
+      "form": "raise",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "reach",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "read",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "realize",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "recall",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "receive",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "recognize",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "record",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "redeem",
       "frames": [
         "transitive"
       ],
@@ -1175,6 +2558,24 @@
       "form": "reflect",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "refuse",
+      "frames": [
+        "transitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "register",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1206,9 +2607,54 @@
       "reviewed": false
     },
     {
+      "form": "remember",
+      "frames": [
+        "transitive",
+        "clausal",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "remind",
+      "frames": [
+        "transitive",
+        "clausal",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "remit",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "renew",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "repel",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "reply",
+      "frames": [
+        "intransitive",
+        "clausal"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1231,10 +2677,28 @@
       "reviewed": false
     },
     {
+      "form": "request",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "require",
       "frames": [
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "research",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1248,8 +2712,26 @@
       "reviewed": false
     },
     {
+      "form": "respond",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "restate",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "return",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -1264,9 +2746,44 @@
       "reviewed": false
     },
     {
+      "form": "revise",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "ride",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "ring",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "rise",
       "frames": [
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "roll",
+      "frames": [
+        "intransitive",
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1281,9 +2798,44 @@
       "reviewed": false
     },
     {
+      "form": "rush",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "save",
+      "frames": [
+        "transitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "say",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "see",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "seek",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -1318,9 +2870,53 @@
       "reviewed": false
     },
     {
+      "form": "serve",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "set",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "settle",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sew",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "share",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "shoot",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1336,9 +2932,104 @@
       "reviewed": false
     },
     {
+      "form": "shrink",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "shut",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "simplify",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sing",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sink",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sit",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sleep",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "sleet",
       "frames": [
         "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "slide",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "slip",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "smell",
+      "frames": [
+        "linking",
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "smile",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1360,6 +3051,14 @@
       "reviewed": false
     },
     {
+      "form": "sort",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "sound",
       "frames": [
         "linking"
@@ -1368,9 +3067,69 @@
       "reviewed": false
     },
     {
+      "form": "speak",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "spend",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "spin",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "split",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "spread",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "spring",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "stage",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "stand",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1404,6 +3163,24 @@
       "reviewed": false
     },
     {
+      "form": "steal",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "stick",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "stop",
       "frames": [
         "intransitive",
@@ -1421,9 +3198,44 @@
       "reviewed": false
     },
     {
+      "form": "strike",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "study",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "subtract",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "suggest",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "summarize",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -1438,8 +3250,51 @@
       "reviewed": false
     },
     {
+      "form": "swear",
+      "frames": [
+        "intransitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "sweep",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "swim",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "take",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "talk",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "taste",
+      "frames": [
+        "linking",
         "transitive"
       ],
       "method": "assistant",
@@ -1455,6 +3310,15 @@
       "reviewed": false
     },
     {
+      "form": "tear",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "tell",
       "frames": [
         "ditransitive",
@@ -1465,7 +3329,24 @@
       "reviewed": false
     },
     {
+      "form": "tend",
+      "frames": [
+        "verb_complement",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "test",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "thank",
       "frames": [
         "transitive"
       ],
@@ -1482,9 +3363,26 @@
       "reviewed": false
     },
     {
+      "form": "throw",
+      "frames": [
+        "transitive",
+        "ditransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "thunder",
       "frames": [
         "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "touch",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1502,6 +3400,14 @@
       "form": "transform",
       "frames": [
         "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "translate",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -1533,11 +3439,31 @@
       "reviewed": false
     },
     {
+      "form": "turn",
+      "frames": [
+        "transitive",
+        "intransitive",
+        "linking"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "understand",
       "frames": [
         "clausal",
         "transitive"
       ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "unite",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "collective": true,
       "method": "assistant",
       "reviewed": false
     },
@@ -1558,10 +3484,130 @@
       "reviewed": false
     },
     {
+      "form": "visit",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wait",
+      "frames": [
+        "intransitive",
+        "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wake",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "walk",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wander",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "want",
       "frames": [
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "warn",
+      "frames": [
+        "transitive",
+        "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wash",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "watch",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wear",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "weep",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "welcome",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "win",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "wind",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "withdraw",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1575,10 +3621,28 @@
       "reviewed": false
     },
     {
+      "form": "wonder",
+      "frames": [
+        "clausal",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "work",
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "write",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
