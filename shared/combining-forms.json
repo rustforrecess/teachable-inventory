@@ -59,6 +59,14 @@
         "by": "AI assistant, unreviewed",
         "scope": "+mer=part (polymer/monomer), top=place (isotope/topography); agr=field, cult=grow/till (agriculture)",
         "prompted_by": "maintainer coverage check: isomer, polymer, isotope"
+      },
+      {
+        "date": "2026-07-22",
+        "commit_subject": "shared: script (write), duc (lead)",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+script=write (superscript/subscript), duc=lead (produce/reduce)",
+        "prompted_by": "maintainer: superscript subscript reactant product produce"
       }
     ]
   },
@@ -1370,6 +1378,20 @@
         "document"
       ],
       "reviewed": false
+    },
+    {
+      "form": "duc",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "lead",
+      "examples": [
+        "produce",
+        "reduce",
+        "induce",
+        "introduce"
+      ],
+      "reviewed": false,
+      "note": "duct is the same root: conduct, product; short Latin forms may not auto-segment (guard)"
     },
     {
       "form": "duct",
@@ -2754,6 +2776,20 @@
       ],
       "note": "script is the same root: transcript, prescription",
       "reviewed": false
+    },
+    {
+      "form": "script",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "write",
+      "examples": [
+        "superscript",
+        "subscript",
+        "manuscript",
+        "transcript"
+      ],
+      "reviewed": false,
+      "note": "scrib is the same root: describe, scribe"
     },
     {
       "form": "sect",
