@@ -5,7 +5,7 @@
     "ontolex": "http://www.w3.org/ns/lemon/ontolex#",
     "clts": "https://clts.clld.org/parameters/",
     "panphon": "https://github.com/dmort27/panphon#",
-    "_vocab_note": "Feature terms (place, manner, voiced, height, backness, rounded, tense, lateral, strident, affricate, tract) are our CC-BY facts; they ALIGN to CLTS feature parameters and PanPhon feature names (see _meta.alignsWith). Per-term IRI mapping to CLTS is a follow-up; canonical @context URL to be published like shared-morpheme-db's.",
+    "_vocab_note": "Feature terms (place, manner, voiced, height, backness, rounded, tense, lateral, strident, affricate, tract) are our CC-BY facts; they ALIGN to CLTS feature parameters and PanPhon feature names (see _meta.alignsWith). Per-term IRI mapping to CLTS is a follow-up; a canonical @context URL is a follow-up.",
     "ipa": "ontolex:phoneticRep",
     "license": "dcterms:license",
     "title": "dcterms:title",

@@ -1,3 +1,59 @@
+# Provenance & Clean-Lineage Guarantee
+
+## The guarantee (what a downstream user can rely on)
+
+**This inventory contains no ShareAlike (CC BY-SA) or NonCommercial (CC BY-NC)
+data.** Every entry originates from exactly one of:
+
+- **authored** — compiled from uncopyrightable facts by a person;
+- **assistant** — drafted by an AI assistant from general knowledge (each such
+  entry carries `reviewed: false` until a human verifies it); or
+- **mined** — aggregate statistics computed by code from a *permissive* corpus:
+  **CMUdict** (BSD-2-clause) and the **Moby** hyphenation list (public domain).
+
+The per-file `_provenance` blocks record which, per batch, and the only three
+`method` values that appear are `authored`, `assistant`, and `mined`.
+
+**Explicitly excluded, and verified absent:**
+
+| source | license | why excluded |
+| --- | --- | --- |
+| WikiMorph | CC BY-**SA** | ShareAlike would propagate to every downstream user |
+| MorphoLex-en / the `morphemes` library | CC BY-**NC** | NonCommercial forbids commercial use and model training |
+| CELEX | proprietary (LDC) | not redistributable |
+
+**Therefore:** you may build on this data — commercially, in model training, in
+app stores, in a CC BY-SA project — **without inheriting any copyleft or
+non-commercial obligation.** Attribution (CC BY 4.0) is the only requirement.
+
+## Verify it yourself
+
+The claim is checkable, not just asserted. From the repository root:
+
+```sh
+# 1. No excluded source appears anywhere in the data or its provenance:
+grep -rin "wikimorph\|morpholex\|by-sa\|sharealike\|non-commercial" en/ shared/   | grep -vi "excluded\|free\|WikiMorph-free"      # only exclusion notes should remain
+
+# 2. Every provenance method is permissive:
+grep -roh '"method": *"[a-z]*"' en/ shared/ | sort -u
+#   => only "authored", "assistant", "mined"
+```
+
+Anything the first command surfaces beyond an *exclusion note* is a lineage bug
+and should be treated as release-blocking.
+
+## A note on this project's own history
+
+An earlier, separate experiment (`shared-morpheme-db`, never published) did
+ingest WikiMorph under CC BY-SA. **No file, entry, or statistic from it was ever
+merged into this inventory** — this repository was extracted from the
+WikiMorph-free `vocabulary-measurement-system` data, whose only external corpora
+are CMUdict and Moby. The two lineages are physically separate and must stay so;
+see CONTRIBUTING for the directional ShareAlike rule (you may give this data *to*
+a BY-SA project, never take BY-SA data *in*).
+
+---
+
 # Data Provenance & "Free Forever" Policy
 
 The goal: this engine and its inventory must be **permanently free for schools**,
