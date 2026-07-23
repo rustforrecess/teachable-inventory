@@ -13,7 +13,10 @@
       "loom (clause rung licensing)",
       "morpheme-ninja"
     ],
-    "see_also": "irregular-verbs.json holds the FORMS of verbs whose past is not -ed. This file holds what verbs COMBINE WITH. The two overlap in membership and neither subsumes the other: 'grow' appears in both, 'conduct' only here, and a verb may be irregular yet unremarkable in its frames."
+    "see_also": "irregular-verbs.json holds the FORMS of verbs whose past is not -ed. This file holds what verbs COMBINE WITH. The two overlap in membership and neither subsumes the other: 'grow' appears in both, 'conduct' only here, and a verb may be irregular yet unremarkable in its frames.",
+    "fields": {
+      "collective": "Optional boolean, default false. The verb's action is inherently joint: 'Apple and Microsoft merged' does NOT entail 'Apple merged'. This is the fact that forbids distributing a compound subject into separate propositions; absence of the flag on a listed verb means the verb distributes, while an UNLISTED verb licenses nothing (open world). Ambiguous verbs (e.g. 'gather', collective intransitively but distributive with an object) are left unflagged rather than half-claimed."
+    }
   },
   "_provenance": {
     "_note": "Who added what, when, and how. Recorded per BATCH rather than per entry: the data was created in batches, so batch records are honest and stay readable, while an entry needing individual sourcing (a teacher contribution, a single corrected form) may carry its own `prov` field.\n\nBatches are identified by DATE and COMMIT SUBJECT, deliberately not by commit hash. A hash means nothing to a human auditor and breaks the moment history is ever rewritten; a subject line is stable, readable, and findable with `git log --grep`.\n\n`method` is the load-bearing field. `authored` = compiled from facts by a person. `mined` = derived by code from a corpus named in PROVENANCE.md. `assistant` = drafted by an AI assistant at the maintainer's direction and accepted by the maintainer. All three produce uncopyrightable facts, so none affects the free-forever promise; recording which is which lets a downstream user filter and keeps the chain auditable by someone who was not here.",
@@ -35,11 +38,19 @@
       },
       {
         "date": "2026-07-23",
-        "commit_subject": "data: avalent (weather) verbs \u2014 close the valency taxonomy",
+        "commit_subject": "data: avalent (weather) verbs — close the valency taxonomy",
         "method": "assistant",
         "by": "AI assistant, unreviewed",
-        "scope": "+7 avalent verbs (rain/snow/hail/\u2026) and an `avalent` frame (Tesni\u00e8re's 0-valency class); complements the mono/di/tri-valent frames already present.",
-        "prompted_by": "valency discussion: the frames already encode Tesni\u00e8re valency, but the 0-actant weather class was missing"
+        "scope": "+7 avalent verbs (rain/snow/hail/…) and an `avalent` frame (Tesnière's 0-valency class); complements the mono/di/tri-valent frames already present.",
+        "prompted_by": "valency discussion: the frames already encode Tesnière valency, but the 0-actant weather class was missing"
+      },
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: collective verbs — the distribution-licensing fact",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+6 collective verbs (merge/meet/combine/assemble/collide/intersect), each flagged `collective: true`, and the `collective` field documented in _meta.fields. 'gather' (already present) deliberately left unflagged: collective intransitively, distributive transitively — a per-frame distinction v0.1 does not claim.",
+        "prompted_by": "compound-subject discussion: 'Apple and Microsoft grew' distributes into two propositions but 'Apple and Microsoft merged' must not; the flag is the lexical fact a downstream claims projection consults before distributing."
       }
     ]
   },
@@ -69,7 +80,7 @@
       "gf_category": "VV"
     },
     "avalent": {
-      "gloss": "Takes no argument at all \u2014 the weather/impersonal verbs. \"It rains.\" The subject 'it' is a grammatical placeholder (an expletive), not an actant.",
+      "gloss": "Takes no argument at all — the weather/impersonal verbs. \"It rains.\" The subject 'it' is a grammatical placeholder (an expletive), not an actant.",
       "gf_category": "V0"
     }
   },
@@ -183,6 +194,16 @@
         "clausal",
         "transitive"
       ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "assemble",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "collective": true,
       "method": "assistant",
       "reviewed": false
     },
@@ -313,6 +334,25 @@
       "frames": [
         "transitive"
       ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "collide",
+      "frames": [
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "combine",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "collective": true,
       "method": "assistant",
       "reviewed": false
     },
@@ -796,6 +836,16 @@
       "reviewed": false
     },
     {
+      "form": "intersect",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "involve",
       "frames": [
         "transitive"
@@ -879,6 +929,26 @@
       "frames": [
         "transitive"
       ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "meet",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "merge",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "collective": true,
       "method": "assistant",
       "reviewed": false
     },
