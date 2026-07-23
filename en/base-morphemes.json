@@ -13,11 +13,11 @@
     "batches": [
       {
         "date": "2026-07-12",
-        "commit_subject": "Add own-inventory morpheme layer (Path 1, CC-BY, WikiMorph-free)",
+        "commit_subject": "Add own-inventory morpheme layer (Path 1, CC-BY)",
         "method": "authored",
         "scope": "initial own-inventory morpheme layer - prefixes, suffixes, base seed",
         "by": "maintainer",
-        "note": "Path 1, CC-BY, WikiMorph-free by construction"
+        "note": "Own-inventory layer authored from structured-literacy sources (UFLI, Wilson, Venezky) \u2014 see source_notes"
       },
       {
         "date": "2026-07-12",
