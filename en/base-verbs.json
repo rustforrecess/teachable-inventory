@@ -66,6 +66,13 @@
         "by": "AI assistant, unreviewed",
         "scope": "+236 verbs authored from scratch with complement frames: general high-frequency, everyday K-12, the irregular-table bases that lacked frames, science/NGSS process verbs, communication, cognition, motion, finance, and 5 more collective verbs. No external dataset consulted or copied — this is the deliberate cost of the CC BY-only lineage policy: the inventory grows by authorship and review, never by absorption.",
         "prompted_by": "the unravel demo: a 173-verb inventory made the equipped honesty floor decline ordinary sentences; decision to keep growing the inventory rather than weaken the floor."
+      },
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: procedural/instruction verbs + pour frame correction",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+34 procedural verbs (cooking and instructions — the imperative register the process-chain demo exercises). CORRECTION: pour was avalent-only from the weather batch; it is primarily transitive ('pour the batter') — frames now transitive/intransitive/avalent. First defect caught by using the demo, exactly what the review worklist is for."
       }
     ]
   },
@@ -303,6 +310,15 @@
       "reviewed": false
     },
     {
+      "form": "attach",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "attempt",
       "frames": [
         "transitive",
@@ -332,6 +348,15 @@
       "frames": [
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "bake",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -415,10 +440,28 @@
       "reviewed": false
     },
     {
+      "form": "blend",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "blow",
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "boil",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -578,6 +621,14 @@
       "reviewed": false
     },
     {
+      "form": "chop",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "cite",
       "frames": [
         "transitive"
@@ -604,6 +655,15 @@
     },
     {
       "form": "clean",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "click",
       "frames": [
         "transitive",
         "intransitive"
@@ -702,6 +762,15 @@
       "form": "conduct",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "connect",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1111,6 +1180,15 @@
       "reviewed": false
     },
     {
+      "form": "drain",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "draw",
       "frames": [
         "transitive",
@@ -1335,6 +1413,15 @@
       "reviewed": false
     },
     {
+      "form": "fasten",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "feed",
       "frames": [
         "transitive",
@@ -1479,6 +1566,15 @@
       "reviewed": false
     },
     {
+      "form": "fry",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "gather",
       "frames": [
         "intransitive",
@@ -1538,9 +1634,26 @@
       "reviewed": false
     },
     {
+      "form": "grate",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "greet",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "grill",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1619,6 +1732,15 @@
       "frames": [
         "transitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "heat",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1754,6 +1876,14 @@
       "reviewed": false
     },
     {
+      "form": "insert",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "insist",
       "frames": [
         "intransitive",
@@ -1860,6 +1990,14 @@
     },
     {
       "form": "kick",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "knead",
       "frames": [
         "transitive"
       ],
@@ -2012,6 +2150,15 @@
       "reviewed": false
     },
     {
+      "form": "loosen",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "lose",
       "frames": [
         "transitive",
@@ -2042,6 +2189,14 @@
       "frames": [
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "mash",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2105,6 +2260,15 @@
       "form": "mistake",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "mix",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2263,6 +2427,15 @@
       "reviewed": false
     },
     {
+      "form": "peel",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "perceive",
       "frames": [
         "transitive",
@@ -2334,6 +2507,8 @@
     {
       "form": "pour",
       "frames": [
+        "transitive",
+        "intransitive",
         "avalent"
       ],
       "method": "assistant",
@@ -2367,11 +2542,28 @@
       "reviewed": false
     },
     {
+      "form": "preheat",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "prepare",
       "frames": [
         "transitive",
         "intransitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "press",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2772,8 +2964,25 @@
       "reviewed": false
     },
     {
+      "form": "rinse",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "rise",
       "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "roast",
+      "frames": [
+        "transitive",
         "intransitive"
       ],
       "method": "assistant",
@@ -2819,6 +3028,14 @@
       "form": "say",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "season",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -2950,6 +3167,15 @@
       "reviewed": false
     },
     {
+      "form": "simmer",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "simplify",
       "frames": [
         "transitive"
@@ -3000,6 +3226,14 @@
       "reviewed": false
     },
     {
+      "form": "slice",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "slide",
       "frames": [
         "intransitive",
@@ -3038,6 +3272,15 @@
       "form": "snow",
       "frames": [
         "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "soak",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -3119,6 +3362,14 @@
       "reviewed": false
     },
     {
+      "form": "sprinkle",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "stage",
       "frames": [
         "transitive"
@@ -3173,6 +3424,15 @@
     },
     {
       "form": "stick",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "stir",
       "frames": [
         "transitive",
         "intransitive"
@@ -3292,6 +3552,15 @@
       "reviewed": false
     },
     {
+      "form": "tap",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "taste",
       "frames": [
         "linking",
@@ -3380,6 +3649,15 @@
       "reviewed": false
     },
     {
+      "form": "tighten",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "touch",
       "frames": [
         "transitive"
@@ -3425,6 +3703,14 @@
       "form": "travel",
       "frames": [
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "trim",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -3536,6 +3822,15 @@
       "reviewed": false
     },
     {
+      "form": "warm",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "warn",
       "frames": [
         "transitive",
@@ -3579,6 +3874,14 @@
     },
     {
       "form": "welcome",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "whisk",
       "frames": [
         "transitive"
       ],
