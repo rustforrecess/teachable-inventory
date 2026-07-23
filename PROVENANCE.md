@@ -76,24 +76,19 @@ records *why* that holds and *which* data sources are safe to use.
 3. **We compile independently from facts** and never redistribute any
    copyrighted curriculum's text or curated lists (see `../CREDITS.md`).
 
-## Safe vs. unsafe data sources
+## Sources used
 
-| Source | License | Use it? | Notes |
-|--------|---------|---------|-------|
-| **Moby Project** (Grady Ward) | **Public domain** | ✅ best | Explicitly dedicated to the public domain (1996). ~187k hyphenated words + pronunciations. No rights = no one can charge. |
-| **CMU Pronouncing Dictionary** | Permissive (BSD-2-style) | ✅ yes | Free for any use incl. commercial + redistribution; just retain the notice. Has **stress marks** (syllable counts for free). |
-| **Wiktionary** | CC BY-**SA** | ⚠️ eval / with care | Not a charge risk (share-alike keeps it free), but SA is "viral": redistributed derivatives must also be BY-SA — incompatible with our CC-BY data. Great for etymology reference; avoid mixing into redistributed corpora. |
-| **CELEX2** | LDC, restricted | ❌ eval-only, never bundle | Redistribution prohibited; also may carry EU *sui generis database rights*. Fine to measure against **locally**, never checked in or shipped. |
-| Any **CC BY-NC** source | Non-commercial | ❌ avoid | "NC" blocks a district's paid software vendor from using it → not truly free for schools in practice. |
-| Any proprietary dictionary | © | ❌ avoid | Obvious. |
+Everything redistributed here rests on two permissive sources, both
+U.S.-origin (which also sidesteps EU database rights):
 
-### Two traps worth naming
-- **EU database rights.** The EU grants a *sui generis* right in databases
-  separate from copyright. U.S.-origin sources (Moby, CMUdict) sidestep it.
-  Prefer them; that's another reason to avoid CELEX for anything redistributed.
-- **Non-commercial (NC) licenses look free but aren't** for schools that buy
-  software — the vendor can't legally use NC data, so the school effectively
-  can't either. Treat NC as unusable here.
+| Source | License | Notes |
+|--------|---------|-------|
+| **Moby Project** (Grady Ward) | **Public domain** | Dedicated to the public domain (1996). ~187k hyphenated words + pronunciations. No rights = no one can charge. |
+| **CMU Pronouncing Dictionary** | Permissive (BSD-2-style) | Free for any use incl. commercial + redistribution; retain the notice. Carries stress marks (syllable counts for free). |
+
+Which licenses are admissible, which are refused, and the reasoning behind the
+line (ShareAlike, NonCommercial, restricted-redistribution, EU database rights)
+is contributor policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Repository rules that keep the chain clean
 

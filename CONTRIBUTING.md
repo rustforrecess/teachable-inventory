@@ -69,6 +69,32 @@ arrangement* is not copying facts — that is the part they do own.
 ❓ **Unsure?** Open an issue before doing the work. Email the dataset author if
 a licence is unclear. Asking is cheap; untangling a licence later is not.
 
+### Why the line is drawn there
+
+The rules above aren't arbitrary caution — each failure mode has a concrete way
+it stops the data being free for a school:
+
+- **ShareAlike (CC BY-SA)** is viral in one direction: a redistributed
+  derivative must itself be BY-SA, which would relicense this whole inventory
+  and everything downstream. Fine as a *destination* (you may contribute this
+  data to a BY-SA project); never an *input*.
+- **NonCommercial (CC BY-NC)** looks free but isn't, for the case that matters:
+  a school's paid software vendor can't legally use NC data, so the school
+  effectively can't either. Treat NC as unusable here.
+- **Restricted-redistribution corpora** (e.g. LDC-licensed dictionaries) may not
+  be shipped at all — fine to *measure against* locally, never to bundle.
+- **EU database rights** are a *sui generis* right, separate from copyright,
+  that the EU grants over databases. U.S.-origin sources (Moby, CMUdict)
+  sidestep it, which is a further reason to prefer them for anything
+  redistributed.
+
+### Never commit a third-party corpus
+
+Evaluation corpora (CMUdict, Moby) are fetched locally and live under a
+git-ignored directory in the consuming engine. They are used to *measure* the
+inventory, never redistributed. Only their aggregate, fact-level statistics —
+credited in each file's `_meta` — may ship.
+
 ## Record provenance for what you add
 
 Every inventory carries a `_provenance` block with per-batch records. **Add one
