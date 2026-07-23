@@ -1,0 +1,301 @@
+{
+  "_meta": {
+    "title": "English definitional verbs",
+    "language": "en",
+    "description": "Verbs (and a few fixed markers) that assert identity, a name/alias, a meaning, a category, or an equivalence between two expressions \u2014 the predicates that make a sentence a DEFINITION rather than an assertion about the world. Grouped by what the definition asserts: equative, naming, defining, classifying, meronymic (part-whole, adjacent), and equivalence. Each entry gives a common surface pattern.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "source_notes": "Directly serves definitional-antecedent coreference (the 'referred to as \"the Company\"' aliasing pattern in SEC filings and contracts) and definitional/glossary grounding. The equative/naming/defining distinction is standard semantics; the list is a compilation, not a novel taxonomy.",
+    "status": "seed \u2014 assistant-drafted and unreviewed; the subtype assignments in particular need a human check (describe/represent/include sit on category boundaries).",
+    "method": "assistant",
+    "reviewed": false
+  },
+  "_provenance": {
+    "_note": "method: authored | mined | assistant. Every entry here is assistant.",
+    "batches": [
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: English definitional verbs inventory (assistant-drafted)",
+        "method": "assistant",
+        "by": "AI assistant \u2014 compiled the definitional-verb list, subtypes, and surface patterns from standard semantics at the maintainer's request. The category distinctions are standard; the compilation and the boundary calls are the assistant's and unreviewed.",
+        "scope": "38 entries across equative / naming / defining / classifying / meronymic / equivalence; includes the document-coref aliasing patterns (refer, know, hereinafter).",
+        "prompted_by": "maintainer: 'make a list of definitional verbs'"
+      }
+    ]
+  },
+  "definitional_verbs": [
+    {
+      "form": "be",
+      "subtype": "equative",
+      "pattern": "X is Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "equal",
+      "subtype": "equative",
+      "pattern": "X equals Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "constitute",
+      "subtype": "equative",
+      "pattern": "X constitutes Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "represent",
+      "subtype": "equative",
+      "pattern": "X represents Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "amount",
+      "subtype": "equative",
+      "pattern": "X amounts to Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "correspond",
+      "subtype": "equative",
+      "pattern": "X corresponds to Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "call",
+      "subtype": "naming",
+      "pattern": "X is called Y / we call X Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "name",
+      "subtype": "naming",
+      "pattern": "X is named Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "term",
+      "subtype": "naming",
+      "pattern": "X is termed Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "label",
+      "subtype": "naming",
+      "pattern": "X is labeled Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "designate",
+      "subtype": "naming",
+      "pattern": "X is designated (as) Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "refer",
+      "subtype": "naming",
+      "pattern": "X, referred to (herein) as Y",
+      "note": "the load-bearing pattern for document coreference \u2014 'Apple Inc. (referred to as \"the Company\")'",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "know",
+      "subtype": "naming",
+      "pattern": "X, (also) known as Y / a.k.a.",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "dub",
+      "subtype": "naming",
+      "pattern": "X, dubbed Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "style",
+      "subtype": "naming",
+      "pattern": "X, styled Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "entitle",
+      "subtype": "naming",
+      "pattern": "X is entitled Y / titled Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hereinafter",
+      "subtype": "naming",
+      "pattern": "X (hereinafter Y) / (hereinafter referred to as Y)",
+      "note": "legal/document marker, not a verb but the same aliasing function",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "mean",
+      "subtype": "defining",
+      "pattern": "X means Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "define",
+      "subtype": "defining",
+      "pattern": "X is defined as Y / we define X as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "denote",
+      "subtype": "defining",
+      "pattern": "X denotes Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "signify",
+      "subtype": "defining",
+      "pattern": "X signifies Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "connote",
+      "subtype": "defining",
+      "pattern": "X connotes Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "describe",
+      "subtype": "defining",
+      "pattern": "X describes Y",
+      "note": "weaker \u2014 describing is not always defining",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "specify",
+      "subtype": "defining",
+      "pattern": "X specifies Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "stand",
+      "subtype": "defining",
+      "pattern": "X stands for Y",
+      "note": "expansions/abbreviations: 'GDP stands for gross domestic product'",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "classify",
+      "subtype": "classifying",
+      "pattern": "X is classified as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "categorize",
+      "subtype": "classifying",
+      "pattern": "X is categorized as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "belong",
+      "subtype": "classifying",
+      "pattern": "X belongs to Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "count",
+      "subtype": "classifying",
+      "pattern": "X counts as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "qualify",
+      "subtype": "classifying",
+      "pattern": "X qualifies as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "fall",
+      "subtype": "classifying",
+      "pattern": "X falls under Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "comprise",
+      "subtype": "meronymic",
+      "pattern": "X comprises Y",
+      "note": "part-whole, not identity \u2014 often confused with 'constitute'",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "consist",
+      "subtype": "meronymic",
+      "pattern": "X consists of Y",
+      "note": "part-whole",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "include",
+      "subtype": "meronymic",
+      "pattern": "X includes Y",
+      "note": "part-whole; asserts membership, not definition",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "equivalent",
+      "subtype": "equivalence",
+      "pattern": "X is equivalent to Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "synonymous",
+      "subtype": "equivalence",
+      "pattern": "X is synonymous with Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "same",
+      "subtype": "equivalence",
+      "pattern": "X is the same as Y",
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "tantamount",
+      "subtype": "equivalence",
+      "pattern": "X is tantamount to Y",
+      "method": "assistant",
+      "reviewed": false
+    }
+  ]
+}
