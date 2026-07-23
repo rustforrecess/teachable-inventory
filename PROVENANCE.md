@@ -86,9 +86,8 @@ U.S.-origin (which also sidesteps EU database rights):
 | **Moby Project** (Grady Ward) | **Public domain** | Dedicated to the public domain (1996). ~187k hyphenated words + pronunciations. No rights = no one can charge. |
 | **CMU Pronouncing Dictionary** | Permissive (BSD-2-style) | Free for any use incl. commercial + redistribution; retain the notice. Carries stress marks (syllable counts for free). |
 
-Which licenses are admissible, which are refused, and the reasoning behind the
-line (ShareAlike, NonCommercial, restricted-redistribution, EU database rights)
-is contributor policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Which licenses are admissible, and the reasoning behind the line, is contributor
+policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Repository rules that keep the chain clean
 
