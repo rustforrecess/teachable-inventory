@@ -42,15 +42,15 @@ grep -roh '"method": *"[a-z]*"' en/ shared/ | sort -u
 Anything the first command surfaces beyond an *exclusion note* is a lineage bug
 and should be treated as release-blocking.
 
-## A note on this project's own history
+## On lineage separation
 
-An earlier, separate experiment (`shared-morpheme-db`, never published) did
-ingest WikiMorph under CC BY-SA. **No file, entry, or statistic from it was ever
-merged into this inventory** — this repository was extracted from the
-WikiMorph-free `vocabulary-measurement-system` data, whose only external corpora
-are CMUdict and Moby. The two lineages are physically separate and must stay so;
-see CONTRIBUTING for the directional ShareAlike rule (you may give this data *to*
-a BY-SA project, never take BY-SA data *in*).
+This inventory was extracted from the WikiMorph-free
+`vocabulary-measurement-system` data, whose only external corpora are CMUdict
+(BSD-2) and Moby (public domain). **No ShareAlike source has ever entered it.**
+An early, separate experiment that trialled a BY-SA source was never published
+and has been deleted; nothing from it was ever merged here. Keep it that way:
+see CONTRIBUTING for the directional ShareAlike rule — you may give this data
+*to* a BY-SA project, never take BY-SA data *in*.
 
 ---
 
