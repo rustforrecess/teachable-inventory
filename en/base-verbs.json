@@ -51,6 +51,13 @@
         "by": "AI assistant, unreviewed",
         "scope": "+6 collective verbs (merge/meet/combine/assemble/collide/intersect), each flagged `collective: true`, and the `collective` field documented in _meta.fields. 'gather' (already present) deliberately left unflagged: collective intransitively, distributive transitively — a per-frame distinction v0.1 does not claim.",
         "prompted_by": "compound-subject discussion: 'Apple and Microsoft grew' distributes into two propositions but 'Apple and Microsoft merged' must not; the flag is the lexical fact a downstream claims projection consults before distributing."
+      },
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: everyday process verbs the demo exposed as missing",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+5 verbs (file/review/process/stage/audit): the unravel demo's own default text used them and the equipped honesty floor correctly declined to vouch — the inventory was missing ordinary verbs, not the engine wrong."
       }
     ]
   },
@@ -209,6 +216,14 @@
     },
     {
       "form": "attract",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "audit",
       "frames": [
         "transitive"
       ],
@@ -664,6 +679,15 @@
       "reviewed": false
     },
     {
+      "form": "file",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "find",
       "frames": [
         "clausal",
@@ -1083,6 +1107,14 @@
       "reviewed": false
     },
     {
+      "form": "process",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "produce",
       "frames": [
         "transitive"
@@ -1224,6 +1256,14 @@
       "reviewed": false
     },
     {
+      "form": "review",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "rise",
       "frames": [
         "intransitive"
@@ -1323,6 +1363,14 @@
       "form": "sound",
       "frames": [
         "linking"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "stage",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
