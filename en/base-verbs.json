@@ -32,6 +32,14 @@
         "scope": "+37: copula/auxiliary set and science-register verbs (118 -> 155)",
         "by": "AI assistant, directed and accepted by the maintainer",
         "prompted_by": "held-out NGSS measurement showed `be` was missing"
+      },
+      {
+        "date": "2026-07-23",
+        "commit_subject": "data: avalent (weather) verbs \u2014 close the valency taxonomy",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+7 avalent verbs (rain/snow/hail/\u2026) and an `avalent` frame (Tesni\u00e8re's 0-valency class); complements the mono/di/tri-valent frames already present.",
+        "prompted_by": "valency discussion: the frames already encode Tesni\u00e8re valency, but the 0-actant weather class was missing"
       }
     ]
   },
@@ -59,6 +67,10 @@
     "verb_complement": {
       "gloss": "Takes another verb as its complement. \"Students plan to investigate.\"",
       "gf_category": "VV"
+    },
+    "avalent": {
+      "gloss": "Takes no argument at all \u2014 the weather/impersonal verbs. \"It rains.\" The subject 'it' is a grammatical placeholder (an expletive), not an actant.",
+      "gf_category": "V0"
     }
   },
   "verbs": [
@@ -492,6 +504,14 @@
       "reviewed": false
     },
     {
+      "form": "drizzle",
+      "frames": [
+        "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "emerge",
       "frames": [
         "intransitive"
@@ -694,6 +714,14 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "hail",
+      "frames": [
+        "avalent"
       ],
       "method": "assistant",
       "reviewed": false
@@ -968,6 +996,14 @@
       "reviewed": false
     },
     {
+      "form": "pour",
+      "frames": [
+        "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "predict",
       "frames": [
         "clausal",
@@ -1005,6 +1041,14 @@
       "form": "put",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "rain",
+      "frames": [
+        "avalent"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1182,6 +1226,22 @@
       "reviewed": false
     },
     {
+      "form": "sleet",
+      "frames": [
+        "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "snow",
+      "frames": [
+        "avalent"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "solve",
       "frames": [
         "transitive"
@@ -1299,6 +1359,14 @@
       "frames": [
         "intransitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "thunder",
+      "frames": [
+        "avalent"
       ],
       "method": "assistant",
       "reviewed": false
