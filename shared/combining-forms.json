@@ -88,6 +88,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+10 forms. Chemical names are SYSTEMATIC morphology and readable as such: carbon dioxide = di- (two, already listed) + oxide (oxygen compound); the -ide/-ate/-ite series marks how much oxygen a salt carries. Roots (sulf, nitr, chlor, carbon, hydr) are included because the tiler needs one part of root length to accept a segmentation, so 'sulfate' tiles while a bare short-form pile-up does not. Origin 'chem' marks the coined nomenclature suffixes rather than claiming a false Greek etymology for them. Also mon- : mono- elides its final o before a vowel (monoxide, monarch), and without the elided form 'monoxide' could not segment."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: membr- / -ane, so membrane carries its meaning",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+2 forms. membrane = membr + ane — Latin membrum 'limb, member' gives membrana, 'the skin covering one', the same root as member and dismember. The -ane entry names the Latin ending and explicitly warns it is NOT the chemistry -ane of methane: same spelling, different morpheme, and teaching them as one would be false."
       }
     ]
   },
@@ -154,6 +161,17 @@
       "examples": [
         "anatomy",
         "anabolic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ane",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "pertaining to (Latin -ana). NOTE: not the chemistry -ane of methane, which marks a saturated hydrocarbon — same spelling, different morpheme",
+      "examples": [
+        "membrane"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1984,6 +2002,19 @@
       "examples": [
         "megafauna",
         "megabyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "membr",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "limb, member — hence a skin covering one (Latin membrum)",
+      "examples": [
+        "membrane",
+        "membranous",
+        "dismember"
       ],
       "reviewed": false,
       "method": "assistant"
