@@ -73,6 +73,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+34 procedural verbs (cooking and instructions — the imperative register the process-chain demo exercises). CORRECTION: pour was avalent-only from the weather batch; it is primarily transitive ('pour the batter') — frames now transitive/intransitive/avalent. First defect caught by using the demo, exactly what the review worklist is for."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: science-process verbs (NGSS register)",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+28 verbs of physical/life-science process (dissolve, evaporate, photosynthesize, pollinate, …). Prompted by a held-out check where 'Salt and sugar dissolve quickly.' correctly declined — a vocabulary gap, not a rule failure — and by the NGSS corpus being the education target."
       }
     ]
   },
@@ -120,6 +127,15 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "adapt",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -612,6 +628,15 @@
       "reviewed": false
     },
     {
+      "form": "charge",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "choose",
       "frames": [
         "transitive",
@@ -759,6 +784,15 @@
       "reviewed": false
     },
     {
+      "form": "condense",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "conduct",
       "frames": [
         "transitive"
@@ -822,6 +856,15 @@
         "intransitive",
         "transitive",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "contract",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -993,6 +1036,15 @@
       "reviewed": false
     },
     {
+      "form": "decompose",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "decrease",
       "frames": [
         "intransitive",
@@ -1127,9 +1179,26 @@
       "reviewed": false
     },
     {
+      "form": "diffuse",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "dig",
       "frames": [
         "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "digest",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -1148,6 +1217,15 @@
       "form": "discuss",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "dissolve",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1319,6 +1397,15 @@
       "reviewed": false
     },
     {
+      "form": "erode",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "estimate",
       "frames": [
         "clausal",
@@ -1330,6 +1417,24 @@
     {
       "form": "evaluate",
       "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "evaporate",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "evolve",
+      "frames": [
+        "intransitive",
         "transitive"
       ],
       "method": "assistant",
@@ -1361,6 +1466,15 @@
     },
     {
       "form": "exit",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "expand",
       "frames": [
         "transitive",
         "intransitive"
@@ -1462,6 +1576,15 @@
       "form": "fill",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "filter",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1587,6 +1710,14 @@
       "form": "generate",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "germinate",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1871,6 +2002,14 @@
       "frames": [
         "transitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "inherit",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2238,6 +2377,15 @@
       "reviewed": false
     },
     {
+      "form": "melt",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "mention",
       "frames": [
         "transitive",
@@ -2253,6 +2401,14 @@
         "transitive"
       ],
       "collective": true,
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "migrate",
+      "frames": [
+        "intransitive"
+      ],
       "method": "assistant",
       "reviewed": false
     },
@@ -2379,6 +2535,15 @@
       "reviewed": false
     },
     {
+      "form": "orbit",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "overlap",
       "frames": [
         "transitive",
@@ -2462,6 +2627,14 @@
       "reviewed": false
     },
     {
+      "form": "photosynthesize",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "place",
       "frames": [
         "transitive"
@@ -2499,6 +2672,14 @@
       "form": "point",
       "frames": [
         "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "pollinate",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -2655,6 +2836,15 @@
       "reviewed": false
     },
     {
+      "form": "radiate",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "rain",
       "frames": [
         "avalent"
@@ -2674,6 +2864,14 @@
       "form": "reach",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "react",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2750,6 +2948,15 @@
       "form": "reflect",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "refract",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2869,6 +3076,15 @@
       "reviewed": false
     },
     {
+      "form": "reproduce",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "request",
       "frames": [
         "transitive",
@@ -2899,6 +3115,14 @@
       "form": "resist",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "respire",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2993,6 +3217,15 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "rotate",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -3770,6 +4003,15 @@
       "reviewed": false
     },
     {
+      "form": "vibrate",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "visit",
       "frames": [
         "transitive"
@@ -3867,6 +4109,15 @@
     {
       "form": "weep",
       "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "weigh",
+      "frames": [
+        "transitive",
         "intransitive"
       ],
       "method": "assistant",
