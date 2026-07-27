@@ -67,900 +67,19 @@
         "by": "AI assistant, unreviewed",
         "scope": "+script=write (superscript/subscript), duc=lead (produce/reduce)",
         "prompted_by": "maintainer: superscript subscript reactant product produce"
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: cell-biology combining forms",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+5 Greek combining forms of cell biology (plast, derm, lys, troph…). Prompted by 'chloroplast' failing to segment while 'chlorophyll' succeeded — chloro was known, plast was not."
       }
     ]
   },
   "_note": "Neoclassical combining forms, from Greek and Latin. They belong in neither existing list: not `bases`, because they are not free words (there is no word 'therm'), and not `prefixes`, because prefixes attach to a free base while these combine with EACH OTHER - hypo+therm+ic has no free word anywhere in it. This is the layer that connects concepts rather than parses sentences: hypothermic and hyperthermic share `therm` and contrast only on hypo/hyper, and a learner who owns those three morphemes owns both words plus thermometer, thermal and isotherm.",
   "_position": "Position is not free. An initial form precedes a final one, and most are fixed to one slot: photo- and hypo- are initial, -logy and -meter final, while therm and graph occur in both. Recorded per entry rather than assumed, because a parser that tries every form in every slot will split words that should stay whole.",
   "forms": [
-    {
-      "form": "an",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "not / without",
-      "examples": [
-        "anaerobic",
-        "anhydrous"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "ana",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "up / back",
-      "examples": [
-        "anatomy",
-        "anabolic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "atmo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "vapor / air",
-      "examples": [
-        "atmosphere",
-        "atmospheric"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "bi",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "two",
-      "examples": [
-        "bilateral",
-        "biped"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "cata",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "down",
-      "examples": [
-        "catabolic",
-        "catalyst"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "centi",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "hundredth",
-      "examples": [
-        "centimeter",
-        "centigrade"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "circum",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "around",
-      "examples": [
-        "circumference",
-        "circumnavigate"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "con",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "with / together",
-      "examples": [
-        "constant",
-        "conductor",
-        "connect",
-        "combine"
-      ],
-      "variant_note": "com before b/p/m: combine, compress, commit",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "dec",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "ten",
-      "examples": [
-        "December",
-        "decade",
-        "decimal",
-        "decimate"
-      ],
-      "note": "Latin ten; distinct from Greek deca (decagon) and SI deci (one tenth).",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "deca",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "ten",
-      "examples": [
-        "decagon",
-        "decade",
-        "decathlon"
-      ],
-      "note": "THREE look-alikes: deca=ten (Greek), deci=one tenth (Latin, SI), dec=ten (Latin, December). Do not conflate.",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "deci",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "tenth",
-      "examples": [
-        "decimeter",
-        "deciliter"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "di",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "two",
-      "examples": [
-        "dioxide",
-        "diatomic",
-        "dicot"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "dia",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "through / across",
-      "examples": [
-        "diameter",
-        "diaphragm",
-        "dialysis"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "dodeca",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "twelve",
-      "examples": [
-        "dodecagon",
-        "dodecahedron"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "dys",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "bad / difficult",
-      "examples": [
-        "dysfunction",
-        "dystrophy"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "ecto",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "outside",
-      "examples": [
-        "ectotherm",
-        "ectoderm"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "endo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "inside",
-      "examples": [
-        "endothermic",
-        "endoskeleton",
-        "endoplasm"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "ennea",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "nine",
-      "examples": [
-        "enneagon",
-        "ennead"
-      ],
-      "note": "the Greek nine; Latin uses non- (nonagon).",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "epi",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "upon / above",
-      "examples": [
-        "epidermis",
-        "epicenter",
-        "epiphyte"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "equi",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "equal",
-      "examples": [
-        "equilateral",
-        "equilibrium"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "eu",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "good / true",
-      "examples": [
-        "eukaryote",
-        "euphoria"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "exo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "outside",
-      "examples": [
-        "exothermic",
-        "exoskeleton",
-        "exoplanet"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "giga",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "giant / billion",
-      "examples": [
-        "gigabyte",
-        "gigawatt"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "hepta",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "seven",
-      "examples": [
-        "heptagon",
-        "heptathlon"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "hetero",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "different",
-      "examples": [
-        "heterogeneous",
-        "heterotroph"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "hexa",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "six",
-      "examples": [
-        "hexagon",
-        "hexose"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "homo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "same",
-      "examples": [
-        "homogeneous",
-        "homologous"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "hyper",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "over / above normal",
-      "examples": [
-        "hyperthermic",
-        "hyperactive",
-        "hyperbole"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "hypo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "under / below normal",
-      "examples": [
-        "hypothermic",
-        "hypodermic",
-        "hypothesis"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "in",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "not / into",
-      "examples": [
-        "infinite",
-        "inorganic",
-        "inject",
-        "invertebrate"
-      ],
-      "meaning_note": "Two Latin in-: 'not' (infinite, inorganic) and 'into' (inject, insert).",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "infra",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "below",
-      "examples": [
-        "infrared"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "inter",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "between",
-      "examples": [
-        "intercellular",
-        "interstellar"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "intra",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "within",
-      "examples": [
-        "intracellular",
-        "intravenous"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "iso",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "equal",
-      "examples": [
-        "isotope",
-        "isotherm",
-        "isobar"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "kilo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "thousand",
-      "examples": [
-        "kilogram",
-        "kilometer"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "macro",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "large",
-      "examples": [
-        "macroscopic",
-        "macromolecule"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "mega",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "great / million",
-      "examples": [
-        "megafauna",
-        "megabyte"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "meta",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "change / beyond",
-      "examples": [
-        "metamorphosis",
-        "metabolism"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "micro",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "small / millionth",
-      "examples": [
-        "microscope",
-        "microbe",
-        "micrometer"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "milli",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "thousandth",
-      "examples": [
-        "millimeter",
-        "milligram"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "mono",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "one",
-      "examples": [
-        "monomer",
-        "monoxide",
-        "monocot"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "multi",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "many",
-      "examples": [
-        "multicellular",
-        "multimeter"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "nano",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "billionth / dwarf",
-      "examples": [
-        "nanometer",
-        "nanoparticle"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "neo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "new / recent",
-      "examples": [
-        "neoclassical",
-        "neolithic",
-        "neonatal"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "non",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "nine",
-      "examples": [
-        "November",
-        "nonagon",
-        "nonagenarian"
-      ],
-      "note": "FALSE FRIEND: non=nine (November) vs non=not (nonmetal, nonzero). The remainder decides.",
-      "homograph": "non=not is a separate entry (nonmetal); the remainder decides",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "non",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "not",
-      "examples": [
-        "nonmetal",
-        "nonliving",
-        "nonzero",
-        "nonpolar"
-      ],
-      "homograph": "non=nine is a separate entry (November); nonmetal is not, not nine",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "oct",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "eight",
-      "examples": [
-        "octagon",
-        "octopus",
-        "octet",
-        "octopod"
-      ],
-      "note": "Greek okto and Latin octo coincide; Latin gives October, octave.",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "omni",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "all",
-      "examples": [
-        "omnivore",
-        "omnidirectional"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "para",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "beside",
-      "examples": [
-        "parasite",
-        "parallel"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "penta",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "five",
-      "examples": [
-        "pentagon",
-        "pentose"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "per",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "through / thoroughly / each",
-      "examples": [
-        "percent",
-        "permeate",
-        "persist",
-        "permanent"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "peri",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "around",
-      "examples": [
-        "perimeter",
-        "pericardium"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "photo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "light",
-      "examples": [
-        "photograph",
-        "photosynthesis"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "poly",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "many",
-      "examples": [
-        "polymer",
-        "polygon",
-        "polyatomic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "pro",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "forward / before",
-      "examples": [
-        "progressive",
-        "procession",
-        "produce",
-        "project"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "proto",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "first",
-      "examples": [
-        "proton",
-        "prototype",
-        "protozoa"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "quadr",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "four",
-      "examples": [
-        "quadruped",
-        "quadrilateral",
-        "quadratic",
-        "quadrant"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "quint",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "five",
-      "examples": [
-        "quintet",
-        "quintuple",
-        "quintuplet"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "semi",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "half",
-      "examples": [
-        "semiconductor",
-        "semicircle",
-        "semipermeable"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "sept",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "seven",
-      "examples": [
-        "September",
-        "septet"
-      ],
-      "note": "septic is NOT this - it is Greek sepsis (rot). False friend.",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "sext",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "six",
-      "examples": [
-        "sextet",
-        "sextant"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "sub",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "under",
-      "examples": [
-        "substrate",
-        "subatomic",
-        "subsonic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "super",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "above / over",
-      "examples": [
-        "supersonic",
-        "supernova",
-        "supersaturated"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "syn",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "together",
-      "examples": [
-        "synthesis",
-        "synapse"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "tele",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "far / distant",
-      "examples": [
-        "telescope",
-        "telephone",
-        "television",
-        "telegraph"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "tetra",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "four",
-      "examples": [
-        "tetrahedron",
-        "tetrapod"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "trans",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "across",
-      "examples": [
-        "transpiration",
-        "transmit",
-        "transcription"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "tri",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "three",
-      "examples": [
-        "triangle",
-        "triatomic",
-        "trimester"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "ultra",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "beyond",
-      "examples": [
-        "ultraviolet",
-        "ultrasonic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "uni",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "one",
-      "examples": [
-        "unicellular",
-        "universe"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
     {
       "form": "act",
       "position": "either",
@@ -997,6 +116,30 @@
         "agriculture",
         "agrarian",
         "agronomy"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "an",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "not / without",
+      "examples": [
+        "anaerobic",
+        "anhydrous"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ana",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "up / back",
+      "examples": [
+        "anatomy",
+        "anabolic"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1085,6 +228,18 @@
       "method": "assistant"
     },
     {
+      "form": "atmo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "vapor / air",
+      "examples": [
+        "atmosphere",
+        "atmospheric"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "av",
       "position": "either",
       "origin": "lat",
@@ -1105,6 +260,18 @@
       "examples": [
         "barometer",
         "isobar"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "bi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "two",
+      "examples": [
+        "bilateral",
+        "biped"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1189,6 +356,18 @@
       "method": "assistant"
     },
     {
+      "form": "cata",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "down",
+      "examples": [
+        "catabolic",
+        "catalyst"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "ced",
       "position": "either",
       "origin": "lat",
@@ -1215,6 +394,18 @@
         "centennial"
       ],
       "note": "distinct from centi = one hundredth (SI); cent=hundred",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "centi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "hundredth",
+      "examples": [
+        "centimeter",
+        "centigrade"
+      ],
       "reviewed": false,
       "method": "assistant"
     },
@@ -1268,6 +459,18 @@
         "chlorophyll",
         "chloroplast",
         "chlorine"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "chondr",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "granule / cartilage",
+      "examples": [
+        "mitochondria",
+        "chondrocyte"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1327,6 +530,18 @@
       "method": "assistant"
     },
     {
+      "form": "circum",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "around",
+      "examples": [
+        "circumference",
+        "circumnavigate"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "clin",
       "position": "either",
       "origin": "lat",
@@ -1336,6 +551,21 @@
         "decline",
         "inclination"
       ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "con",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "with / together",
+      "examples": [
+        "constant",
+        "conductor",
+        "connect",
+        "combine"
+      ],
+      "variant_note": "com before b/p/m: combine, compress, commit",
       "reviewed": false,
       "method": "assistant"
     },
@@ -1408,6 +638,18 @@
       "method": "assistant"
     },
     {
+      "form": "cyte",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "cell",
+      "examples": [
+        "erythrocyte",
+        "leukocyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "cyto",
       "position": "either",
       "origin": "grc",
@@ -1416,6 +658,47 @@
         "cytoplasm",
         "cytology",
         "erythrocyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "dec",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "ten",
+      "examples": [
+        "December",
+        "decade",
+        "decimal",
+        "decimate"
+      ],
+      "note": "Latin ten; distinct from Greek deca (decagon) and SI deci (one tenth).",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "deca",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "ten",
+      "examples": [
+        "decagon",
+        "decade",
+        "decathlon"
+      ],
+      "note": "THREE look-alikes: deca=ten (Greek), deci=one tenth (Latin, SI), dec=ten (Latin, December). Do not conflate.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "deci",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "tenth",
+      "examples": [
+        "decimeter",
+        "deciliter"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1449,6 +732,18 @@
       "method": "assistant"
     },
     {
+      "form": "derm",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "skin",
+      "examples": [
+        "epidermis",
+        "dermatology"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "dermo",
       "position": "either",
       "origin": "grc",
@@ -1457,6 +752,32 @@
         "dermis",
         "epidermis",
         "dermatology"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "di",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "two",
+      "examples": [
+        "dioxide",
+        "diatomic",
+        "dicot"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "dia",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "through / across",
+      "examples": [
+        "diameter",
+        "diaphragm",
+        "dialysis"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1484,6 +805,18 @@
         "doctor",
         "doctrine",
         "document"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "dodeca",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "twelve",
+      "examples": [
+        "dodecagon",
+        "dodecahedron"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1546,6 +879,30 @@
       "method": "assistant"
     },
     {
+      "form": "dys",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "bad / difficult",
+      "examples": [
+        "dysfunction",
+        "dystrophy"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ecto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "outside",
+      "examples": [
+        "ectotherm",
+        "ectoderm"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "electro",
       "position": "either",
       "origin": "grc",
@@ -1572,6 +929,57 @@
       "method": "assistant"
     },
     {
+      "form": "endo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "inside",
+      "examples": [
+        "endothermic",
+        "endoskeleton",
+        "endoplasm"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ennea",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "nine",
+      "examples": [
+        "enneagon",
+        "ennead"
+      ],
+      "note": "the Greek nine; Latin uses non- (nonagon).",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "epi",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "upon / above",
+      "examples": [
+        "epidermis",
+        "epicenter",
+        "epiphyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "equi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "equal",
+      "examples": [
+        "equilateral",
+        "equilibrium"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "erg",
       "position": "either",
       "origin": "grc",
@@ -1580,6 +988,31 @@
         "energy",
         "ergonomic",
         "erg"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "eu",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "good / true",
+      "examples": [
+        "eukaryote",
+        "euphoria"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "exo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "outside",
+      "examples": [
+        "exothermic",
+        "exoskeleton",
+        "exoplanet"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1740,6 +1173,19 @@
       "method": "assistant"
     },
     {
+      "form": "gen",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "producing / produced",
+      "examples": [
+        "hydrogen",
+        "oxygen",
+        "pathogen"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "geo",
       "position": "either",
       "origin": "grc",
@@ -1761,6 +1207,18 @@
         "germinate",
         "germination",
         "germ"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "giga",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "giant / billion",
+      "examples": [
+        "gigabyte",
+        "gigawatt"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1813,6 +1271,21 @@
         "prognosis",
         "agnostic"
       ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "gon",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "angle",
+      "examples": [
+        "polygon",
+        "hexagon",
+        "pentagon",
+        "diagonal"
+      ],
+      "note": "the Greek angle-root, in the -gon shape names",
       "reviewed": false,
       "method": "assistant"
     },
@@ -1922,6 +1395,18 @@
       "method": "assistant"
     },
     {
+      "form": "hepta",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "seven",
+      "examples": [
+        "heptagon",
+        "heptathlon"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "herb",
       "position": "either",
       "origin": "lat",
@@ -1935,6 +1420,30 @@
       "method": "assistant"
     },
     {
+      "form": "hetero",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "different",
+      "examples": [
+        "heterogeneous",
+        "heterotroph"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "hexa",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "six",
+      "examples": [
+        "hexagon",
+        "hexose"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "hist",
       "position": "either",
       "origin": "grc",
@@ -1942,6 +1451,18 @@
       "examples": [
         "histology",
         "histamine"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "homo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "same",
+      "examples": [
+        "homogeneous",
+        "homologous"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1960,6 +1481,32 @@
       "method": "assistant"
     },
     {
+      "form": "hyper",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "over / above normal",
+      "examples": [
+        "hyperthermic",
+        "hyperactive",
+        "hyperbole"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
+      "form": "hypo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "under / below normal",
+      "examples": [
+        "hypothermic",
+        "hypodermic",
+        "hypothesis"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
       "form": "iatr",
       "position": "either",
       "origin": "grc",
@@ -1969,6 +1516,32 @@
         "psychiatry",
         "geriatric",
         "podiatry"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "in",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "not / into",
+      "examples": [
+        "infinite",
+        "inorganic",
+        "inject",
+        "invertebrate"
+      ],
+      "meaning_note": "Two Latin in-: 'not' (infinite, inorganic) and 'into' (inject, insert).",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "infra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "below",
+      "examples": [
+        "infrared"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1987,6 +1560,30 @@
       "method": "assistant"
     },
     {
+      "form": "inter",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "between",
+      "examples": [
+        "intercellular",
+        "interstellar"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "intra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "within",
+      "examples": [
+        "intracellular",
+        "intravenous"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "ion",
       "position": "either",
       "origin": "grc",
@@ -1996,6 +1593,19 @@
         "cation",
         "anion",
         "ionize"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "iso",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "equal",
+      "examples": [
+        "isotope",
+        "isotherm",
+        "isobar"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2023,6 +1633,18 @@
         "eukaryote",
         "prokaryote",
         "karyotype"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "kilo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "thousand",
+      "examples": [
+        "kilogram",
+        "kilometer"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2137,6 +1759,18 @@
       "method": "assistant"
     },
     {
+      "form": "logy",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "study of",
+      "examples": [
+        "biology",
+        "geology"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
       "form": "luc",
       "position": "either",
       "origin": "lat",
@@ -2159,6 +1793,43 @@
         "lunar",
         "lunation",
         "lunatic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "lys",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "break apart",
+      "examples": [
+        "lysosome",
+        "hydrolysis"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "lysis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "breaking / loosening",
+      "examples": [
+        "hydrolysis",
+        "electrolysis",
+        "photolysis"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "macro",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "large",
+      "examples": [
+        "macroscopic",
+        "macromolecule"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2218,6 +1889,18 @@
       "method": "assistant"
     },
     {
+      "form": "mega",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "great / million",
+      "examples": [
+        "megafauna",
+        "megabyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "mer",
       "position": "either",
       "origin": "grc",
@@ -2227,6 +1910,18 @@
         "monomer",
         "isomer",
         "dimer"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "meta",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "change / beyond",
+      "examples": [
+        "metamorphosis",
+        "metabolism"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2245,6 +1940,19 @@
       "method": "assistant"
     },
     {
+      "form": "meter",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "measure",
+      "examples": [
+        "thermometer",
+        "diameter",
+        "barometer"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
       "form": "metr",
       "position": "either",
       "origin": "grc",
@@ -2260,6 +1968,19 @@
       "method": "assistant"
     },
     {
+      "form": "micro",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "small / millionth",
+      "examples": [
+        "microscope",
+        "microbe",
+        "micrometer"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "migr",
       "position": "either",
       "origin": "lat",
@@ -2269,6 +1990,18 @@
         "migration",
         "immigrant",
         "emigrate"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "milli",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "thousandth",
+      "examples": [
+        "millimeter",
+        "milligram"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2299,6 +2032,19 @@
         "emission"
       ],
       "note": "miss is the same root: emission, transmission",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "mono",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "one",
+      "examples": [
+        "monomer",
+        "monoxide",
+        "monocot"
+      ],
       "reviewed": false,
       "method": "assistant"
     },
@@ -2344,6 +2090,30 @@
       "method": "assistant"
     },
     {
+      "form": "multi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "many",
+      "examples": [
+        "multicellular",
+        "multimeter"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "nano",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "billionth / dwarf",
+      "examples": [
+        "nanometer",
+        "nanoparticle"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "nat",
       "position": "either",
       "origin": "lat",
@@ -2353,6 +2123,18 @@
         "nature",
         "natural",
         "prenatal"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "naut",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "sailor / voyager",
+      "examples": [
+        "astronaut",
+        "aeronaut"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2381,6 +2163,19 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "neo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "new / recent",
+      "examples": [
+        "neoclassical",
+        "neolithic",
+        "neonatal"
+      ],
+      "reviewed": true,
+      "method": "authored"
     },
     {
       "form": "neuro",
@@ -2421,6 +2216,36 @@
         "nominate"
       ],
       "homograph": "nom=law (Greek) is a separate entry: astronomy, economy",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "non",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "nine",
+      "examples": [
+        "November",
+        "nonagon",
+        "nonagenarian"
+      ],
+      "note": "FALSE FRIEND: non=nine (November) vs non=not (nonmetal, nonzero). The remainder decides.",
+      "homograph": "non=not is a separate entry (nonmetal); the remainder decides",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "non",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "not",
+      "examples": [
+        "nonmetal",
+        "nonliving",
+        "nonzero",
+        "nonpolar"
+      ],
+      "homograph": "non=nine is a separate entry (November); nonmetal is not, not nine",
       "reviewed": false,
       "method": "assistant"
     },
@@ -2480,6 +2305,21 @@
       "method": "assistant"
     },
     {
+      "form": "oct",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "eight",
+      "examples": [
+        "octagon",
+        "octopus",
+        "octet",
+        "octopod"
+      ],
+      "note": "Greek okto and Latin octo coincide; Latin gives October, octave.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "od",
       "position": "either",
       "origin": "grc",
@@ -2503,6 +2343,31 @@
       "examples": [
         "orthodontist",
         "periodontal"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "oid",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "resembling",
+      "examples": [
+        "asteroid",
+        "spheroid",
+        "humanoid"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "omni",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "all",
+      "examples": [
+        "omnivore",
+        "omnidirectional"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2590,6 +2455,18 @@
       "method": "assistant"
     },
     {
+      "form": "para",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "beside",
+      "examples": [
+        "parasite",
+        "parallel"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "path",
       "position": "either",
       "origin": "grc",
@@ -2629,6 +2506,44 @@
         "pendulum",
         "suspend",
         "pendant"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "penta",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "five",
+      "examples": [
+        "pentagon",
+        "pentose"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "per",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "through / thoroughly / each",
+      "examples": [
+        "percent",
+        "permeate",
+        "persist",
+        "permanent"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "peri",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "around",
+      "examples": [
+        "perimeter",
+        "pericardium"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2675,6 +2590,17 @@
       "method": "assistant"
     },
     {
+      "form": "philic",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "loving / attracting",
+      "examples": [
+        "hydrophilic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "phob",
       "position": "either",
       "origin": "grc",
@@ -2689,6 +2615,17 @@
       "method": "assistant"
     },
     {
+      "form": "phobic",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "fearing / repelling",
+      "examples": [
+        "hydrophobic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "phono",
       "position": "either",
       "origin": "grc",
@@ -2697,6 +2634,42 @@
         "phonology",
         "microphone",
         "telephone"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "phore",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "carrier / bearer",
+      "examples": [
+        "chromophore",
+        "semaphore"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "photo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "light",
+      "examples": [
+        "photograph",
+        "photosynthesis"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
+      "form": "phyll",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "leaf",
+      "examples": [
+        "chlorophyll",
+        "mesophyll"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2715,6 +2688,18 @@
       "method": "assistant"
     },
     {
+      "form": "phyte",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "plant",
+      "examples": [
+        "epiphyte",
+        "gametophyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "phyto",
       "position": "either",
       "origin": "grc",
@@ -2722,6 +2707,56 @@
       "examples": [
         "phytoplankton",
         "epiphyte"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "plankt",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "drifting / wandering",
+      "examples": [
+        "plankton",
+        "zooplankton",
+        "phytoplankton"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "plasm",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "formed material",
+      "examples": [
+        "cytoplasm",
+        "protoplasm"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "plast",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "formed body / living unit",
+      "examples": [
+        "chloroplast",
+        "protoplast"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "pod",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "foot",
+      "examples": [
+        "arthropod",
+        "gastropod",
+        "tetrapod"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2735,6 +2770,19 @@
         "metropolis",
         "cosmopolitan",
         "politics"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "poly",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "many",
+      "examples": [
+        "polymer",
+        "polygon",
+        "polyatomic"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2809,6 +2857,20 @@
       "method": "assistant"
     },
     {
+      "form": "pro",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "forward / before",
+      "examples": [
+        "progressive",
+        "procession",
+        "produce",
+        "project"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "prote",
       "position": "either",
       "origin": "grc",
@@ -2816,6 +2878,19 @@
       "examples": [
         "protein",
         "proteome"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "proto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "first",
+      "examples": [
+        "proton",
+        "prototype",
+        "protozoa"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2869,6 +2944,33 @@
       "examples": [
         "pyroclastic",
         "pyrometer"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "quadr",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "four",
+      "examples": [
+        "quadruped",
+        "quadrilateral",
+        "quadratic",
+        "quadrant"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "quint",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "five",
+      "examples": [
+        "quintet",
+        "quintuple",
+        "quintuplet"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2983,6 +3085,18 @@
       "method": "assistant"
     },
     {
+      "form": "scope",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "look at",
+      "examples": [
+        "microscope",
+        "telescope"
+      ],
+      "reviewed": true,
+      "method": "authored"
+    },
+    {
       "form": "scrib",
       "position": "either",
       "origin": "lat",
@@ -3040,6 +3154,19 @@
       "method": "assistant"
     },
     {
+      "form": "semi",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "half",
+      "examples": [
+        "semiconductor",
+        "semicircle",
+        "semipermeable"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "sens",
       "position": "either",
       "origin": "lat",
@@ -3051,6 +3178,19 @@
         "consensus"
       ],
       "note": "sent is the same root: consent, sentiment",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "sept",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "seven",
+      "examples": [
+        "September",
+        "septet"
+      ],
+      "note": "septic is NOT this - it is Greek sepsis (rot). False friend.",
       "reviewed": false,
       "method": "assistant"
     },
@@ -3068,6 +3208,18 @@
       "method": "assistant"
     },
     {
+      "form": "sext",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "six",
+      "examples": [
+        "sextet",
+        "sextant"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "sol",
       "position": "either",
       "origin": "lat",
@@ -3078,6 +3230,19 @@
         "parasol"
       ],
       "note": "the sun-root, not sol = alone (solitary)",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "some",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "body",
+      "examples": [
+        "chromosome",
+        "ribosome",
+        "lysosome"
+      ],
       "reviewed": false,
       "method": "assistant"
     },
@@ -3118,6 +3283,19 @@
         "spectrum",
         "perspective",
         "spectator"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "sphere",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "ball / globe",
+      "examples": [
+        "atmosphere",
+        "biosphere",
+        "hydrosphere"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -3166,6 +3344,29 @@
       "method": "assistant"
     },
     {
+      "form": "stasis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "standing still",
+      "examples": [
+        "homeostasis"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "stat",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "keeping stationary",
+      "examples": [
+        "thermostat",
+        "hemostat"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "stell",
       "position": "either",
       "origin": "lat",
@@ -3176,6 +3377,18 @@
         "interstellar"
       ],
       "note": "Latin star; Greek astro is the counterpart",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "stom",
+      "position": "either",
+      "origin": "grc",
+      "gloss": "mouth / opening",
+      "examples": [
+        "stomata",
+        "stomach"
+      ],
       "reviewed": false,
       "method": "assistant"
     },
@@ -3194,6 +3407,44 @@
       "method": "assistant"
     },
     {
+      "form": "sub",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "under",
+      "examples": [
+        "substrate",
+        "subatomic",
+        "subsonic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "super",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "above / over",
+      "examples": [
+        "supersonic",
+        "supernova",
+        "supersaturated"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "syn",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "together",
+      "examples": [
+        "synthesis",
+        "synapse"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "tech",
       "position": "either",
       "origin": "grc",
@@ -3202,6 +3453,20 @@
         "technology",
         "technique",
         "technical"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "tele",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "far / distant",
+      "examples": [
+        "telescope",
+        "telephone",
+        "television",
+        "telegraph"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -3249,6 +3514,18 @@
       "method": "assistant"
     },
     {
+      "form": "tetra",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "four",
+      "examples": [
+        "tetrahedron",
+        "tetrapod"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "therm",
       "position": "either",
       "origin": "grc",
@@ -3270,6 +3547,18 @@
       "examples": [
         "thermometer",
         "thermodynamics"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "thesis",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "putting / placing",
+      "examples": [
+        "photosynthesis",
+        "hypothesis"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -3312,6 +3601,68 @@
         "extract",
         "contract",
         "subtract"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "trans",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "across",
+      "examples": [
+        "transpiration",
+        "transmit",
+        "transcription"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "tri",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "three",
+      "examples": [
+        "triangle",
+        "triatomic",
+        "trimester"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "troph",
+      "position": "final",
+      "origin": "grc",
+      "gloss": "nourishment / feeding",
+      "examples": [
+        "autotroph",
+        "heterotroph"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ultra",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "beyond",
+      "examples": [
+        "ultraviolet",
+        "ultrasonic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "uni",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "one",
+      "examples": [
+        "unicellular",
+        "universe"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -3444,6 +3795,19 @@
       "method": "assistant"
     },
     {
+      "form": "vore",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "one who eats",
+      "examples": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "vulcan",
       "position": "either",
       "origin": "lat",
@@ -3477,303 +3841,6 @@
         "zygote",
         "homozygous",
         "heterozygous"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "cyte",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "cell",
-      "examples": [
-        "erythrocyte",
-        "leukocyte"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "gen",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "producing / produced",
-      "examples": [
-        "hydrogen",
-        "oxygen",
-        "pathogen"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "gon",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "angle",
-      "examples": [
-        "polygon",
-        "hexagon",
-        "pentagon",
-        "diagonal"
-      ],
-      "note": "the Greek angle-root, in the -gon shape names",
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "logy",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "study of",
-      "examples": [
-        "biology",
-        "geology"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "lysis",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "breaking / loosening",
-      "examples": [
-        "hydrolysis",
-        "electrolysis",
-        "photolysis"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "meter",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "measure",
-      "examples": [
-        "thermometer",
-        "diameter",
-        "barometer"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "naut",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "sailor / voyager",
-      "examples": [
-        "astronaut",
-        "aeronaut"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "oid",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "resembling",
-      "examples": [
-        "asteroid",
-        "spheroid",
-        "humanoid"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "philic",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "loving / attracting",
-      "examples": [
-        "hydrophilic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "phobic",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "fearing / repelling",
-      "examples": [
-        "hydrophobic"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "phore",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "carrier / bearer",
-      "examples": [
-        "chromophore",
-        "semaphore"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "phyll",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "leaf",
-      "examples": [
-        "chlorophyll",
-        "mesophyll"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "phyte",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "plant",
-      "examples": [
-        "epiphyte",
-        "gametophyte"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "plankt",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "drifting / wandering",
-      "examples": [
-        "plankton",
-        "zooplankton",
-        "phytoplankton"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "plasm",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "formed material",
-      "examples": [
-        "cytoplasm",
-        "protoplasm"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "pod",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "foot",
-      "examples": [
-        "arthropod",
-        "gastropod",
-        "tetrapod"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "scope",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "look at",
-      "examples": [
-        "microscope",
-        "telescope"
-      ],
-      "reviewed": true,
-      "method": "authored"
-    },
-    {
-      "form": "some",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "body",
-      "examples": [
-        "chromosome",
-        "ribosome",
-        "lysosome"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "sphere",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "ball / globe",
-      "examples": [
-        "atmosphere",
-        "biosphere",
-        "hydrosphere"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "stasis",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "standing still",
-      "examples": [
-        "homeostasis"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "stat",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "keeping stationary",
-      "examples": [
-        "thermostat",
-        "hemostat"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "thesis",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "putting / placing",
-      "examples": [
-        "photosynthesis",
-        "hypothesis"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "troph",
-      "position": "final",
-      "origin": "grc",
-      "gloss": "nourishment / feeding",
-      "examples": [
-        "autotroph",
-        "heterotroph"
-      ],
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "vore",
-      "position": "final",
-      "origin": "lat",
-      "gloss": "one who eats",
-      "examples": [
-        "herbivore",
-        "carnivore",
-        "omnivore"
       ],
       "reviewed": false,
       "method": "assistant"
