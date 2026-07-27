@@ -74,6 +74,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+5 Greek combining forms of cell biology (plast, derm, lys, troph…). Prompted by 'chloroplast' failing to segment while 'chlorophyll' succeeded — chloro was known, plast was not."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: thylak- (Greek 'sac'), so thylakoid segments",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+1 combining form: thylak- from Greek thylakos (θύλακος) 'sac, pouch'. With -oid ('resembling') already listed, thylakoid now segments as thylak + oid = 'sac-like' — which is what a thylakoid is: a flattened disc-shaped sac stacked inside the chloroplast. Etymology supplied by Jason."
       }
     ]
   },
@@ -3559,6 +3566,17 @@
       "examples": [
         "photosynthesis",
         "hypothesis"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "thylak",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "sac / pouch",
+      "examples": [
+        "thylakoid"
       ],
       "reviewed": false,
       "method": "assistant"
