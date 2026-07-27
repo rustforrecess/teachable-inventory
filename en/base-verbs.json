@@ -87,6 +87,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+35 multi-word verb entries (take in, carry out, set up, …). Which verb+particle pairs are verbs is a LEXICAL fact, so it is inventory data, not an engine rule: without it 'the plant takes in carbon dioxide' loses its object to a false prepositional-phrase reading, and 'carry out an investigation' keeps the particle glued to the object."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: -ion base verbs (act, direct, permit, …)",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+14 verbs whose -ion nouns are everywhere in school text: act/action, direct/direction, permit/permission, erupt/eruption. The suffix is -ion and it is attestation-gated, so the noun only decomposes when its VERB is listed — these entries are what make action, direction and eruption readable."
       }
     ]
   },
@@ -131,6 +138,15 @@
     },
     {
       "form": "accrue",
+      "frames": [
+        "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "act",
       "frames": [
         "intransitive",
         "transitive"
@@ -859,6 +875,14 @@
       "reviewed": false
     },
     {
+      "form": "confuse",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "connect",
       "frames": [
         "transitive",
@@ -977,6 +1001,14 @@
       "frames": [
         "transitive",
         "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "correct",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -1137,6 +1169,15 @@
       "reviewed": false
     },
     {
+      "form": "deflect",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "demand",
       "frames": [
         "transitive",
@@ -1265,6 +1306,14 @@
     },
     {
       "form": "digest",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "direct",
       "frames": [
         "transitive"
       ],
@@ -1403,6 +1452,22 @@
       "reviewed": false
     },
     {
+      "form": "eject",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "elect",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "emerge",
       "frames": [
         "intransitive"
@@ -1475,6 +1540,14 @@
       "form": "erode",
       "frames": [
         "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "erupt",
+      "frames": [
         "intransitive"
       ],
       "method": "assistant",
@@ -2140,6 +2213,14 @@
       "reviewed": false
     },
     {
+      "form": "inject",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "insert",
       "frames": [
         "transitive"
@@ -2152,6 +2233,14 @@
       "frames": [
         "intransitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "inspect",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2641,6 +2730,14 @@
       "reviewed": false
     },
     {
+      "form": "object",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "observe",
       "frames": [
         "clausal",
@@ -2754,6 +2851,14 @@
       "frames": [
         "transitive",
         "clausal"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "permit",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2936,6 +3041,14 @@
         "ditransitive",
         "clausal",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "protect",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -3485,6 +3598,14 @@
       "frames": [
         "linking",
         "verb_complement"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "select",
+      "frames": [
+        "transitive"
       ],
       "method": "assistant",
       "reviewed": false
