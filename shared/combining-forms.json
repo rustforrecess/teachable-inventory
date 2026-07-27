@@ -81,6 +81,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+1 combining form: thylak- from Greek thylakos (θύλακος) 'sac, pouch'. With -oid ('resembling') already listed, thylakoid now segments as thylak + oid = 'sac-like' — which is what a thylakoid is: a flattened disc-shaped sac stacked inside the chloroplast. Etymology supplied by Jason."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: chemical-nomenclature morphemes (-ide, -ate, -ite + roots)",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+10 forms. Chemical names are SYSTEMATIC morphology and readable as such: carbon dioxide = di- (two, already listed) + oxide (oxygen compound); the -ide/-ate/-ite series marks how much oxygen a salt carries. Roots (sulf, nitr, chlor, carbon, hydr) are included because the tiler needs one part of root length to accept a segmentation, so 'sulfate' tiles while a bare short-form pile-up does not. Origin 'chem' marks the coined nomenclature suffixes rather than claiming a false Greek etymology for them. Also mon- : mono- elides its final o before a vowel (monoxide, monarch), and without the elided form 'monoxide' could not segment."
       }
     ]
   },
@@ -235,6 +242,19 @@
       "method": "assistant"
     },
     {
+      "form": "ate",
+      "position": "final",
+      "origin": "chem",
+      "gloss": "salt or ester of an -ic acid — the more-oxygen form",
+      "examples": [
+        "sulfate",
+        "nitrate",
+        "carbonate"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "atmo",
       "position": "initial",
       "origin": "grc",
@@ -333,6 +353,18 @@
         "carbon",
         "carbohydrate",
         "carbonate"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "carbon",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "carbon",
+      "examples": [
+        "carbonate",
+        "carbonic"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -454,6 +486,18 @@
         "biochemistry"
       ],
       "note": "origin debated (Greek khemeia); treated as grc",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "chlor",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "pale green — in chemistry, chlorine",
+      "examples": [
+        "chloride",
+        "chlorine"
+      ],
       "reviewed": false,
       "method": "assistant"
     },
@@ -1475,6 +1519,18 @@
       "method": "assistant"
     },
     {
+      "form": "hydr",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "water — in chemistry, hydrogen",
+      "examples": [
+        "hydroxide",
+        "hydrate"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "hydro",
       "position": "either",
       "origin": "grc",
@@ -1523,6 +1579,19 @@
         "psychiatry",
         "geriatric",
         "podiatry"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ide",
+      "position": "final",
+      "origin": "chem",
+      "gloss": "binary compound of — a compound of just two elements",
+      "examples": [
+        "oxide",
+        "chloride",
+        "sulfide"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -1613,6 +1682,18 @@
         "isotope",
         "isotherm",
         "isobar"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ite",
+      "position": "final",
+      "origin": "chem",
+      "gloss": "salt of an -ous acid — the less-oxygen form",
+      "examples": [
+        "sulfite",
+        "nitrite"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2043,6 +2124,18 @@
       "method": "assistant"
     },
     {
+      "form": "mon",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "one — the form mono- takes before a vowel",
+      "examples": [
+        "monoxide",
+        "monarch"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "mono",
       "position": "initial",
       "origin": "grc",
@@ -2192,6 +2285,18 @@
       "examples": [
         "neuron",
         "neurology"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "nitr",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "nitre — in chemistry, nitrogen",
+      "examples": [
+        "nitrate",
+        "nitrogen"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -2442,6 +2547,31 @@
         "oxygen",
         "oxidize",
         "antioxidant"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "oxide",
+      "position": "final",
+      "origin": "chem",
+      "gloss": "compound with oxygen",
+      "examples": [
+        "dioxide",
+        "hydroxide",
+        "monoxide"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "oxy",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "sharp / acid — in chemistry, oxygen",
+      "examples": [
+        "oxygen",
+        "oxyacid"
       ],
       "reviewed": false,
       "method": "assistant"
@@ -3422,6 +3552,18 @@
         "substrate",
         "subatomic",
         "subsonic"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "sulf",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "sulfur",
+      "examples": [
+        "sulfate",
+        "sulfide"
       ],
       "reviewed": false,
       "method": "assistant"
