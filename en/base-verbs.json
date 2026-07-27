@@ -80,6 +80,13 @@
         "method": "assistant",
         "by": "AI assistant, unreviewed",
         "scope": "+28 verbs of physical/life-science process (dissolve, evaporate, photosynthesize, pollinate, …). Prompted by a held-out check where 'Salt and sugar dissolve quickly.' correctly declined — a vocabulary gap, not a rule failure — and by the NGSS corpus being the education target."
+      },
+      {
+        "date": "2026-07-27",
+        "commit_subject": "data: phrasal verbs — the particle belongs to the verb",
+        "method": "assistant",
+        "by": "AI assistant, unreviewed",
+        "scope": "+35 multi-word verb entries (take in, carry out, set up, …). Which verb+particle pairs are verbs is a LEXICAL fact, so it is inventory data, not an engine rule: without it 'the plant takes in carbon dioxide' loses its object to a false prepositional-phrase reading, and 'carry out an investigation' keeps the particle glued to the object."
       }
     ]
   },
@@ -510,6 +517,24 @@
       "reviewed": false
     },
     {
+      "form": "break down",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "break up",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "bring",
       "frames": [
         "ditransitive",
@@ -519,9 +544,26 @@
       "reviewed": false
     },
     {
+      "form": "bring about",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "build",
       "frames": [
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "build up",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -578,6 +620,14 @@
     },
     {
       "form": "carry",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "carry out",
       "frames": [
         "transitive"
       ],
@@ -750,6 +800,14 @@
       "reviewed": false
     },
     {
+      "form": "come about",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "compare",
       "frames": [
         "transitive"
@@ -907,6 +965,15 @@
     },
     {
       "form": "cook",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "cool down",
       "frames": [
         "transitive",
         "intransitive"
@@ -1379,6 +1446,14 @@
       "reviewed": false
     },
     {
+      "form": "end up",
+      "frames": [
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "enjoy",
       "frames": [
         "transitive",
@@ -1564,6 +1639,14 @@
       "reviewed": false
     },
     {
+      "form": "figure out",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "file",
       "frames": [
         "transitive",
@@ -1581,6 +1664,15 @@
       "reviewed": false
     },
     {
+      "form": "fill up",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "filter",
       "frames": [
         "transitive",
@@ -1593,6 +1685,14 @@
       "form": "find",
       "frames": [
         "clausal",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "find out",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -1741,6 +1841,23 @@
       "reviewed": false
     },
     {
+      "form": "give off",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "give up",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "glide",
       "frames": [
         "intransitive"
@@ -1802,6 +1919,14 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "grow up",
+      "frames": [
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -2214,6 +2339,14 @@
       "reviewed": false
     },
     {
+      "form": "let out",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "lie",
       "frames": [
         "intransitive"
@@ -2289,6 +2422,14 @@
       "reviewed": false
     },
     {
+      "form": "look up",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "loosen",
       "frames": [
         "transitive",
@@ -2317,6 +2458,14 @@
     },
     {
       "form": "make",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "make up",
       "frames": [
         "transitive"
       ],
@@ -2635,6 +2784,14 @@
       "reviewed": false
     },
     {
+      "form": "pick up",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "place",
       "frames": [
         "transitive"
@@ -2672,6 +2829,14 @@
       "form": "point",
       "frames": [
         "intransitive",
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "point out",
+      "frames": [
         "transitive"
       ],
       "method": "assistant",
@@ -2811,6 +2976,30 @@
     },
     {
       "form": "put",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "put on",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "put out",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "put together",
       "frames": [
         "transitive"
       ],
@@ -3320,6 +3509,14 @@
       "reviewed": false
     },
     {
+      "form": "send out",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "serve",
       "frames": [
         "transitive",
@@ -3330,6 +3527,14 @@
     },
     {
       "form": "set",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "set up",
       "frames": [
         "transitive"
       ],
@@ -3484,6 +3689,15 @@
       "reviewed": false
     },
     {
+      "form": "slow down",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "smell",
       "frames": [
         "linking",
@@ -3547,6 +3761,15 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "speed up",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
@@ -3777,6 +4000,39 @@
       "reviewed": false
     },
     {
+      "form": "take in",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "take out",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "take over",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "take up",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "talk",
       "frames": [
         "intransitive"
@@ -3968,6 +4224,22 @@
       "reviewed": false
     },
     {
+      "form": "turn off",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "turn on",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
       "form": "understand",
       "frames": [
         "clausal",
@@ -3988,6 +4260,14 @@
     },
     {
       "form": "use",
+      "frames": [
+        "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "use up",
       "frames": [
         "transitive"
       ],
@@ -4065,6 +4345,15 @@
     },
     {
       "form": "warm",
+      "frames": [
+        "transitive",
+        "intransitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "warm up",
       "frames": [
         "transitive",
         "intransitive"
@@ -4188,6 +4477,15 @@
       "frames": [
         "intransitive",
         "transitive"
+      ],
+      "method": "assistant",
+      "reviewed": false
+    },
+    {
+      "form": "work out",
+      "frames": [
+        "transitive",
+        "intransitive"
       ],
       "method": "assistant",
       "reviewed": false
