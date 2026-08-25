@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "title": "Loom rule → curriculum standard crosswalk",
+    "language": "en",
+    "description": "Maps a Loom grammar rule id to the standards codes that name the same skill. One rule maps out to however many frameworks name it, so adding a curriculum is a data change and never a schema change. The Loom rule ids are the stable spine; the frameworks are columns beside them.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "codes_only": "Entries carry a CODE and nothing else. Standards TEXT is third-party copyright and is deliberately absent: CCSS is (c) NGA Center for Best Practices and CCSSO under a limited licence requiring a specific notice, and NGSS's free-copying permission is scoped to states, districts, schools, teachers and non-profit education entities. Neither grants the power to relicense, which is what carrying their wording into this CC BY 4.0 file would purport to do. A short factual identifier is a reference rather than a reproduction - the way alignment tooling has always worked. A consumer who needs the wording fetches it from the source and meets that source's terms directly.",
+    "source_notes": "Codes below were checked against the published standards at authoring time. Every entry is marked reviewed:false until an educator confirms both that the code is correct and that it genuinely names what the Loom rule does - a plausible-looking alignment is worse than none, because it will be trusted.",
+    "status": "seed - six verified CCSS ELA codes covering the morpheme and clause rungs. Incomplete by design. NGSS and CSTA columns are expected and absent only because nothing has been verified for them yet; an empty framework means unmapped, never 'this rule is in no standard'.",
+    "framework_independence": "Nothing here assumes CCSS. The framework field is free text, so a state framework, an IB scope, or a non-US curriculum sits alongside without a schema change.",
+    "consumers": [
+      "loom (crates/loom-core/src/standards.rs, loaded via Context::with_standards)"
+    ],
+    "clause_taxonomy_is_a_fact": "Independent, dependent, noun, adverbial and relative clauses are TRADITIONAL GRAMMATICAL CATEGORIES, not Common Core's invention. They are in Reed & Kellogg (1877) and in the Latin grammar tradition well before that; CCSS references them and did not define them. So loom may name and implement them exactly as it names `transitive` or records GF's `V2` — a category name is a fact, and facts are not copyrightable. What stays out is the standards' WORDING, which is why this file carries codes only. The distinction is the same one drawn in `codes_only` above, applied one level up: the TAXONOMY is inherited, the PROSE is licensed."
+  },
+  "standards": [
+    {
+      "rule": "morpheme.combining",
+      "framework": "CCSS",
+      "code": "L.4.4.b",
+      "reviewed": false
+    },
+    {
+      "rule": "morpheme.combining",
+      "framework": "CCSS",
+      "code": "L.5.4.b",
+      "reviewed": false,
+      "note": "One grade above L.4.4.b; same Loom rule."
+    },
+    {
+      "rule": "clause.nucleus",
+      "framework": "CCSS",
+      "code": "L.3.1.a",
+      "reviewed": false,
+      "note": "Names several Loom rules at once - see np.head, np.modifier, clause.circumstance."
+    },
+    {
+      "rule": "np.head",
+      "framework": "CCSS",
+      "code": "L.3.1.a",
+      "reviewed": false
+    },
+    {
+      "rule": "np.modifier",
+      "framework": "CCSS",
+      "code": "L.3.1.a",
+      "reviewed": false
+    },
+    {
+      "rule": "clause.circumstance",
+      "framework": "CCSS",
+      "code": "L.3.1.a",
+      "reviewed": false
+    },
+    {
+      "rule": "clause.tense",
+      "framework": "CCSS",
+      "code": "L.3.1.e",
+      "reviewed": false
+    },
+    {
+      "rule": "clause.aspect",
+      "framework": "CCSS",
+      "code": "L.4.1.b",
+      "reviewed": false
+    },
+    {
+      "rule": "np.relative",
+      "framework": "CCSS",
+      "code": "L.4.1.a",
+      "reviewed": false
+    }
+  ],
+  "clause_types": {
+    "_note": "The five clause types a Common Core student is asked to name, mapped to what loom actually builds. This is a fact about LOOM, not a claim about any standard — no codes are asserted here, because the file's own rule is that a plausible-looking alignment is worse than none. Codes belong in `standards` below, one per verified row, after an educator confirms them.",
+    "_status": "Two realized, one partial, two absent. Measured 2026-08-18, not estimated.",
+    "types": [
+      {
+        "type": "independent",
+        "loom": "the top-level `Clause` returned by `clause::analyze`",
+        "state": "realized"
+      },
+      {
+        "type": "relative",
+        "loom": "`NounPhrase.relative: Option<Box<Clause>>` — the head noun stays the phrase head and the clause nests beside it",
+        "state": "realized",
+        "crosswalk": "np.relative is already mapped in `standards` below"
+      },
+      {
+        "type": "noun",
+        "loom": "`Arg::Clause` in the object or complement slot",
+        "state": "partial",
+        "gap": "Only as OBJECT or COMPLEMENT. A noun clause as SUBJECT is not built: \"that she left surprised me\" picks the embedded verb `left` as the main one. The subject bracket has no path that produces an `Arg::Clause`."
+      },
+      {
+        "type": "adverbial",
+        "loom": null,
+        "state": "absent",
+        "gap": "No representation at all. `ModKind` is Adj | Adv | Pp — every variant a PHRASE kind — so a when/because/although clause has nowhere to attach and loom takes the subordinate clause as the main one: \"because it rained we stayed inside\" returns verb=rained, subj=it, and the main clause is dropped. The largest of the five holes, and structural rather than tuning: it wants a clausal ModKind or an adverbial slot."
+      },
+      {
+        "type": "dependent",
+        "loom": "implicit — anything nested is dependent by construction",
+        "state": "unlabelled",
+        "gap": "loom has the INSTANCES (`Arg::Clause`, `NounPhrase.relative`) but no way to SAY \"this is a dependent clause\", which is the label the student is asked to produce. A reader infers it; the engine cannot state it."
+      }
+    ]
+  },
+  "_provenance": {
+    "_note": "Who added what, when, and how. Added 2026-08-18; entries before that date were not recorded per batch, so this history starts here rather than claiming to be complete.",
+    "batches": [
+      {
+        "date": "2026-08-18",
+        "commit_subject": "data: the clause taxonomy, and which of it loom builds",
+        "method": "authored",
+        "scope": "5 clause types mapped to loom constructs; no standards codes asserted",
+        "by": "maintainer",
+        "prompted_by": "maintainer: these clause types are defined as facts, correct? — yes; the taxonomy is traditional and inherited, only the standards prose is licensed."
+      }
+    ]
+  }
+}
