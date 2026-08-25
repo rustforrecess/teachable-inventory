@@ -12,7 +12,18 @@
     "consumers": [
       "loom (crates/loom-core/src/standards.rs, loaded via Context::with_standards)"
     ],
-    "clause_taxonomy_is_a_fact": "Independent, dependent, noun, adverbial and relative clauses are TRADITIONAL GRAMMATICAL CATEGORIES, not Common Core's invention. They are in Reed & Kellogg (1877) and in the Latin grammar tradition well before that; CCSS references them and did not define them. So loom may name and implement them exactly as it names `transitive` or records GF's `V2` — a category name is a fact, and facts are not copyrightable. What stays out is the standards' WORDING, which is why this file carries codes only. The distinction is the same one drawn in `codes_only` above, applied one level up: the TAXONOMY is inherited, the PROSE is licensed."
+    "clause_taxonomy_is_a_fact": "Independent, dependent, noun, adverbial and relative clauses are TRADITIONAL GRAMMATICAL CATEGORIES, not Common Core's invention. They are in Reed & Kellogg (1877) and in the Latin grammar tradition well before that; CCSS references them and did not define them. So loom may name and implement them exactly as it names `transitive` or records GF's `V2` — a category name is a fact, and facts are not copyrightable. What stays out is the standards' WORDING, which is why this file carries codes only. The distinction is the same one drawn in `codes_only` above, applied one level up: the TAXONOMY is inherited, the PROSE is licensed.",
+    "framework_urls": {
+      "_note": "Where to READ a code, as a link rather than a copy. A URL is a reference, not a reproduction — the same ground on which this file carries codes and no text. Kept as a per-framework template rather than a per-entry field so a site reorganisation is one edit, and so adding a curriculum stays a data change.",
+      "_derivation": "Split the code on '.'. The first part is the strand, the second the grade. L.3.1.e -> strand L, grade 3. The remaining parts (1, e) identify the standard WITHIN that page and are not part of the URL — the publisher does not give each sub-standard its own address.",
+      "CCSS": {
+        "template": "https://www.thecorestandards.org/ELA-Literacy/{strand}/{grade}/",
+        "example": "L.3.1.e -> https://www.thecorestandards.org/ELA-Literacy/L/3/",
+        "verified": false,
+        "verification_note": "Not machine-checked: thecorestandards.org returns 403 to automated requests, so the template rests on the publisher's indexed page titles rather than a fetch. Confirm in a browser before relying on it.",
+        "copyright": "(c) NGA Center for Best Practices and CCSSO. Linking is not licensing: follow the link for the wording, which is deliberately absent here."
+      }
+    }
   },
   "standards": [
     {
