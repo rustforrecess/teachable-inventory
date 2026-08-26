@@ -16,26 +16,45 @@ confusion about what is licensed how that `PROVENANCE.md` exists to prevent.
 
 | Work | Licence | Fetch |
 |------|---------|-------|
+| **Skeat, *A Concise Etymological Dictionary of the English Language*** (1884) | Public domain by age | `curl -L https://archive.org/download/conciseetymologi00skea_0/conciseetymologi00skea_0_djvu.txt -o corpora/skeat-1884.txt` |
+| **Liddell & Scott, *Intermediate Greek-English Lexicon*** (1889) | Public domain by age | `curl -L https://archive.org/download/intermediategree00lidd/intermediategree00lidd_djvu.txt -o corpora/lsj-intermediate-1889.txt` |
 | Webster's Unabridged Dictionary (1913) | Public domain by age | `curl -L https://www.gutenberg.org/cache/epub/29765/pg29765.txt -o corpora/websters-1913.txt` |
 | Lewis & Short, *A Latin Dictionary* (1879, printed as *Harpers' Latin Dictionary* 1891) | Public domain by age | `curl -L https://archive.org/download/harperslatindict01lewi/harperslatindict01lewi_djvu.txt -o corpora/lewis-short-1891.txt` |
 
+### Which to reach for
+
+**Skeat first, for anything English.** It is the only one of the four written
+to answer the question this inventory asks — where a word comes from — and it
+gives the whole chain in one line: `Prolific. (F. — L.) F. prolifique,
+fruitful. — L. proli-, crude form of proles, offspring; -ficus, from facere, to
+make.` Headwords are `Capitalised.` at line start, followed by a parenthesised
+language chain, so `grep -A3 "^Prolific"` works. Being CONCISE, it carries base
+words rather than every derivative: look up `Terror`, not `Terrific`;
+`Species`, not `Specific`.
+
+**Intermediate LSJ for Greek roots.** Its OCR preserves real Greek with English
+glosses — `ά-δεσιτοτος, ov, {δεσπότης) without master` — which the full Lewis &
+Short scan does not manage.
+
 ### What these are actually like
 
-**Webster's 1913** is a clean transcription — headwords are uppercase on their
-own line, so `grep -n "^ECONOMY$"` finds an entry directly. Its one real
-limitation is that Greek characters were dropped in transcription: an
-etymology reads `fr. Gr. ... + Vicinity, Nomad`, with the Greek word missing
-and only the cross-references left. The Latin glosses survive intact, so the
-claim is usually still readable.
+**Skeat** — good OCR, purpose-built, best coverage-per-effort. Greek quotations
+are garbled (`olKovo/jLia` for οἰκονομία) but the English gloss beside them
+survives, and the gloss is what a claim rests on.
 
-**Lewis & Short** is OCR of a scanned 1891 printing, and reads like it:
-`bencdico, bcnefacio` for *benedico, benefacio*. Headwords are not reliably
-recoverable by pattern, abbreviations are dense (`Curt. 9, 5, 16`), and Greek
-is largely mangled. It is good for confirming that a claim appears under a
-lemma; it is not good for reading an entry end to end. Where the OCR is
-unreadable, say the claim is unsourced rather than guessing at it — the point
-of naming a source is that someone could check it, and an unreadable page
-checks nothing.
+**Webster's 1913** is a clean transcription — headwords uppercase on their own
+line, so `grep -n "^ECONOMY$"` finds an entry directly. Greek characters were
+dropped in transcription, so an etymology can read `fr. Gr. ... + Vicinity,
+Nomad` with the Greek word simply missing.
+
+**Lewis & Short** is OCR of a scan and reads like it: `bencdico, bcnefacio`.
+Headwords are not recoverable by pattern, abbreviations are dense, Greek is
+largely mangled. Good for confirming a claim appears under a lemma; not for
+reading an entry end to end.
+
+Where the OCR is unreadable, record the claim as unsourced rather than guessing
+at it — naming a source is a promise that someone could check it, and an
+unreadable page checks nothing.
 
 ## What must never live here
 
