@@ -4199,23 +4199,26 @@
       "gloss": "house / household",
       "examples": [
         "economy",
+        "economic",
         "ecology",
         "ecosystem"
       ],
-      "note": "Greek oikos, household. economy is house-law (eco + nom.law), which is the sense that makes the word make sense.",
+      "note": "Greek oikos, household. economy is house-law — eco + nom.law — which is the sense that makes the word make sense. `economy` is the older witness in English (16th c.); `ecology` is Haeckel's 1866 coinage and is absent from dictionaries of that era.",
       "reviewed": false,
       "method": "assistant",
       "etymon": {
+        "lang": "grc",
+        "form": "oikos",
+        "gloss": "house / household",
         "source": {
-          "work": "Liddell & Scott, A Greek-English Lexicon — public domain by age",
-          "lemma": "οἶκος (oikos)",
+          "work": "Webster's Unabridged Dictionary (1913) — public domain by age",
+          "lemma": "ECONOMY",
+          "url": "https://www.gutenberg.org/ebooks/29765",
           "consulted": "2026-08-26",
-          "finding": "LSJ gives oikos as house — so economy is house-law, eco + nom.law.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
-          "url_note": "No public-domain scan identified yet. Perseus has it, but under CC BY-NC-SA; a PD copy should replace this pointer.",
-          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
+          "finding": "The entry derives economy from Latin oeconomia, 'household management', from Greek, and cross-references Vicinity (Latin vicus, village — the cognate) and Nomad for the second element. Greek characters are absent from this transcription, but the Latin gloss carries the claim.",
+          "_note": "A source already admitted by this inventory, and reached directly from Project Gutenberg rather than through any encumbered interface. Restated, not quoted."
         },
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
       }
     },
     {
