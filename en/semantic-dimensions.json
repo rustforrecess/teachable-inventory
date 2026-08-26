@@ -1,0 +1,237 @@
+{
+  "_meta": {
+    "title": "Named dimensions — what loom already computes, and what the meaning layer will need",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "status": "RECORD ONLY. Nothing reads this file. It exists so candidate dimensions are captured as they arise rather than reconstructed later.",
+    "timeline": "Exploring the ideas: autumn 2026. Initial build: the LLM class, spring 2027. Do not start building before then.",
+    "why": [
+      "The maintainer's target is an n-dimensional INTERPRETABLE graph. What separates that from an embedding is that the dimensions have NAMES, so two things can be near each other AND you can say why.",
+      "The prompting case: 'black out', 'go unconscious' and 'taking an unintended short nap' mean nearly the same thing and must cluster — but they share almost no STRUCTURE. loom analyses them as three different verbs with three different argument shapes, so decomposition alone will never connect them.",
+      "The observation that shapes this file: loom ALREADY produces named discrete dimensions. Ten of them, listed below. The interpretable-dimension architecture is not the missing piece — the SEMANTIC axes are."
+    ],
+    "the_connecting_rule": "COMPOSITIONAL MEANS COMPUTABLE; NON-COMPOSITIONAL MEANS IT NEEDS A STATED EDGE. 'go out' is derivable from 'go' plus 'out' and needs no edge in the graph. 'black out' needs one — for exactly the same reason it must be taught as a phrase-level heart word. One fact decides both the lesson and the data structure.",
+    "stability": {
+      "tier": "unstable",
+      "means": "Use it freely — that is what CC BY is for — but do not assume it holds still. Content churns heavily and the SCHEMA may change without notice: fields renamed, nesting altered, entries removed. Pin a commit if you depend on the shape.",
+      "contract": "None. No deprecation period, no migration note guaranteed.",
+      "why": "A design sketch as much as data — it carries `proposed` and `buildable_now` sections alongside `computed`, and those divisions are themselves provisional."
+    }
+  },
+  "computed": {
+    "_note": "Already produced by loom today, from the letters and the structure. Named values, not coordinates. These are free — any meaning layer starts with them rather than re-deriving them.",
+    "dimensions": [
+      {
+        "name": "polarity",
+        "values": [
+          "Positive",
+          "Negative"
+        ],
+        "rung": "clause",
+        "from": "clause/polarity.rs",
+        "also_called": "UD Polarity",
+        "interop_values": "Pos | Neg"
+      },
+      {
+        "name": "tense",
+        "values": [
+          "Past",
+          "Present",
+          "Future",
+          "Unknown"
+        ],
+        "rung": "clause",
+        "from": "tense.rs",
+        "also_called": "UD Tense",
+        "interop_values": "Past | Pres | Fut"
+      },
+      {
+        "name": "aspect",
+        "values": [
+          "Simple",
+          "Perfect",
+          "Progressive",
+          "Unknown"
+        ],
+        "rung": "clause",
+        "from": "tense.rs",
+        "also_called": "UD Aspect",
+        "interop_values": "Perf | Prog | Imp"
+      },
+      {
+        "name": "voice",
+        "values": [
+          "Active",
+          "Passive"
+        ],
+        "rung": "clause",
+        "from": "clause/mod.rs",
+        "also_called": "UD Voice",
+        "interop_values": "Act | Pass"
+      },
+      {
+        "name": "number",
+        "values": [
+          "Sg",
+          "Pl",
+          "Unmarked"
+        ],
+        "rung": "clause",
+        "from": "clause/agreement.rs",
+        "also_called": "UD Number",
+        "interop_values": "Sing | Plur"
+      },
+      {
+        "name": "verb_evidence",
+        "values": [
+          "Attested",
+          "Derivational",
+          "Inflectional",
+          "None"
+        ],
+        "rung": "clause",
+        "from": "clause/mod.rs",
+        "note": "How loom knows this is a verb. A confidence CLAIM, not a score.",
+        "also_called": null,
+        "no_established_term": "No standard feature corresponds. UD, GF and FrameNet all describe what a structure IS, not how confident the analyser is that it got there — so the evidence grades and Certain/Ambiguous attachment are loom-specific and have nothing to interoperate with."
+      },
+      {
+        "name": "split_evidence",
+        "values": [
+          "Attested",
+          "Composed",
+          "Structural"
+        ],
+        "rung": "word",
+        "from": "derivation.rs",
+        "note": "How loom knows this word has parts.",
+        "also_called": null,
+        "no_established_term": "No standard feature corresponds. UD, GF and FrameNet all describe what a structure IS, not how confident the analyser is that it got there — so the evidence grades and Certain/Ambiguous attachment are loom-specific and have nothing to interoperate with."
+      },
+      {
+        "name": "attachment",
+        "values": [
+          "Certain",
+          "Ambiguous"
+        ],
+        "rung": "clause",
+        "from": "clause/mod.rs",
+        "note": "Whether a modifier's target is in doubt — ambiguity as a first-class value.",
+        "also_called": null,
+        "no_established_term": "No standard feature corresponds. UD, GF and FrameNet all describe what a structure IS, not how confident the analyser is that it got there — so the evidence grades and Certain/Ambiguous attachment are loom-specific and have nothing to interoperate with."
+      },
+      {
+        "name": "modifier_kind",
+        "values": [
+          "Adj",
+          "Adv",
+          "Pp"
+        ],
+        "rung": "clause",
+        "from": "clause/mod.rs",
+        "also_called": "GF RGL: AP / Adv / Prep"
+      },
+      {
+        "name": "rank",
+        "values": [
+          "Clause",
+          "Phrase"
+        ],
+        "rung": "any",
+        "from": "clause/mod.rs",
+        "note": "What KIND of unit this is, when the caller does not know in advance.",
+        "also_called": "GF RGL: S / NP — the sentence-versus-noun-phrase split GF makes with its own categories"
+      }
+    ],
+    "_interoperability": "FIVE OF THE TEN map almost exactly onto Universal Dependencies features, down to the value names: UD writes Polarity=Pos|Neg, Tense=Past|Pres|Fut, Aspect=Perf|Prog, Voice=Act|Pass, Number=Sing|Plur. That alignment was not designed in — both arrived at the same categories because they are the traditional ones — and it means loom's grammatical dimensions can be exchanged with the UD ecosystem without a translation layer. Recorded as an interoperability KEY only: category names are not copyrightable, and no UD or GF code or data is used here. Same discipline as base-verbs.json, which records the GF RGL category beside each frame (transitive=V2, ditransitive=V3, clausal=VS)."
+  },
+  "proposed": {
+    "_note": "Semantic axes. NONE of these is derivable today. Recorded as candidates with the case that produced them, so the spring work starts from evidence rather than from a blank page.",
+    "_expect": "The honest version will be authored the way `frames` was — a small teachable set, attested against a corpus, grown. Nothing automates the step from a dictionary's 'to lose consciousness' to a feature [-conscious]; FrameNet, Wierzbicka's semantic primes and Jackendoff's conceptual structure all stayed hand-built.",
+    "dimensions": [
+      {
+        "name": "change_of_state",
+        "question": "Does the subject end up different from how it started?",
+        "status": "proposed",
+        "also_called": "Vendler telicity; Dowty proto-PATIENT entailment \"undergoes change of state\"",
+        "terminology_status": "established"
+      },
+      {
+        "name": "volition",
+        "question": "Did the subject choose it?",
+        "status": "proposed",
+        "note": "'involuntary' in the worked example.",
+        "also_called": "Dowty proto-AGENT entailment \"volitional involvement\" (Dowty 1991)",
+        "terminology_status": "established"
+      },
+      {
+        "name": "consciousness",
+        "question": "Is awareness gained or lost?",
+        "status": "proposed",
+        "note": "Narrow. May turn out to be one value of a broader faculty axis.",
+        "also_called": null,
+        "terminology_status": "no established feature"
+      },
+      {
+        "name": "duration",
+        "question": "Brief or extended?",
+        "status": "proposed",
+        "also_called": "Vendler durativity — the punctual/durative split behind achievements vs accomplishments",
+        "terminology_status": "established"
+      }
+    ],
+    "worked_example": {
+      "_note": "The cluster that prompted the whole idea. They land NEAR each other and not identically — and the difference is sayable, which is the entire point.",
+      "rows": [
+        {
+          "expression": "black out",
+          "change_of_state": true,
+          "volition": "involuntary",
+          "consciousness": "lost",
+          "duration": "brief"
+        },
+        {
+          "expression": "go unconscious",
+          "change_of_state": true,
+          "volition": "involuntary",
+          "consciousness": "lost",
+          "duration": null
+        },
+        {
+          "expression": "taking an unintended short nap",
+          "change_of_state": true,
+          "volition": "involuntary",
+          "consciousness": "sleep",
+          "duration": "brief"
+        }
+      ]
+    },
+    "_terminology_finding": "THREE OF THE FOUR are already named in the literature, with the same content: change_of_state is Vendler telicity and Dowty's proto-patient entailment; volition is Dowty's proto-agent \"volitional involvement\"; duration is Vendler durativity. Adopting those names costs nothing and connects the work to fifty years of argument about exactly these distinctions.\n\nTHE FOURTH, consciousness, HAS NO ESTABLISHED TERM — and that is a signal rather than a gap. The other three are FEATURES OF AN EVENT: is it bounded, is it chosen, is it instantaneous. consciousness is not; it is what the event is ABOUT. Mixing the two grains into one axis set is probably a category error, and the likely resolution is that event features and semantic FIELD are different kinds of dimension that both belong in the graph, on different axes. Worth settling before the spring build rather than during it."
+  },
+  "buildable_now": {
+    "_note": "Separate from the research problem, and worth keeping separate. This produces EDGES with evidence; it does not produce named dimensions.",
+    "method": "Definition overlap (the Lesk method). Two expressions link when their Webster 1913 `Defn:` lines share content words, and the shared words ARE the evidence — 'these cluster because both definitions say consciousness'. No overlap, no claim.",
+    "source": "Webster's Unabridged Dictionary 1913, Project Gutenberg #29765, public domain. Already fetched; see vocabulary-measurement-system/data/PROVENANCE.md.",
+    "alternative": "WordNet synsets are this relation pre-built, at the cost of attribution licensing rather than public domain."
+  },
+  "_provenance": {
+    "batches": [
+      {
+        "date": "2026-08-18",
+        "commit_subject": "data: start tracking the initial semantic dimensions",
+        "method": "authored",
+        "scope": "10 computed dimensions recorded from the code; 4 proposed semantic axes with the worked example that produced them",
+        "by": "maintainer",
+        "prompted_by": "maintainer: 'we should start tracking the initial dimensions' — after establishing that black out / go unconscious / an unintended short nap must cluster in the meaning dimension despite sharing no structure."
+      },
+      {
+        "date": "2026-08-18",
+        "commit_subject": "data: cross-framework terms for the dimensions",
+        "method": "authored",
+        "scope": "UD/GF/Vendler/Dowty interoperability keys on 10 computed and 4 proposed dimensions",
+        "by": "maintainer",
+        "prompted_by": "maintainer: we spoke about GF and linguistic similarity of terms, it is also important here"
+      }
+    ]
+  }
+}
