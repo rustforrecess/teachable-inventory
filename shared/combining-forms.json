@@ -4128,7 +4128,18 @@
       ],
       "note": "The compound shape of fac (make / do) — see the fac entry, which already records fic and fect as the same root. The i-connective shape `ific` is listed separately because that is what actually occurs word-finally.",
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "lemma": "facio",
+          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=facio&lang=la",
+          "consulted": "2026-08-26",
+          "finding": "L&S gives facio as to make, construct, fashion, produce — the root fic and fect are compound shapes of.",
+          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "ific",
@@ -4145,7 +4156,18 @@
       ],
       "note": "fic with its Latin connecting vowel. soporific is sopor + ific, 'sleep-making'. TRAP: terrific is terr.fear + ific, fright-making — NOT terr.earth. specific and beatific look like members and take different roots (speci-, beat-).",
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "lemma": "facio",
+          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=facio&lang=la",
+          "consulted": "2026-08-26",
+          "finding": "Same root as fic; the -i- is the Latin connecting vowel, not part of the root.",
+          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "auto",
@@ -4159,7 +4181,11 @@
         "autobiography"
       ],
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "etymon": {
+        "source": null,
+        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek autos, self. Not yet looked up."
+      }
     },
     {
       "form": "eco",
@@ -4173,7 +4199,18 @@
       ],
       "note": "Greek oikos, household. economy is house-law (eco + nom.law), which is the sense that makes the word make sense.",
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Liddell-Scott-Jones, A Greek-English Lexicon — public domain",
+          "lemma": "οἶκος (oikos)",
+          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=oikos&lang=greek",
+          "consulted": "2026-08-26",
+          "finding": "LSJ gives oikos as house — so economy is house-law, eco + nom.law.",
+          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "taxo",
@@ -4185,7 +4222,11 @@
       ],
       "note": "Greek taxis. Distinct from Latin tax (a levy) despite the spelling.",
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "etymon": {
+        "source": null,
+        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek taxis. Perseus rejects the plain transliteration; the LSJ headword needs beta code, and guessing at a URL is not consulting a source."
+      }
     }
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",

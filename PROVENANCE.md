@@ -124,6 +124,31 @@ members are cited and how they are spelled is editorial.
 The rule in one line: *the reconstruction is a fact and may be recorded; the
 sentence someone wrote about it is theirs.*
 
+### Where this stands, honestly
+
+Sourcing began on 2026-08-26 and covers **6 of 305 combining
+forms**. It is not a claim about the rest.
+
+| | count |
+|---|---|
+| cite a consulted public-domain source | 6 |
+| carry an etymon saying explicitly that they are NOT sourced | 2 |
+| have no etymon block at all | 297 |
+| make an etymological claim in a free-text `note` | 48 |
+
+Those 48 notes are the backlog that matters — "cess is the same root",
+"Greek hydro is its counterpart", "septic is NOT this" are all etymological
+claims, all assistant-drafted, none checked. They are not wrong so far as
+anyone knows; nobody has looked. `reviewed: false` has always said so, and
+this table says how much of it there is.
+
+Two things follow. An entry WITHOUT a `source` field makes no sourcing claim —
+absence is not an implicit citation. And an entry may say plainly that it is
+unsourced, as `auto` and `taxo` do: recording that a lookup was attempted and
+failed is worth more than silence, because the next person knows where the
+edge is.
+
+
 ## Repository rules that keep the chain clean
 
 1. **Never commit a full third-party corpus.** Downloaded corpora live in
