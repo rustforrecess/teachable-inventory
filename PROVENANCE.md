@@ -105,13 +105,21 @@ thing, and the usable ones are all closed to us:
 | **Wiktionary** and everything derived from it | CC BY-SA — ShareAlike |
 | Etymological WordNet, EtymDB, MorphyNet | CC BY-SA, inherited from Wiktionary |
 
-So an etymon here records the reconstruction and the sense, which any
-comparative reference states alike, and does NOT reproduce a particular
-source's phrasing, its selection of cognates, or its transliterations — those
-are that source's expression, not the underlying fact. Where a reviewer wants
-to check a claim, each etymon names public-domain references to check it
-against: **Lewis & Short (1879)** for Latin and **Webster's 1913**, which this
-inventory already draws on.
+So an etymon here is checked against a **public-domain** reference and says
+which one, with the lemma, the URL and the date consulted:
+
+- **Lewis & Short, A Latin Dictionary (1879)** — for Latin, readable at Perseus
+- **Webster's Unabridged 1913** — already a source elsewhere in this inventory
+
+The claim is restated rather than quoted. L&S is out of copyright and could be
+quoted freely, but not lifting phrasing is a habit worth keeping uniform,
+since the next source may not be.
+
+Two things an etymon must not do. It must not cite a source nobody opened —
+`source` means consulted, and a reference merely thought likely belongs
+nowhere. And it must not reproduce a particular work's selection of cognates
+or its transliterations: a cognate SET is standard scholarship, but which
+members are cited and how they are spelled is editorial.
 
 The rule in one line: *the reconstruction is a fact and may be recorded; the
 sentence someone wrote about it is theirs.*

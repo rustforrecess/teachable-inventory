@@ -3703,11 +3703,15 @@
         "pie": "*ters-",
         "pie_gloss": "dry",
         "path": "terra is dry land — the sense runs dry, then dry land, then land, then earth.",
-        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
-        "verify_against": [
-          "Lewis & Short, A Latin Dictionary (1879) — public domain",
-          "Webster's Unabridged 1913 — public domain, already a source here"
-        ]
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "lemma": "terra",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=terra",
+          "consulted": "2026-08-26",
+          "finding": "L&S derives terra from a root meaning to be dry or thirsty, comparing torreo (to parch) and English thirst, and gives the underlying sense as the dry land against sea and sky.",
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+        }
       }
     },
     {
@@ -3729,11 +3733,15 @@
         "pie": "*tros-",
         "pie_gloss": "make afraid, tremble",
         "cognate_note": "Reflexes survive across the family in the trembling sense. Not listed here: the specific set and its transliterations would be lifted from whichever reference was consulted.",
-        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
-        "verify_against": [
-          "Lewis & Short, A Latin Dictionary (1879) — public domain",
-          "Webster's Unabridged 1913 — public domain, already a source here"
-        ]
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "lemma": "terreo",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=terreo",
+          "consulted": "2026-08-26",
+          "finding": "L&S traces terreo to the Sanskrit root tras- (tremble) and Greek treo — a trembling root, unrelated to the drying one above.",
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+        }
       },
       "note": "NOT the earth-root it is spelled like — see terr.earth. `terrific` is fright-making, not earth-making.",
       "reviewed": false,
@@ -4095,11 +4103,15 @@
         "lang": "lat",
         "form": "sopor",
         "pie": "*swep-",
-        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
-        "verify_against": [
-          "Lewis & Short, A Latin Dictionary (1879) — public domain",
-          "Webster's Unabridged 1913 — public domain, already a source here"
-        ]
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "lemma": "sopor",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=sopor",
+          "consulted": "2026-08-26",
+          "finding": "L&S gives sopor as a deep sleep, noting the Sanskrit sleep root svap- and comparing somnus and Greek hypnos as relatives rather than sources.",
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+        }
       },
       "reviewed": false,
       "method": "assistant"
