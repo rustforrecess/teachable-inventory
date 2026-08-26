@@ -4075,6 +4075,94 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "sopor",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "deep sleep",
+      "examples": [
+        "soporific"
+      ],
+      "note": "Latin sopor. Cousin of somnus (somnolent, insomnia); PIE *swep- 'sleep'. Rare in English outside soporific.",
+      "etymon": {
+        "lang": "lat",
+        "form": "sopor",
+        "pie": "*swep-"
+      },
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "fic",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "making / causing",
+      "examples": [
+        "efficient",
+        "beneficent",
+        "artificer"
+      ],
+      "note": "The compound shape of fac (make / do) — see the fac entry, which already records fic and fect as the same root. The i-connective shape `ific` is listed separately because that is what actually occurs word-finally.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "ific",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "making / causing",
+      "examples": [
+        "soporific",
+        "terrific",
+        "prolific",
+        "scientific",
+        "honorific",
+        "calorific"
+      ],
+      "note": "fic with its Latin connecting vowel. soporific is sopor + ific, 'sleep-making'. TRAP: terrific is terr.fear + ific, fright-making — NOT terr.earth. specific and beatific look like members and take different roots (speci-, beat-).",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "auto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "self",
+      "examples": [
+        "automatic",
+        "autonomy",
+        "autograph",
+        "autobiography"
+      ],
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "eco",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "house / household",
+      "examples": [
+        "economy",
+        "ecology",
+        "ecosystem"
+      ],
+      "note": "Greek oikos, household. economy is house-law (eco + nom.law), which is the sense that makes the word make sense.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "taxo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "arrangement / order",
+      "examples": [
+        "taxonomy"
+      ],
+      "note": "Greek taxis. Distinct from Latin tax (a levy) despite the spelling.",
+      "reviewed": false,
+      "method": "assistant"
     }
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",
@@ -4150,6 +4238,22 @@
       "a": "non.nine",
       "b": "non.not",
       "note": "Latin nonus (ninth) against Latin non (not). Already flagged in the entry's own note as a false friend; the remainder decides.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "fac",
+      "b": "fic",
+      "note": "One root, two shapes: factory / efficient.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "fic",
+      "b": "ific",
+      "note": "The same form with its Latin connecting vowel.",
       "reviewed": false,
       "method": "assistant"
     }
