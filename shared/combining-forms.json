@@ -2333,6 +2333,7 @@
       "method": "assistant"
     },
     {
+      "id": "nom.law",
       "form": "nom",
       "position": "either",
       "origin": "grc",
@@ -2348,6 +2349,7 @@
       "method": "assistant"
     },
     {
+      "id": "nom.name",
       "form": "nom",
       "position": "either",
       "origin": "lat",
@@ -2363,6 +2365,7 @@
       "method": "assistant"
     },
     {
+      "id": "non.nine",
       "form": "non",
       "position": "initial",
       "origin": "lat",
@@ -2378,6 +2381,7 @@
       "method": "assistant"
     },
     {
+      "id": "non.not",
       "form": "non",
       "position": "initial",
       "origin": "lat",
@@ -3680,6 +3684,7 @@
       "method": "assistant"
     },
     {
+      "id": "terr.earth",
       "form": "terr",
       "position": "either",
       "origin": "lat",
@@ -3690,6 +3695,41 @@
         "subterranean"
       ],
       "note": "the Latin earth-root; Greek geo is its counterpart",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "lang": "lat",
+        "form": "terra",
+        "pie": "*ters-",
+        "pie_gloss": "dry",
+        "path": "dry -> dry land -> land -> earth; originally a mariner's word for ground as against sea"
+      }
+    },
+    {
+      "id": "terr.fear",
+      "form": "terr",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "frighten",
+      "examples": [
+        "terror",
+        "terrible",
+        "terrify",
+        "deter",
+        "terrific"
+      ],
+      "etymon": {
+        "lang": "lat",
+        "form": "terrere",
+        "pie": "*tros-",
+        "pie_gloss": "make afraid, tremble",
+        "cognates": [
+          "Sanskrit trasanti",
+          "Greek treein",
+          "Old Church Slavonic treso"
+        ]
+      },
+      "note": "NOT the earth-root it is spelled like — see terr.earth. `terrific` is fright-making, not earth-making.",
       "reviewed": false,
       "method": "assistant"
     },
@@ -4037,5 +4077,81 @@
       "method": "assistant"
     }
   ],
-  "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon."
+  "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",
+  "_identity": "A form is NOT an identity. `terr` is two unrelated Latin roots — terra (earth) and terrere (to frighten) — and a list keyed by spelling can hold only one of them, which is why `terrific` decomposed as earth-making. Entries that need distinguishing therefore carry an `id`; the rest are identified by `form`, so nothing else had to change. Read the id as `form.sense`.",
+  "_relations_note": "Facts about how forms relate, previously written as English inside `note` fields where nothing could traverse or check them. The `note` text stays — it reads better than an edge — but the fact is now also machine-readable. Types: `variantOf` (one root, two shapes: scrib/script), `homographOf` (one spelling, unrelated roots: terr), `falseFriend` (confusably similar, unrelated: radi/radic), `translationOf` (same meaning, other classical language: terr/geo), `relatedTo` (a shared ancestor short of variance: luc/lum). Edges are undirected unless a type says otherwise, and BOTH endpoints must resolve to an id or a form in this file.",
+  "relations": [
+    {
+      "type": "homographOf",
+      "a": "terr.earth",
+      "b": "terr.fear",
+      "note": "Same spelling, separate PIE roots: *ters- (dry) and *tros- (tremble). They collided in Latin and stayed collided in English. Note that `territorium` is genuinely disputed between them.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "duc",
+      "b": "duct",
+      "note": "conduct, product — the short and long Latin stems.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "scrib",
+      "b": "script",
+      "note": "describe / transcript.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "gluc",
+      "b": "glyc",
+      "note": "glucose / glycogen.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "falseFriend",
+      "a": "radi",
+      "b": "radic",
+      "note": "radi = ray (radiation); radic = root (radical). Different Latin roots.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "falseFriend",
+      "a": "paed",
+      "b": "ped",
+      "note": "paed/ped = child (Greek) against ped = foot (Latin); US spelling collides them.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "translationOf",
+      "a": "terr.earth",
+      "b": "geo",
+      "note": "The Latin and Greek earth-roots.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "homographOf",
+      "a": "nom.law",
+      "b": "nom.name",
+      "note": "Greek nomos (law, arrangement) against Latin nomen (name). astronomy and nominal share four letters and nothing else.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "homographOf",
+      "a": "non.nine",
+      "b": "non.not",
+      "note": "Latin nonus (ninth) against Latin non (not). Already flagged in the entry's own note as a false friend; the remainder decides.",
+      "reviewed": false,
+      "method": "assistant"
+    }
+  ]
 }
