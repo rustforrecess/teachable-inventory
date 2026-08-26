@@ -8,7 +8,9 @@ Every entry in this inventory comes from a **permissive source** — one of:
 - **assistant** — drafted by an AI assistant from general knowledge (each such
   entry carries `reviewed: false` until a human verifies it); or
 - **mined** — aggregate statistics computed by code from a permissive corpus:
-  **CMUdict** (BSD-2-clause) and the **Moby** hyphenation list (public domain).
+  **CMUdict** (BSD-2-clause), the **Moby** word lists — hyphenation and
+  part-of-speech — and **Webster's Unabridged Dictionary 1913**, both Moby and
+  Webster's being public domain.
 
 Those are the *only* admissible sources. New data is accepted from CC0, CC BY,
 MIT, BSD, Apache-2.0, or public-domain origins, and from nothing else — see
@@ -30,7 +32,7 @@ grep -roh '"method": *"[a-z]*"' en/ shared/ | sort -u
 
 # Every declared external source is permissive:
 grep -rho '"source": *"[^"]*"' en/ shared/ | sort -u
-#   => CMUdict (BSD-2) / Moby (public domain) only
+#   => CMUdict (BSD-2) / Moby (public domain) / Webster's 1913 (public domain) only
 ```
 
 If either command surfaces anything outside those sets, it is a lineage bug and
@@ -39,7 +41,8 @@ should be treated as release-blocking.
 ## Lineage
 
 This inventory was extracted from the `vocabulary-measurement-system` data,
-whose only external corpora are CMUdict (BSD-2) and Moby (public domain);
+whose only external corpora are CMUdict (BSD-2), Moby (public domain) and
+Webster's Unabridged 1913 (public domain);
 everything else is authored from facts or assistant-drafted. Every source is
 permissive, so the inventory may be given freely to any project, including a
 copyleft one. The one directional rule — permissive flows in, copyleft never
@@ -78,13 +81,14 @@ records *why* that holds and *which* data sources are safe to use.
 
 ## Sources used
 
-Everything redistributed here rests on two permissive sources, both
+Everything redistributed here rests on three permissive sources, all
 U.S.-origin (which also sidesteps EU database rights):
 
 | Source | License | Notes |
 |--------|---------|-------|
 | **Moby Project** (Grady Ward) | **Public domain** | Dedicated to the public domain (1996). ~187k hyphenated words + pronunciations. No rights = no one can charge. |
 | **CMU Pronouncing Dictionary** | Permissive (BSD-2-style) | Free for any use incl. commercial + redistribution; retain the notice. Carries stress marks (syllable counts for free). |
+| **Webster's Unabridged Dictionary 1913** | **Public domain** | Published 1913, copyright long expired; distributed by Project Gutenberg (#29765). Backs `semantic-dimensions.json`. |
 
 Which licenses are admissible, and the reasoning behind the line, is contributor
 policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -94,7 +98,8 @@ policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 1. **Never commit a full third-party corpus.** Downloaded corpora live in
    `data/corpora/` which is **git-ignored**. They are fetched locally for
    evaluation, never redistributed by us.
-2. **Only Moby (PD) and CMUdict (permissive) may back anything we redistribute.**
+2. **Only Moby (PD), CMUdict (permissive) and Webster's 1913 (PD) may back
+   anything we redistribute.**
 3. **Record every source** here with its license, canonical URL, and retrieval
    date before relying on it.
 4. **Derived inventories in `data/` ship under CC-BY** (see `LICENSE`) and cite
@@ -106,6 +111,8 @@ policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 |-------------|--------|---------------|------------------|
 | 2026-07 | CMUdict | github.com/cmusphinx/cmudict `cmudict.dict` | BSD-2-style (permissive) |
 | 2026-07 | Moby Hyphenation List (#3204) | github.com/GITenberg/Moby-Hyphenation-List_3204 `files/mhyph.txt` | Public domain (Grady Ward / PG) |
+| 2026-07 | Moby Part-of-Speech List (#3203) | Project Gutenberg #3203 | Public domain (Grady Ward / PG) |
+| 2026-07 | Webster's Unabridged Dictionary 1913 | Project Gutenberg #29765 | Public domain (copyright expired) |
 
 Both are eval-only, git-ignored under `data/corpora/`, never redistributed. Moby is used by
 `src/tests/SplitEvalTester.js` for split-position agreement (dictionary hyphenation — a relative
