@@ -3702,7 +3702,12 @@
         "form": "terra",
         "pie": "*ters-",
         "pie_gloss": "dry",
-        "path": "dry -> dry land -> land -> earth; originally a mariner's word for ground as against sea"
+        "path": "terra is dry land — the sense runs dry, then dry land, then land, then earth.",
+        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
+        "verify_against": [
+          "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "Webster's Unabridged 1913 — public domain, already a source here"
+        ]
       }
     },
     {
@@ -3723,10 +3728,11 @@
         "form": "terrere",
         "pie": "*tros-",
         "pie_gloss": "make afraid, tremble",
-        "cognates": [
-          "Sanskrit trasanti",
-          "Greek treein",
-          "Old Church Slavonic treso"
+        "cognate_note": "Reflexes survive across the family in the trembling sense. Not listed here: the specific set and its transliterations would be lifted from whichever reference was consulted.",
+        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
+        "verify_against": [
+          "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "Webster's Unabridged 1913 — public domain, already a source here"
         ]
       },
       "note": "NOT the earth-root it is spelled like — see terr.earth. `terrific` is fright-making, not earth-making.",
@@ -4088,7 +4094,12 @@
       "etymon": {
         "lang": "lat",
         "form": "sopor",
-        "pie": "*swep-"
+        "pie": "*swep-",
+        "provenance": "Drafted by an assistant from general knowledge. The PIE reconstruction is standard across comparative references and is recorded as a fact, not quoted. NO proprietary or ShareAlike etymological source was copied — notably not etymonline, which is proprietary (Harper Family LLC), nor Wiktionary, which is CC BY-SA.",
+        "verify_against": [
+          "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "Webster's Unabridged 1913 — public domain, already a source here"
+        ]
       },
       "reviewed": false,
       "method": "assistant"

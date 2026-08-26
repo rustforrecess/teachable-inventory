@@ -93,6 +93,29 @@ U.S.-origin (which also sidesteps EU database rights):
 Which licenses are admissible, and the reasoning behind the line, is contributor
 policy — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+### Etymology in particular
+
+Etymological claims are **facts**, and facts are what `authored` and
+`assistant` entries are made of. A compiled DATABASE of them is a different
+thing, and the usable ones are all closed to us:
+
+| Reference | Status |
+|-----------|--------|
+| **etymonline** (Online Etymology Dictionary) | **Proprietary** — Harper Family LLC. Not public domain, despite being free to read. |
+| **Wiktionary** and everything derived from it | CC BY-SA — ShareAlike |
+| Etymological WordNet, EtymDB, MorphyNet | CC BY-SA, inherited from Wiktionary |
+
+So an etymon here records the reconstruction and the sense, which any
+comparative reference states alike, and does NOT reproduce a particular
+source's phrasing, its selection of cognates, or its transliterations — those
+are that source's expression, not the underlying fact. Where a reviewer wants
+to check a claim, each etymon names public-domain references to check it
+against: **Lewis & Short (1879)** for Latin and **Webster's 1913**, which this
+inventory already draws on.
+
+The rule in one line: *the reconstruction is a fact and may be recorded; the
+sentence someone wrote about it is theirs.*
+
 ## Repository rules that keep the chain clean
 
 1. **Never commit a full third-party corpus.** Downloaded corpora live in
