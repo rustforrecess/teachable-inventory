@@ -3705,12 +3705,13 @@
         "path": "terra is dry land — the sense runs dry, then dry land, then land, then earth.",
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
         "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
           "lemma": "terra",
-          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=terra",
+          "url": "https://archive.org/details/harperslatindict01lewi",
           "consulted": "2026-08-26",
           "finding": "L&S derives terra from a root meaning to be dry or thirsty, comparing torreo (to parch) and English thirst, and gives the underlying sense as the dry land against sea and sky.",
-          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         }
       }
     },
@@ -3735,12 +3736,13 @@
         "cognate_note": "Reflexes survive across the family in the trembling sense. Not listed here: the specific set and its transliterations would be lifted from whichever reference was consulted.",
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
         "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
           "lemma": "terreo",
-          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=terreo",
+          "url": "https://archive.org/details/harperslatindict01lewi",
           "consulted": "2026-08-26",
           "finding": "L&S traces terreo to the Sanskrit root tras- (tremble) and Greek treo — a trembling root, unrelated to the drying one above.",
-          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         }
       },
       "note": "NOT the earth-root it is spelled like — see terr.earth. `terrific` is fright-making, not earth-making.",
@@ -4105,12 +4107,13 @@
         "pie": "*swep-",
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
         "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
           "lemma": "sopor",
-          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=sopor",
+          "url": "https://archive.org/details/harperslatindict01lewi",
           "consulted": "2026-08-26",
           "finding": "L&S gives sopor as a deep sleep, noting the Sanskrit sleep root svap- and comparing somnus and Greek hypnos as relatives rather than sources.",
-          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping."
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         }
       },
       "reviewed": false,
@@ -4131,12 +4134,13 @@
       "method": "assistant",
       "etymon": {
         "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
           "lemma": "facio",
-          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=facio&lang=la",
+          "url": "https://archive.org/details/harperslatindict01lewi",
           "consulted": "2026-08-26",
           "finding": "L&S gives facio as to make, construct, fashion, produce — the root fic and fect are compound shapes of.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         },
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
       }
@@ -4159,12 +4163,13 @@
       "method": "assistant",
       "etymon": {
         "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879) — public domain",
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
           "lemma": "facio",
-          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=facio&lang=la",
+          "url": "https://archive.org/details/harperslatindict01lewi",
           "consulted": "2026-08-26",
           "finding": "Same root as fic; the -i- is the Latin connecting vowel, not part of the root.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         },
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
       }
@@ -4202,12 +4207,13 @@
       "method": "assistant",
       "etymon": {
         "source": {
-          "work": "Liddell-Scott-Jones, A Greek-English Lexicon — public domain",
+          "work": "Liddell & Scott, A Greek-English Lexicon — public domain by age",
           "lemma": "οἶκος (oikos)",
-          "url": "https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=oikos&lang=greek",
           "consulted": "2026-08-26",
           "finding": "LSJ gives oikos as house — so economy is house-law, eco + nom.law.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted."
+          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
+          "url_note": "No public-domain scan identified yet. Perseus has it, but under CC BY-NC-SA; a PD copy should replace this pointer.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
         },
         "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
       }

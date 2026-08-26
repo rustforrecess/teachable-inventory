@@ -108,8 +108,19 @@ thing, and the usable ones are all closed to us:
 So an etymon here is checked against a **public-domain** reference and says
 which one, with the lemma, the URL and the date consulted:
 
-- **Lewis & Short, A Latin Dictionary (1879)** — for Latin, readable at Perseus
+- **Lewis & Short, A Latin Dictionary (1879)** — for Latin, public domain by age
+- **Liddell & Scott, A Greek-English Lexicon** — for Greek, public domain by age
 - **Webster's Unabridged 1913** — already a source elsewhere in this inventory
+
+**A public-domain work read through an encumbered interface is still public
+domain — but cite the work, not the interface.** Perseus is the obvious place
+to look these up and its own licence is CC BY-NC-SA 3.0 for texts and CC BY-SA
+4.0 for `PerseusDL/lexica`: NonCommercial *and* ShareAlike, inadmissible here
+twice over. That licence covers Perseus's encoding, markup and editorial
+matter, not the centuries-old dictionary underneath and not the facts it
+states. So a lookup may go through Perseus; a citation may not. Entries point
+at a public-domain scan instead, and record the route taken so the distinction
+is auditable rather than assumed.
 
 The claim is restated rather than quoted. L&S is out of copyright and could be
 quoted freely, but not lifting phrasing is a habit worth keeping uniform,
