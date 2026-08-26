@@ -3254,7 +3254,21 @@
         "omniscient"
       ],
       "reviewed": false,
-      "method": "assistant"
+      "method": "assistant",
+      "note": "Latin scire, to know. `scient` is NOT a morpheme: Skeat gives it as the stem of the present participle of scire, so scientific is sci + the participial -ent + ific — knowledge-making — and no `scient` entry should be added.",
+      "etymon": {
+        "lang": "lat",
+        "form": "scire",
+        "gloss": "to know, orig. to discern",
+        "source": {
+          "work": "Skeat, A Concise Etymological Dictionary of the English Language (1884) — public domain by age",
+          "lemma": "Science",
+          "url": "https://archive.org/details/conciseetymologi00skea_0",
+          "consulted": "2026-08-26",
+          "finding": "Skeat derives science from Latin scientia, knowledge, from scient-, the stem of the present participle of scire, to know, originally to discern; he notes it is allied to Skill."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "scope",
@@ -4236,6 +4250,37 @@
         "source": null,
         "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek taxis. Perseus rejects the plain transliteration; the LSJ headword needs beta code, and guessing at a URL is not consulting a source."
       }
+    },
+    {
+      "form": "spec",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "look / see",
+      "examples": [
+        "species",
+        "specific",
+        "inspect",
+        "spectacle",
+        "aspect",
+        "specimen"
+      ],
+      "note": "One root, not two. `species` is Latin for look or appearance, and its familiar sense of KIND is derived from that — a kind is what a thing looks like. So specific is spec + ific, and needs no separate `speci` entry.",
+      "etymon": {
+        "lang": "lat",
+        "form": "specere",
+        "gloss": "to look, see",
+        "pie": "√SPAK, to see",
+        "source": {
+          "work": "Skeat, A Concise Etymological Dictionary of the English Language (1884) — public domain by age",
+          "lemma": "Species",
+          "url": "https://archive.org/details/conciseetymologi00skea_0",
+          "consulted": "2026-08-26",
+          "finding": "Skeat gives species as look, appearance, kind, sort, from specere to look or see, with Old High German spehon (to spy), Greek skeptomai (I look) and Sanskrit spas as cognates, under the root SPAK, to see."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
+      },
+      "reviewed": false,
+      "method": "assistant"
     }
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",
@@ -4342,6 +4387,14 @@
         "consulted": "2026-08-26",
         "finding": "Skeat heads the entry \"(L. or Gk.; or F. — L.)\" — one prefix arriving from either language — and gives Latin pro-, Greek pro-, and Sanskrit pra as the third witness, with pre-, prior, prime, private, prow and provost as derivatives."
       },
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "spec",
+      "b": "spect",
+      "note": "One Latin root in two shapes — specere gives spec (species, specific) and its participial stem gives spect (inspect, spectacle). Same alternation as fac / fic / fect.",
       "reviewed": false,
       "method": "assistant"
     }
