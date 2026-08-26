@@ -1,0 +1,16 @@
+# Downloaded reference corpora. PROVENANCE.md's first repository rule is
+# "never commit a full third-party corpus" — this is what enforces it.
+#
+# Works fetched here are consulted to CHECK entries, never redistributed. That
+# holds even for public-domain ones: the inventory ships derived facts under
+# CC BY, and shipping someone else's whole dictionary alongside them would make
+# the licence of the result a question nobody should have to ask.
+corpora/*
+# …except the note explaining why the rest is ignored.
+!corpora/README.md
+
+# Editor and OS scratch
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

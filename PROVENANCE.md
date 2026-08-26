@@ -163,8 +163,13 @@ edge is.
 ## Repository rules that keep the chain clean
 
 1. **Never commit a full third-party corpus.** Downloaded corpora live in
-   `data/corpora/` which is **git-ignored**. They are fetched locally for
-   evaluation, never redistributed by us.
+   [`corpora/`](corpora/), which `.gitignore` excludes. They are fetched
+   locally to check entries, never redistributed by us — and that holds for
+   public-domain works too. Webster's 1913 could legally be committed; it
+   still should not be, because this inventory ships small derived facts under
+   CC BY and bundling someone else's whole dictionary beside them invites the
+   very confusion about what is licensed how that this document exists to
+   prevent.
 2. **Only Moby (PD), CMUdict (permissive) and Webster's 1913 (PD) may back
    anything we redistribute.**
 3. **Record every source** here with its license, canonical URL, and retrieval
