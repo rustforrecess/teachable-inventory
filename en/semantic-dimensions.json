@@ -109,6 +109,18 @@
         "no_established_term": "No standard feature corresponds. UD, GF and FrameNet all describe what a structure IS, not how confident the analyser is that it got there — so the evidence grades and Certain/Ambiguous attachment are loom-specific and have nothing to interoperate with."
       },
       {
+        "name": "degree",
+        "values": [
+          "Comparative",
+          "Unknown"
+        ],
+        "rung": "word",
+        "from": "derivation.rs",
+        "note": "The suffix's own gloss IS the dimension: comparative -er means 'more', so kinder = kind + more rather than one-who-kinds. Newly separated from agentive -er, which had been the only sense the derivational table carried, though base-morphemes.json had recorded both all along in one gloss ('one who / more'). Half the axis is missing and the Unknown value is why: -est appears in NO inventory loom loads — not the derivational table, not the four inflectional suffixes (ed, ing, s, es) — so Superlative is never produced. Comparative itself is narrow, gated on the base list because no adjective inventory exists anywhere in the data: kinder, sharper, higher, fairer and sadder resolve; bigger and taller stay whole. Widening it needs adjective POS data, not code.",
+        "also_called": "UD Degree",
+        "interop_values": "Cmp (Sup and Pos are not produced)"
+      },
+      {
         "name": "attachment",
         "values": [
           "Certain",

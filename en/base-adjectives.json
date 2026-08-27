@@ -1,0 +1,682 @@
+{
+  "_meta": {
+    "title": "Base adjectives and their attested degree forms",
+    "language": "en",
+    "description": "Adjectives that take comparative -er and superlative -est, each with the forms a public-domain dictionary actually prints. Answers what nothing else here answers: whether a word is an adjective at all. Every other inventory is verb- or noun-facing, so loom could peel agentive -er off a verb but had no way to know that `kind` and `sharp` are adjectives — which left comparative -er unimplementable and the `degree` dimension half-computed.\n\nThe forms are recorded, not derived. Webster's states them outright (`Big, a. [compar. Bigger; superl. Biggest.]`), so the doubling in bigger, the e-drop in braver and the suppletion in bad/worse are attested spellings rather than rule output. That makes this file a test of the spelling rules as much as an input to them: a rule that cannot produce `braver` from `brave` disagrees with a source, and the source wins.",
+    "license": "CC-BY-4.0",
+    "credits": "../CREDITS.md",
+    "stability": {
+      "tier": "unstable",
+      "means": "Use it freely — that is what CC BY is for — but do not assume it holds still. Content churns and the schema may change without notice. Pin a commit if you depend on the shape.",
+      "contract": "None. No deprecation period, no migration note guaranteed."
+    },
+    "coverage": "SEED. 80 adjectives, being those Webster's 1913 happens to give explicit degree forms for. That is a fraction of English's comparable adjectives — the dictionary prints the bracket where it chose to, not wherever the forms exist — so absence here means UNRECORDED, never 'takes no comparative'. Consumers must read it as an open world."
+  },
+  "_provenance": {
+    "_note": "Recorded per batch, per the convention in base-verbs.json. `mined` = derived by code from a corpus named in PROVENANCE.md.",
+    "batches": [
+      {
+        "date": "2026-08-27",
+        "commit_subject": "base-adjectives: degree forms Webster's states outright",
+        "method": "mined",
+        "count": 80,
+        "source": {
+          "work": "Webster's Unabridged Dictionary (1913) — public domain by age",
+          "url": "https://www.gutenberg.org/ebooks/29765",
+          "consulted": "2026-08-27",
+          "finding": "Adjective headwords whose entry opens with an explicit degree bracket — `Kind, a. [Compar. Kinder; superl. Kindest.]`. Extracted by regex over the Project Gutenberg plain text; the base, comparative and superlative are all taken verbatim from the bracket, and the `change` field is this project's classification of the spelling relation between them, not Webster's.",
+          "excluded": "Two matches were dropped as OCR/parse noise, not data: `light` yielded 'lighted' and `mid` yielded 'wanting', neither of which is a comparative."
+        }
+      }
+    ]
+  },
+  "_change_values": {
+    "plain": "base + er / est — cold, colder, coldest.",
+    "e-drop": "silent e dropped before the vowel suffix — brave, braver, bravest.",
+    "double": "final consonant doubled — big, bigger, biggest.",
+    "y-to-i": "final y becomes i — the one case Webster's brackets here.",
+    "irregular": "neither rule produces it. bad/worse/worst is suppletive and must be listed, not derived."
+  },
+  "adjectives": [
+    {
+      "form": "bad",
+      "comparative": "worse",
+      "superlative": "worst",
+      "change": "irregular",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "big",
+      "comparative": "bigger",
+      "superlative": "biggest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "blue",
+      "comparative": "bluer",
+      "superlative": "bluest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "brave",
+      "comparative": "braver",
+      "superlative": "bravest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "broad",
+      "comparative": "broader",
+      "superlative": "broadest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "brown",
+      "comparative": "browner",
+      "superlative": "brownest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "choice",
+      "comparative": "choicer",
+      "superlative": "choicest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "clear",
+      "comparative": "clearer",
+      "superlative": "clearest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "close",
+      "comparative": "closer",
+      "superlative": "closest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "coarse",
+      "comparative": "coarser",
+      "superlative": "coarsest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "cold",
+      "comparative": "colder",
+      "superlative": "coldest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "cool",
+      "comparative": "cooler",
+      "superlative": "coolest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "damp",
+      "comparative": "damper",
+      "superlative": "dampest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "dear",
+      "comparative": "dearer",
+      "superlative": "dearest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "deep",
+      "comparative": "deeper",
+      "superlative": "deepest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "dim",
+      "comparative": "dimmer",
+      "superlative": "dimmest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "dire",
+      "comparative": "direr",
+      "superlative": "direst",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "droll",
+      "comparative": "droller",
+      "superlative": "drollest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "dry",
+      "comparative": "drier",
+      "superlative": "driest",
+      "change": "y-to-i",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "dull",
+      "comparative": "duller",
+      "superlative": "dullest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fair",
+      "comparative": "fairer",
+      "superlative": "fairest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "false",
+      "comparative": "falser",
+      "superlative": "falsest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fast",
+      "comparative": "faster",
+      "superlative": "fastest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fat",
+      "comparative": "fatter",
+      "superlative": "fattest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "feat",
+      "comparative": "feater",
+      "superlative": "featest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "few",
+      "comparative": "fewer",
+      "superlative": "fewest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fierce",
+      "comparative": "fiercer",
+      "superlative": "fiercest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fine",
+      "comparative": "finer",
+      "superlative": "finest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "firm",
+      "comparative": "firmer",
+      "superlative": "firmest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fit",
+      "comparative": "fitter",
+      "superlative": "fittest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "flat",
+      "comparative": "flatter",
+      "superlative": "flattest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fleet",
+      "comparative": "fleeter",
+      "superlative": "fleetest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "fond",
+      "comparative": "fonder",
+      "superlative": "fondest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "frail",
+      "comparative": "frailer",
+      "superlative": "frailest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "free",
+      "comparative": "freer",
+      "superlative": "freest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "full",
+      "comparative": "fuller",
+      "superlative": "fullest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "gay",
+      "comparative": "gayer",
+      "superlative": "gayest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "glad",
+      "comparative": "gladder",
+      "superlative": "gladdest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "glib",
+      "comparative": "glibber",
+      "superlative": "glibbest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "grand",
+      "comparative": "grander",
+      "superlative": "grandest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "hard",
+      "comparative": "harder",
+      "superlative": "hardest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "harsh",
+      "comparative": "harsher",
+      "superlative": "harshest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "high",
+      "comparative": "higher",
+      "superlative": "highest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "hot",
+      "comparative": "hotter",
+      "superlative": "hottest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "huge",
+      "comparative": "huger",
+      "superlative": "hugest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "keen",
+      "comparative": "keener",
+      "superlative": "keenest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "kind",
+      "comparative": "kinder",
+      "superlative": "kindest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "lame",
+      "comparative": "lamer",
+      "superlative": "lamest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "lank",
+      "comparative": "lanker",
+      "superlative": "lankest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "large",
+      "comparative": "larger",
+      "superlative": "largest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "lax",
+      "comparative": "laxer",
+      "superlative": "laxest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "lean",
+      "comparative": "leaner",
+      "superlative": "leanest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "lewd",
+      "comparative": "lewder",
+      "superlative": "lewdest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "like",
+      "comparative": "liker",
+      "superlative": "likest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "long",
+      "comparative": "longer",
+      "superlative": "longest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "loose",
+      "comparative": "looser",
+      "superlative": "loosest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "loud",
+      "comparative": "louder",
+      "superlative": "loudest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "low",
+      "comparative": "lower",
+      "superlative": "lowest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "mad",
+      "comparative": "madder",
+      "superlative": "maddest",
+      "change": "double",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "mean",
+      "comparative": "meaner",
+      "superlative": "meanest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "meek",
+      "comparative": "meeker",
+      "superlative": "meekest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "mild",
+      "comparative": "milder",
+      "superlative": "mildest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "near",
+      "comparative": "nearer",
+      "superlative": "nearest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "neat",
+      "comparative": "neater",
+      "superlative": "neatest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "new",
+      "comparative": "newer",
+      "superlative": "newest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "nice",
+      "comparative": "nicer",
+      "superlative": "nicest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "odd",
+      "comparative": "odder",
+      "superlative": "oddest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "old",
+      "comparative": "older",
+      "superlative": "oldest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "pale",
+      "comparative": "paler",
+      "superlative": "palest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "plain",
+      "comparative": "plainer",
+      "superlative": "plainest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "plump",
+      "comparative": "plumper",
+      "superlative": "plumpest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "prompt",
+      "comparative": "prompter",
+      "superlative": "promptest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "proud",
+      "comparative": "prouder",
+      "superlative": "proudest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "prow",
+      "comparative": "prower",
+      "superlative": "prowest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "pure",
+      "comparative": "purer",
+      "superlative": "purest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "queer",
+      "comparative": "queerer",
+      "superlative": "queerest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "quick",
+      "comparative": "quicker",
+      "superlative": "quickest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "rank",
+      "comparative": "ranker",
+      "superlative": "rankest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "rare",
+      "comparative": "rarer",
+      "superlative": "rarest",
+      "change": "e-drop",
+      "method": "mined",
+      "reviewed": false
+    },
+    {
+      "form": "rash",
+      "comparative": "rasher",
+      "superlative": "rashest",
+      "change": "plain",
+      "method": "mined",
+      "reviewed": false
+    }
+  ]
+}
