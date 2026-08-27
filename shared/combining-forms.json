@@ -4285,7 +4285,7 @@
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",
   "_identity": "A form is NOT an identity. `terr` is two unrelated Latin roots — terra (earth) and terrere (to frighten) — and a list keyed by spelling can hold only one of them, which is why `terrific` decomposed as earth-making. Entries that need distinguishing therefore carry an `id`; the rest are identified by `form`, so nothing else had to change. Read the id as `form.sense`.",
-  "_relations_note": "Facts about how forms relate, previously written as English inside `note` fields where nothing could traverse or check them. The `note` text stays — it reads better than an edge — but the fact is now also machine-readable.\n\nTypes, and the distinctions are load-bearing:\n  variantOf     one root, two shapes WITHIN a language — fac / fic / fect.\n  cognateOf     different forms in different languages descended from ONE ancestor — Latin pro and Greek pro, both from PIE *pro-. Relatedness is the claim; a shared meaning usually follows but is not what is being asserted.\n  translationOf same meaning, NO shared ancestor — Latin terr and Greek geo both mean earth and are unrelated. Do not read this as cognateOf: that two languages have a word for earth says nothing about descent.\n  homographOf   same spelling, unrelated roots — terr, nom, non.\n  falseFriend   confusably similar, unrelated — radi / radic, paed / ped.\n\nEdges are undirected unless a type says otherwise, and BOTH endpoints must resolve to an id or a form in this file.",
+  "_relations_note": "Facts about how forms relate, previously written as English inside `note` fields where nothing could traverse or check them. The `note` text stays — it reads better than an edge — but the fact is now also machine-readable.\n\nTypes, and the distinctions are load-bearing:\n  variantOf     one root, two shapes WITHIN a language — fac / fic / fect.\n  cognateOf     different forms in different languages descended from ONE ancestor — Latin pro and Greek pro, both from PIE *pro-. Relatedness is the claim; a shared meaning usually follows but is not what is being asserted.\n  derivedFrom   DIRECTED, a → b: a was BUILT FROM b, inside one language. The suffix -ify from Latin facere, via -ficare. Distinct from variantOf, which relates two shapes of ONE form; here a second form was made from the first, and which came first is part of the claim. Distinct from cognateOf, which relates siblings across languages; this relates parent to child within one.\n  translationOf same meaning, NO shared ancestor — Latin terr and Greek geo both mean earth and are unrelated. Do not read this as cognateOf: that two languages have a word for earth says nothing about descent.\n  homographOf   same spelling, unrelated roots — terr, nom, non.\n  falseFriend   confusably similar, unrelated — radi / radic, paed / ped.\n\nEdges are undirected unless a type says otherwise — `derivedFrom` is directed, read a → b as \"a derives from b\".\n\nAn endpoint is `[<inventory>:]<id-or-form>`. Bare, it resolves in this file's `forms`, which is what every edge written before this rule does. Qualified, it names another inventory: `suffix:ify` is the derivational suffix -ify, which is NOT a combining form and does not live here. This is a deliberate stopgap. Affixes are currently split across two inventories that disagree — base-morphemes.json carries -y but not -ify, loom's derivation.rs carries -ify but not -y — and until they are one loadable inventory, an edge that reaches an affix cannot resolve both ends locally. Consumers should treat an unresolvable qualified endpoint as unknown, not as an error.",
   "relations": [
     {
       "type": "homographOf",
@@ -4395,6 +4395,21 @@
       "a": "spec",
       "b": "spect",
       "note": "One Latin root in two shapes — specere gives spec (species, specific) and its participial stem gives spect (inspect, spectacle). Same alternation as fac / fic / fect.",
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "derivedFrom",
+      "a": "suffix:ify",
+      "b": "fac",
+      "note": "-ify is the same root as fac / fic / fect: classify and soporific share the make-morpheme. But -ify is a suffix built from the root, not another shape of it, which is why this is derivedFrom and not variantOf. Teaching note: of the family only -ify is productive — a learner can apply it to a new word (gentrify, prettify); fic arrives pre-assembled inside borrowings.",
+      "source": {
+        "work": "Webster's Unabridged Dictionary (1913) — public domain by age",
+        "lemma": "-fy",
+        "url": "https://www.gutenberg.org/ebooks/29765",
+        "consulted": "2026-08-27",
+        "finding": "The entry reads \"-fy. [Through French verbs in -fier, L. -ficare, akin to facere to do, make. See Fact.]\" — Webster's makes the cross-reference to Fact itself, so the link to the facere family is the dictionary's claim and not an inference. Skeat (1884) s.v. Fact gives \"L. factum ... pp. of facere, to make, do\" for the other end."
+      },
       "reviewed": false,
       "method": "assistant"
     }
