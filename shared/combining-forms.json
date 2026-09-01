@@ -285,6 +285,24 @@
       "method": "assistant"
     },
     {
+      "form": "auto",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "self",
+      "examples": [
+        "automatic",
+        "autonomy",
+        "autograph",
+        "autobiography"
+      ],
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "source": null,
+        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek autos, self. Not yet looked up."
+      }
+    },
+    {
       "form": "av",
       "position": "either",
       "origin": "lat",
@@ -609,6 +627,30 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "clar",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "clear / bright",
+      "examples": [
+        "clarify",
+        "clarity",
+        "declare",
+        "clarion"
+      ],
+      "note": "The SAME root as the free English word `clear`, which reached English through French while `clar-` came direct from Latin. Webster's lists Clarify among the words related to Clear, so this is one family, not two. `clarify` is clar + ific — clear-making — which puts it in the facere family beside fic and -ify.",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Skeat, A Concise Etymological Dictionary of the English Language (1884) — public domain by age",
+          "lemma": "Clear",
+          "url": "https://archive.org/details/conciseetymologi00skea_0",
+          "consulted": "2026-08-28",
+          "finding": "\"Clear. (F. — L.) M. E. cler. — O. F. cler, clair. — L. clarus, bright, clear, loud.\" Webster's 1913 s.v. Clarify gives \"F. clarifier, from L. clarificare; clarus clear + -ficare\", and its Clear entry lists Clarify among the related forms — both sources make it one root."
+        }
+      }
     },
     {
       "form": "clin",
@@ -960,6 +1002,35 @@
       "method": "assistant"
     },
     {
+      "form": "eco",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "house / household",
+      "examples": [
+        "economy",
+        "economic",
+        "ecology",
+        "ecosystem"
+      ],
+      "note": "Greek oikos, household. economy is house-law — eco + nom.law — which is the sense that makes the word make sense. `economy` is the older witness in English (16th c.); `ecology` is Haeckel's 1866 coinage and is absent from dictionaries of that era.",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "lang": "grc",
+        "form": "oikos",
+        "gloss": "house / household",
+        "source": {
+          "work": "Webster's Unabridged Dictionary (1913) — public domain by age",
+          "lemma": "ECONOMY",
+          "url": "https://www.gutenberg.org/ebooks/29765",
+          "consulted": "2026-08-26",
+          "finding": "The entry derives economy from Latin oeconomia, 'household management', from Greek, and cross-references Vicinity (Latin vicus, village — the cognate) and Nomad for the second element. Greek characters are absent from this transcription, but the Latin gloss carries the claim.",
+          "_note": "A source already admitted by this inventory, and reached directly from Project Gutenberg rather than through any encumbered interface. Restated, not quoted."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
+      }
+    },
+    {
       "form": "ecto",
       "position": "initial",
       "origin": "grc",
@@ -1126,6 +1197,32 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "fic",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "making / causing",
+      "examples": [
+        "efficient",
+        "beneficent",
+        "artificer"
+      ],
+      "note": "The compound shape of fac (make / do) — see the fac entry, which already records fic and fect as the same root. The i-connective shape `ific` is listed separately because that is what actually occurs word-finally.",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
+          "lemma": "facio",
+          "url": "https://archive.org/details/harperslatindict01lewi",
+          "consulted": "2026-08-26",
+          "finding": "L&S gives facio as to make, construct, fashion, produce — the root fic and fect are compound shapes of.",
+          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "fin",
@@ -1613,6 +1710,35 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "ific",
+      "position": "final",
+      "origin": "lat",
+      "gloss": "making / causing",
+      "examples": [
+        "soporific",
+        "terrific",
+        "prolific",
+        "scientific",
+        "honorific",
+        "calorific"
+      ],
+      "note": "fic with its Latin connecting vowel. soporific is sopor + ific, 'sleep-making'. TRAP: terrific is terr.fear + ific, fright-making — NOT terr.earth. specific and beatific look like members and take different roots (speci-, beat-).",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
+          "lemma": "facio",
+          "url": "https://archive.org/details/harperslatindict01lewi",
+          "consulted": "2026-08-26",
+          "finding": "Same root as fic; the -i- is the Latin connecting vowel, not part of the root.",
+          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
+      }
     },
     {
       "form": "in",
@@ -3460,6 +3586,64 @@
       "method": "assistant"
     },
     {
+      "form": "sopor",
+      "position": "initial",
+      "origin": "lat",
+      "gloss": "deep sleep",
+      "examples": [
+        "soporific"
+      ],
+      "note": "Latin sopor. Cousin of somnus (somnolent, insomnia); PIE *swep- 'sleep'. Rare in English outside soporific.",
+      "etymon": {
+        "lang": "lat",
+        "form": "sopor",
+        "pie": "*swep-",
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
+        "source": {
+          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
+          "lemma": "sopor",
+          "url": "https://archive.org/details/harperslatindict01lewi",
+          "consulted": "2026-08-26",
+          "finding": "L&S gives sopor as a deep sleep, noting the Sanskrit sleep root svap- and comparing somnus and Greek hypnos as relatives rather than sources.",
+          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping.",
+          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
+        }
+      },
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "form": "spec",
+      "position": "either",
+      "origin": "lat",
+      "gloss": "look / see",
+      "examples": [
+        "species",
+        "specific",
+        "inspect",
+        "spectacle",
+        "aspect",
+        "specimen"
+      ],
+      "note": "One root, not two. `species` is Latin for look or appearance, and its familiar sense of KIND is derived from that — a kind is what a thing looks like. So specific is spec + ific, and needs no separate `speci` entry.",
+      "etymon": {
+        "lang": "lat",
+        "form": "specere",
+        "gloss": "to look, see",
+        "pie": "√SPAK, to see",
+        "source": {
+          "work": "Skeat, A Concise Etymological Dictionary of the English Language (1884) — public domain by age",
+          "lemma": "Species",
+          "url": "https://archive.org/details/conciseetymologi00skea_0",
+          "consulted": "2026-08-26",
+          "finding": "Skeat gives species as look, appearance, kind, sort, from specere to look or see, with Old High German spehon (to spy), Greek skeptomai (I look) and Sanskrit spas as cognates, under the root SPAK, to see."
+        },
+        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
+      },
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
       "form": "spect",
       "position": "either",
       "origin": "lat",
@@ -3641,6 +3825,22 @@
       ],
       "reviewed": false,
       "method": "assistant"
+    },
+    {
+      "form": "taxo",
+      "position": "initial",
+      "origin": "grc",
+      "gloss": "arrangement / order",
+      "examples": [
+        "taxonomy"
+      ],
+      "note": "Greek taxis. Distinct from Latin tax (a levy) despite the spelling.",
+      "reviewed": false,
+      "method": "assistant",
+      "etymon": {
+        "source": null,
+        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek taxis. Perseus rejects the plain transliteration; the LSJ headword needs beta code, and guessing at a URL is not consulting a source."
+      }
     },
     {
       "form": "tech",
@@ -4105,182 +4305,6 @@
       ],
       "reviewed": false,
       "method": "assistant"
-    },
-    {
-      "form": "sopor",
-      "position": "initial",
-      "origin": "lat",
-      "gloss": "deep sleep",
-      "examples": [
-        "soporific"
-      ],
-      "note": "Latin sopor. Cousin of somnus (somnolent, insomnia); PIE *swep- 'sleep'. Rare in English outside soporific.",
-      "etymon": {
-        "lang": "lat",
-        "form": "sopor",
-        "pie": "*swep-",
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work was consulted — notably not etymonline (proprietary, Harper Family LLC) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it.",
-        "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
-          "lemma": "sopor",
-          "url": "https://archive.org/details/harperslatindict01lewi",
-          "consulted": "2026-08-26",
-          "finding": "L&S gives sopor as a deep sleep, noting the Sanskrit sleep root svap- and comparing somnus and Greek hypnos as relatives rather than sources.",
-          "_note": "Consulted, not merely suggested. The claim above is what this public-domain entry supports, restated rather than quoted — L&S is out of copyright, but the habit of not lifting phrasing is worth keeping.",
-          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
-        }
-      },
-      "reviewed": false,
-      "method": "assistant"
-    },
-    {
-      "form": "fic",
-      "position": "final",
-      "origin": "lat",
-      "gloss": "making / causing",
-      "examples": [
-        "efficient",
-        "beneficent",
-        "artificer"
-      ],
-      "note": "The compound shape of fac (make / do) — see the fac entry, which already records fic and fect as the same root. The i-connective shape `ific` is listed separately because that is what actually occurs word-finally.",
-      "reviewed": false,
-      "method": "assistant",
-      "etymon": {
-        "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
-          "lemma": "facio",
-          "url": "https://archive.org/details/harperslatindict01lewi",
-          "consulted": "2026-08-26",
-          "finding": "L&S gives facio as to make, construct, fashion, produce — the root fic and fect are compound shapes of.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
-          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
-        },
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
-      }
-    },
-    {
-      "form": "ific",
-      "position": "final",
-      "origin": "lat",
-      "gloss": "making / causing",
-      "examples": [
-        "soporific",
-        "terrific",
-        "prolific",
-        "scientific",
-        "honorific",
-        "calorific"
-      ],
-      "note": "fic with its Latin connecting vowel. soporific is sopor + ific, 'sleep-making'. TRAP: terrific is terr.fear + ific, fright-making — NOT terr.earth. specific and beatific look like members and take different roots (speci-, beat-).",
-      "reviewed": false,
-      "method": "assistant",
-      "etymon": {
-        "source": {
-          "work": "Lewis & Short, A Latin Dictionary (1879; published as Harpers' Latin Dictionary) — public domain by age",
-          "lemma": "facio",
-          "url": "https://archive.org/details/harperslatindict01lewi",
-          "consulted": "2026-08-26",
-          "finding": "Same root as fic; the -i- is the Latin connecting vowel, not part of the root.",
-          "_note": "Consulted, not merely suggested. Restated rather than quoted.",
-          "access_route": "Looked up through Perseus, whose rendering of this dictionary is convenient but whose OWN licence is CC BY-NC-SA 3.0 (texts) / CC BY-SA 4.0 (PerseusDL/lexica) — NonCommercial and ShareAlike, inadmissible here. Nothing of Perseus's encoding, markup or editorial matter was taken. What was taken is the underlying dictionary's factual claim, restated; the dictionary is public domain by age and facts are not copyrightable in any case. The URL above is a public-domain scan, so verification needs no encumbered intermediary."
-        },
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted — not etymonline (proprietary) nor Wiktionary (CC BY-SA). `reviewed` stays false: a human has not confirmed it."
-      }
-    },
-    {
-      "form": "auto",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "self",
-      "examples": [
-        "automatic",
-        "autonomy",
-        "autograph",
-        "autobiography"
-      ],
-      "reviewed": false,
-      "method": "assistant",
-      "etymon": {
-        "source": null,
-        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek autos, self. Not yet looked up."
-      }
-    },
-    {
-      "form": "eco",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "house / household",
-      "examples": [
-        "economy",
-        "economic",
-        "ecology",
-        "ecosystem"
-      ],
-      "note": "Greek oikos, household. economy is house-law — eco + nom.law — which is the sense that makes the word make sense. `economy` is the older witness in English (16th c.); `ecology` is Haeckel's 1866 coinage and is absent from dictionaries of that era.",
-      "reviewed": false,
-      "method": "assistant",
-      "etymon": {
-        "lang": "grc",
-        "form": "oikos",
-        "gloss": "house / household",
-        "source": {
-          "work": "Webster's Unabridged Dictionary (1913) — public domain by age",
-          "lemma": "ECONOMY",
-          "url": "https://www.gutenberg.org/ebooks/29765",
-          "consulted": "2026-08-26",
-          "finding": "The entry derives economy from Latin oeconomia, 'household management', from Greek, and cross-references Vicinity (Latin vicus, village — the cognate) and Nomad for the second element. Greek characters are absent from this transcription, but the Latin gloss carries the claim.",
-          "_note": "A source already admitted by this inventory, and reached directly from Project Gutenberg rather than through any encumbered interface. Restated, not quoted."
-        },
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
-      }
-    },
-    {
-      "form": "taxo",
-      "position": "initial",
-      "origin": "grc",
-      "gloss": "arrangement / order",
-      "examples": [
-        "taxonomy"
-      ],
-      "note": "Greek taxis. Distinct from Latin tax (a levy) despite the spelling.",
-      "reviewed": false,
-      "method": "assistant",
-      "etymon": {
-        "source": null,
-        "provenance": "Assistant-drafted from general knowledge. NOT yet checked against any source. Greek taxis. Perseus rejects the plain transliteration; the LSJ headword needs beta code, and guessing at a URL is not consulting a source."
-      }
-    },
-    {
-      "form": "spec",
-      "position": "either",
-      "origin": "lat",
-      "gloss": "look / see",
-      "examples": [
-        "species",
-        "specific",
-        "inspect",
-        "spectacle",
-        "aspect",
-        "specimen"
-      ],
-      "note": "One root, not two. `species` is Latin for look or appearance, and its familiar sense of KIND is derived from that — a kind is what a thing looks like. So specific is spec + ific, and needs no separate `speci` entry.",
-      "etymon": {
-        "lang": "lat",
-        "form": "specere",
-        "gloss": "to look, see",
-        "pie": "√SPAK, to see",
-        "source": {
-          "work": "Skeat, A Concise Etymological Dictionary of the English Language (1884) — public domain by age",
-          "lemma": "Species",
-          "url": "https://archive.org/details/conciseetymologi00skea_0",
-          "consulted": "2026-08-26",
-          "finding": "Skeat gives species as look, appearance, kind, sort, from specere to look or see, with Old High German spehon (to spy), Greek skeptomai (I look) and Sanskrit spas as cognates, under the root SPAK, to see."
-        },
-        "provenance": "Assistant-drafted, then checked against the public-domain source named in `source`. No proprietary or ShareAlike work consulted. `reviewed` stays false: a human has not confirmed it."
-      },
-      "reviewed": false,
-      "method": "assistant"
     }
   ],
   "_self_example": "The term for this category is itself one: neo-classic-al. `neo` is an initial combining form, `-ic` and `-al` are Class I suffixes stacking inside any Class II suffix that follows. A learner who owns neo, classic, -ic and -al owns the word that names the phenomenon.",
@@ -4410,6 +4434,14 @@
         "consulted": "2026-08-27",
         "finding": "The entry reads \"-fy. [Through French verbs in -fier, L. -ficare, akin to facere to do, make. See Fact.]\" — Webster's makes the cross-reference to Fact itself, so the link to the facere family is the dictionary's claim and not an inference. Skeat (1884) s.v. Fact gives \"L. factum ... pp. of facere, to make, do\" for the other end."
       },
+      "reviewed": false,
+      "method": "assistant"
+    },
+    {
+      "type": "variantOf",
+      "a": "clar",
+      "b": "base:clear",
+      "note": "One Latin root arriving twice — `clear` through French, `clar-` direct from clarus. `clear` is a free English word rather than a combining form, so the endpoint is qualified the way `suffix:ify` is.",
       "reviewed": false,
       "method": "assistant"
     }
